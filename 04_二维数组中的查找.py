@@ -1,6 +1,9 @@
 # 二维数组查找指定数字
-def Find(array,target):
-    if array is None or len(array) == 0:
+# 思路：如果要查找的数字不在数组的右上角，则每次都在数组的查找范围中剔除一行或一列，这样就可以缩小查找范围，
+#       知道找到查找数字或者查找范围为空
+
+def Find(array, target):
+    if array is None or 0 == len(array):
         return False
     row = 0
     col = len(array[0]) - 1
@@ -13,4 +16,5 @@ def Find(array,target):
             row += 1
     return False
 
-print(Find(array = [[1,2,8,9],[2,4,9,12],[4,7,10,13],[6,8,11,15]],target = 2))
+
+print(Find(array=[[1, 2, 8, 9], [2, 4, 9, 12], [4, 7, 10, 13], [6, 8, 11, 15]], target=2))
