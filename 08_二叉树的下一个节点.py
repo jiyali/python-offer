@@ -11,7 +11,7 @@ class TreeNode(object):
 
 
 class Solution(object):
-    def getnext(self,pnode):
+    def getnext(self, pnode):
         if not pnode:
             return None
 
@@ -26,7 +26,6 @@ class Solution(object):
                     return pnode.next
                 pnode = pnode.next
             return None
-
 
 
 root = TreeNode(1)

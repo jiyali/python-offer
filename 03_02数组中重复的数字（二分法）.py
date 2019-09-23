@@ -6,7 +6,7 @@ def duplicate(numbers):
     right = len(numbers)
     while left < right:
         mid = left + (right + 1 - left) // 2
-        count = countNum(numbers,right,left,mid)
+        count = countNum(numbers, right, left, mid)
         if left == right:
             if count > 1:
                 print(True)
@@ -20,7 +20,7 @@ def duplicate(numbers):
     return False
 
 
-def countNum(numbers,right,left,mid):
+def countNum(numbers, right, left, mid):
     count = 0
     for i in range(right):
         print(numbers[i])
@@ -30,7 +30,8 @@ def countNum(numbers,right,left,mid):
             count += 1
     return count
 
-print(duplicate(numbers = [4,2,3,1,2,5]))
+
+print(duplicate(numbers=[4, 2, 3, 1, 2, 5]))
 
 # # 第二种方式哈希表 需要额外的空间，空间消耗为O(n)
 # import numpy as np
