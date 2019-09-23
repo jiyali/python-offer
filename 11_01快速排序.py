@@ -31,4 +31,4 @@ def quicksort1(array):
         return quicksort1(less) + [pivot] * array.count(pivot) + quicksort1(greater)
 
 
-print(quicksort1([30, 24, 5, 58, 18, 36, 12, 42, 39]))
+print(quicksort1([30, 24, 5, 58, 18, 36, 36, 42, 39]))
