@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="3a8d48e4-62b6-4d4b-aedb-51dd4e787cc5" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/11_01快速排序.py" beforeDir="false" afterPath="$PROJECT_DIR$/11_01快速排序.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -128,8 +127,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/11_01快速排序.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="518">
-              <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+            <state relative-caret-position="176">
+              <caret line="14" column="53" lean-forward="true" selection-start-line="14" selection-start-column="53" selection-end-line="14" selection-end-column="53" />
             </state>
           </provider>
         </entry>
@@ -351,7 +350,7 @@
       <workItem from="1568882619794" duration="39151000" />
       <workItem from="1569113752416" duration="2999000" />
       <workItem from="1569121866923" duration="1532000" />
-      <workItem from="1569130153413" duration="37623000" />
+      <workItem from="1569130153413" duration="38019000" />
     </task>
     <task id="LOCAL-00001" summary="添加解题思路">
       <created>1568947896729</created>
@@ -437,14 +436,22 @@
       <option name="project" value="LOCAL" />
       <updated>1569244954687</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="添加新题解">
+      <created>1569246007948</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1569246007948</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="81305000" />
+    <option name="totallyTimeSpent" value="81701000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="878" y="0" width="1040" height="1047" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17040816" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -596,8 +603,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/11_01快速排序.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="518">
-          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+        <state relative-caret-position="176">
+          <caret line="14" column="53" lean-forward="true" selection-start-line="14" selection-start-column="53" selection-end-line="14" selection-end-column="53" />
         </state>
       </provider>
     </entry>
