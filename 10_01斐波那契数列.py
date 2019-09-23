@@ -28,3 +28,23 @@ class Solution2(object):
 print('here')
 s1 = Solution2()
 print(s1.fib2(10))
+
+
+# ※推荐！！ 使用迭代 避免重复，时间复杂度O(n)
+class Solution3(object):
+
+    def fib3(self, num2):
+        a, b = 0, 1
+        if num2 == 0:
+            return 0
+        if num2 == 1:
+            return 1
+        if num2 >= 2:
+            for i in range(num2):
+                a, b = b, a + b
+        return a
+
+
+print('here')
+s1 = Solution3()
+print(s1.fib3(3))
