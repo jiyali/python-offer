@@ -11,10 +11,11 @@ class TreeNode(object):
 
 
 class Solution(object):
-    def getnext(self, pnode):
-        if not pnode:  # 二叉树为空，返回空
+    def getnext(self,pnode):
+        if not pnode:
             return None
-        if pnode.right:  #
+
+        if pnode.right:
             pnode = pnode.right
             while pnode.left:
                 pnode = pnode.left
@@ -25,21 +26,6 @@ class Solution(object):
                     return pnode.next
                 pnode = pnode.next
             return None
-
-
-class Solution(object):
-    def getnext(self,pnode):
-        if not pnode:
-            return False
-        if pnode.right:
-            pnode = pnode.right
-            while pnode.left:
-                pnode = pnode.left
-            return pnode
-        else:
-            while pnode.next:
-                if pnode == pnode.next.left:
-                    return pnode.next
 
 
 
@@ -55,4 +41,4 @@ root.left.right.right = TreeNode(9)
 
 s = Solution()
 
-print(s.getnext(root.left.left).data)
+print(s.getnext(root).data)
