@@ -1,6 +1,7 @@
 # 思路： 用两个先入后出的栈实现先入先出的队列，一个栈负责入栈，一个栈负责出栈
 #        入栈时在stack1中插入元素，出栈时，如果stack2为空，则将stack1中的元素压入Stack2，然后弹出stack2中的元素
 
+
 class MyQueue(object):
     def __init__(self):
         self.stack1 = []

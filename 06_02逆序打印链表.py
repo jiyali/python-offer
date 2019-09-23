@@ -1,4 +1,6 @@
 # 思路二：使用递归，每访问一个节点，递归输出它后面的节点，再输出节点本身
+
+
 class Node(object):
     def __init__(self, data):
         self.data = data

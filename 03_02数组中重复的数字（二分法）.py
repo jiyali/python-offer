@@ -1,4 +1,6 @@
 # 不修改数组，找出数组中重复的元素
+
+
 def duplicate(numbers):
     if numbers is None or len(numbers) == 0:
         return False

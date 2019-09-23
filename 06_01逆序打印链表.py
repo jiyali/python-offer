@@ -1,5 +1,7 @@
 # 思路一：可以借助列表insert方法，每次在位置0处插入数据
 #         先入后出类似于栈，从头到尾遍历链表，用栈存储每个节点的值，之后出栈输出值即可
+
+
 class Node(object):
     def __init__(self, data):
         self.data = data
