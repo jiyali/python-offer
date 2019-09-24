@@ -13,9 +13,10 @@ class Solution:
     def hasPath(self, matrix, rows, cols, path):
         if not matrix or rows < 1 or cols < 1 or not path:
             return False
-        visited = [0] * (rows * cols)
 
+        visited = [0] * (rows * cols)
         pathLength = 0
+
         for row in range(rows):
             for col in range(cols):
                 if self.hasPathCore(matrix, rows, cols, row, col, path, pathLength, visited):
@@ -27,8 +28,7 @@ class Solution:
             return True
 
         hasPath = False
-        if not (not (0 <= row < rows) or not (0 <= col < cols) or not (matrix[row * cols + col] == path[pathLength]) or
-                visited[row * cols + col]):
+        if 0 <= row < rows and 0 <= col < cols and matrix[row * cols + col] == path[pathLength] and not visited[row * cols + col]:
 
             pathLength += 1
             visited[row * cols + col] = True
