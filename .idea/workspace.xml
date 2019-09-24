@@ -131,8 +131,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/13_机器人的运动范围.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="61">
-              <caret line="5" selection-start-line="5" selection-end-line="32" selection-end-column="18" />
+            <state relative-caret-position="133">
+              <caret line="7" column="18" lean-forward="true" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -181,9 +181,9 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="134" />
+    <option name="x" value="555" />
     <option name="y" value="62" />
-    <option name="width" value="1517" />
+    <option name="width" value="1216" />
     <option name="height" value="991" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -359,7 +359,7 @@
       <workItem from="1569113752416" duration="2999000" />
       <workItem from="1569121866923" duration="1532000" />
       <workItem from="1569130153413" duration="38024000" />
-      <workItem from="1569284880018" duration="20563000" />
+      <workItem from="1569284880018" duration="21420000" />
     </task>
     <task id="LOCAL-00001" summary="添加解题思路">
       <created>1568947896729</created>
@@ -487,23 +487,30 @@
       <option name="project" value="LOCAL" />
       <updated>1569310013485</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="添加新题解">
+      <created>1569313221902</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1569313221902</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="102269000" />
+    <option name="totallyTimeSpent" value="103126000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="560" y="0" width="1517" height="1047" extended-state="0" />
+    <frame x="555" y="62" width="1216" height="991" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.116678104" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1816609" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Messages" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4988345" visible="true" weight="0.15005477" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4988345" visible="true" weight="0.15985997" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3990665" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -669,8 +676,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/13_机器人的运动范围.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="61">
-          <caret line="5" selection-start-line="5" selection-end-line="32" selection-end-column="18" />
+        <state relative-caret-position="133">
+          <caret line="7" column="18" lean-forward="true" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
         </state>
       </provider>
     </entry>

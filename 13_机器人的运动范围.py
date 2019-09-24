@@ -4,6 +4,9 @@
 
 
 class Solution:
+    """
+    限定值k:threshold
+    """
     def movingCount(self, threshold, rows, cols):
         visited = [False] * (rows * cols)
         count = self.movingCountCore(threshold, rows, cols, 0, 0, visited)
