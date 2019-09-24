@@ -29,7 +29,27 @@ class Solution:
         return False
 
 
-s = Solution()
+# -*- coding:utf-8 -*-
+class Solution2:
+    # 这里要特别注意~找到任意重复的一个值并赋值到duplication[0]
+    # 函数返回True/False
+    def duplicate(self, numbers, duplication):
+        # write code here
+        dic = {}
+        flag = False
+        for num in numbers:
+            dic[num] = dic.get(num, 0) + 1
+        for num in numbers:
+            if dic[num] > 1:
+                duplication[0] = num
+                flag = True
+                break
+        return flag
+
+
+s = Solution2()
+s1 = Solution()
 test = [2, 3, 1, 0, 2, 5, 3]
 dupulication = [0]
 print(s.duplicate(test, dupulication))
+print(s1.duplicate(test, dupulication))
