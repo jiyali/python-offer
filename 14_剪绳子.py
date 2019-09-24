@@ -29,7 +29,7 @@ s = Solution()
 print(s.cutRope(8))
 
 
-# 思路二：贪婪算法，
+# 思路二：贪婪算法，n>=5时，尽可能选择剪成长度为3的绳子段
 
 class Solution1(object):
     def cutRope(self, number):
