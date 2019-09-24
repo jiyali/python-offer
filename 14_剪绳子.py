@@ -26,4 +26,30 @@ class Solution(object):
 
 
 s = Solution()
-print(s.cutRope(1))
+print(s.cutRope(8))
+
+
+# 思路二：贪婪算法，
+
+class Solution1(object):
+    def cutRope(self, number):
+        # write code here
+        if number == 2:
+            return 1
+        if number == 3:
+            return 2
+        if number == 4:
+            return 4
+        if number >= 5:
+            a = number % 3
+            b = number // 3
+            if a == 0:
+                return 3 ** b
+            if a == 1:
+                return 3 ** (b - 1)
+            else:
+                return 3 ** b * 2
+
+
+s1 = Solution1()
+print(s1.cutRope(8))
