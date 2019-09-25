@@ -8,7 +8,7 @@ class Solution:
     def Find(self, target, array):
         # write code here
 
-        if array == []:
+        if not array:
             return False
 
         row = 0
