@@ -2,6 +2,7 @@
 #      保证base和exponent不同时为0
 # 普通做法：
 
+
 class Solution(object):
     def power(self, base, exponent):
         flag = 0
@@ -34,9 +35,10 @@ class Solution1(object):
         if exponent == -1:
             return 1 / base
 
-        result = self.power(base, exponent >> 1)  # 求余运算
+        result = self.power(base, exponent >> 1)  # /2
         result *= result
-        if (exponent & 0x1) == 1:  # 判断奇数还是偶数
+
+        if (exponent & 0x1) == 1:  # 判断奇数还是偶数 %2
             result *= base
         return result
 
