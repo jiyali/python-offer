@@ -3,19 +3,25 @@
 #       知道找到查找数字或者查找范围为空
 
 
-def Find(array, target):
-    if array is None or 0 == len(array):
+class Solution:
+    # array 二维列表
+    def Find(self, target, array):
+        # write code here
+
+        if array == []:
+            return False
+
+        row = 0
+        col = len(array[0]) - 1
+
+        while row <= len(array) - 1 and col >= 0:
+            if array[row][col] == target:
+                return True
+            elif array[row][col] > target:
+                col -= 1
+            else:
+                row += 1
         return False
-    row = 0
-    col = len(array[0]) - 1
-    while row <= len(array) or col >= 0:
-        if array[row][col] == target:
-            return True
-        elif array[row][col] > target:
-            col -= 1
-        else:
-            row += 1
-    return False
 
-
-print(Find(array=[[1, 2, 8, 9], [2, 4, 9, 12], [4, 7, 10, 13], [6, 8, 11, 15]], target=2))
+s = Solution()
+print(s.Find(array=[[1, 2, 8, 9], [2, 4, 9, 12], [4, 7, 10, 13], [6, 8, 11, 15]], target=2))
