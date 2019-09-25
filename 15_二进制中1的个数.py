@@ -14,6 +14,18 @@ class Solution(object):
             n = (n - 1) & n  # 用于消去最后一位的1
         return count
 
+    def NumberOf2(self, n):
+
+        if n < 0:
+            s = bin(n & 0xffffffff)
+        else:
+            s = bin(n)
+        return s.count('1')
+
 
 S = Solution()
 print(S.NumberOf1(-1))
+print(S.NumberOf2(-1))
+
+
+# 思路二：
