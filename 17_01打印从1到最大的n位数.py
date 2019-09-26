@@ -71,14 +71,14 @@ class Solution1(object):
                 break
 
 
-s = Solution1()
-s.print1ToMax(3)
+s1 = Solution1()
+s1.print1ToMax(3)
 
 
 # 思路三： 转换为数字排列的递归
 
 
-class Solution3(object):
+class Solution2(object):
     def Print1ToMax(self, n):
         if n <= 0:
             return
@@ -104,6 +104,43 @@ class Solution3(object):
                 break
 
 
-s = Solution3()
+s2 = Solution2()
 print('here')
-s.Print1ToMax(3)
+s2.Print1ToMax(3)
+
+
+# 思路三也可以写为以以下形式：
+
+
+class Solution3(object):
+    def print1ToMax(self, number):
+
+        if number <= 0:
+            return
+
+        ListNumber = []
+
+        self.print1ToMaxCore(number, ListNumber)
+
+    def print1ToMaxCore(self, number, n):
+
+        if len(n) > number:
+            return
+        if len(n) == number:
+            self.printNumber(n)
+        if len(n) < number:
+            n_tmp = n
+            for i in range(10):
+                n = n_tmp + [str(i)]
+                self.print1ToMaxCore(number, n)
+
+    def printNumber(self, number):
+        for i in range(len(number)):
+            if number[i] != '0':
+                print(''.join(number[i:]))
+                break
+
+
+s3 = Solution3()
+print('here111111')
+s3.print1ToMax(3)
