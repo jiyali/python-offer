@@ -21,7 +21,7 @@ class Solution(object):
         if not pListHead or not pToBeDelete:
             return
 
-        if pToBeDelete.next != None:
+        if pToBeDelete.next is not None:
             pNext = pToBeDelete.next
             pToBeDelete.data = pNext.data
             pToBeDelete.next = pNext.next
