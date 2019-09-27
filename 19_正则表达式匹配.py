@@ -20,6 +20,7 @@ class Solution(object):
                 return False
         # 如果s与pattern都不为空的话，
         if len(s) > 0 and len(pattern) > 0:
+            # 当第二个字符为'*'时
             if len(pattern) > 1 and pattern[1] == '*':
                 # 如果s的第一个字符和pattern的第一个字符不相同，而且pattern的第一个字符不是'.'时，只能对比第三个字符之后的字符串
                 if s[0] != pattern[0] and pattern[0] != '.':
@@ -30,6 +31,7 @@ class Solution(object):
                     # 第二种：pattern第二个字符'*'表示前面的字符出现1次，递归对比s的第二个字符和pattern的第三个字符以后的字符串
                     # 第三种：pattern第二个字符'*'表示前面的字符出现多次，递归对比s的第二个字符和pattern的第一个字符以后的字符串
                     return self.match(s, pattern[2:]) or self.match(s[1:], pattern[2:]) or self.match(s[1:], pattern)
+            # 第二个字符不是'*'时，如果s的第一个字符和pattern的第一个字符相等（或者pattern的第一个字符是'.'），递归对比两个字符串第二个字符之后的字符串
             else:
                 if s[0] == pattern[0] or pattern[0] == '.':
                     return self.match(s[1:], pattern[1:])
