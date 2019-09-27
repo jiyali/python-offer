@@ -61,12 +61,12 @@ class Solution(object):
         for i in range(0, len(number2)):
             L2.append(int(number2[i]))
 
-        if (len(number1) > len(number2)):
+        if len(number1) > len(number2):
             for i in range(len(number1) - len(number2)):
                 L2.reverse()
                 L2.append(0)
                 L2.reverse()
-        elif (len(number1) <= len(number2)):
+        elif len(number1) <= len(number2):
             for i in range(len(number2) - len(number1)):
                 L1.reverse()
                 L1.append(0)
