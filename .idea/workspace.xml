@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3a8d48e4-62b6-4d4b-aedb-51dd4e787cc5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/21_调整数组顺序使奇数位位于偶数前面.py" beforeDir="false" afterPath="$PROJECT_DIR$/21_调整数组顺序使奇数位位于偶数前面.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/21_链表中倒数第k个节点.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -121,11 +122,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/21_调整数组顺序使奇数位位于偶数前面.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="62" column="36" lean-forward="true" selection-start-line="62" selection-start-column="36" selection-end-line="62" selection-end-column="36" />
+            <state relative-caret-position="114">
+              <caret line="18" column="38" lean-forward="true" selection-start-line="18" selection-start-column="38" selection-end-line="18" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/21_链表中倒数第k个节点.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="429">
+              <caret line="51" column="37" lean-forward="true" selection-start-line="51" selection-start-column="37" selection-end-line="51" selection-end-column="37" />
             </state>
           </provider>
         </entry>
@@ -194,11 +204,13 @@
         <option value="$PROJECT_DIR$/19_正则表达式匹配.py" />
         <option value="$PROJECT_DIR$/20_表示数值的字符串.py" />
         <option value="$PROJECT_DIR$/21_调整数组顺序使奇数位位于偶数前面.py" />
+        <option value="$PROJECT_DIR$/21_链表中倒数第k个节点.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="561" />
+    <option name="x" value="623" />
+    <option name="y" value="32" />
     <option name="width" value="1102" />
     <option name="height" value="1015" />
   </component>
@@ -386,21 +398,7 @@
       <workItem from="1569371494956" duration="36044000" />
       <workItem from="1569458506628" duration="8627000" />
       <workItem from="1569550868638" duration="27432000" />
-      <workItem from="1569630743681" duration="9374000" />
-    </task>
-    <task id="LOCAL-00007" summary="添加新题解">
-      <created>1569208761251</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1569208761251</updated>
-    </task>
-    <task id="LOCAL-00008" summary="添加新题解">
-      <created>1569208962605</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1569208962605</updated>
+      <workItem from="1569630743681" duration="11831000" />
     </task>
     <task id="LOCAL-00009" summary="添加新题解">
       <created>1569225161494</created>
@@ -731,22 +729,36 @@
       <option name="project" value="LOCAL" />
       <updated>1569641392290</updated>
     </task>
-    <option name="localTasksCounter" value="56" />
+    <task id="LOCAL-00056" summary="添加新题解">
+      <created>1569656428068</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1569656428068</updated>
+    </task>
+    <task id="LOCAL-00057" summary="添加新题解">
+      <created>1569656500427</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1569656500427</updated>
+    </task>
+    <option name="localTasksCounter" value="58" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="193760000" />
+    <option name="totallyTimeSpent" value="196217000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="561" y="0" width="1102" height="1015" extended-state="0" />
+    <frame x="623" y="32" width="1102" height="1015" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1765835" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1765835" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4988345" visible="true" weight="0.45743474" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4988345" visible="true" weight="0.2247446" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3938706" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -993,8 +1005,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/21_调整数组顺序使奇数位位于偶数前面.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="62" column="36" lean-forward="true" selection-start-line="62" selection-start-column="36" selection-end-line="62" selection-end-column="36" />
+        <state relative-caret-position="114">
+          <caret line="18" column="38" lean-forward="true" selection-start-line="18" selection-start-column="38" selection-end-line="18" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/21_链表中倒数第k个节点.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="429">
+          <caret line="51" column="37" lean-forward="true" selection-start-line="51" selection-start-column="37" selection-end-line="51" selection-end-column="37" />
         </state>
       </provider>
     </entry>
