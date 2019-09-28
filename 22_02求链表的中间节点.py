@@ -20,3 +20,12 @@ class Solution(object):
             node2 = node2.next
         return node2
 
+
+node1 = ListNode(10)
+node2 = ListNode(11)
+node3 = ListNode(13)
+node1.next = node2
+node2.next = node3
+
+s = Solution()
+print(s.FindMidNode(node1).val)
