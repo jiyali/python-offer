@@ -53,3 +53,15 @@ class Solution1(object):
             node1 = node1.next
             node2 = node2.next
         return node2
+
+
+node1 = ListNode(10)
+node2 = ListNode(11)
+node3 = ListNode(13)
+node1.next = node2
+node2.next = node3
+
+s = Solution()
+print(s.FindKthToTail(node1, 1).val)
+s1 = Solution1()
+print(s1.FindKthToTail(node1, 1).val)
