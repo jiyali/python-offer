@@ -16,7 +16,7 @@ class Solution(object):
         node2 = head
 
         while node1 is not None and node1.next is not None:
-            node2 = node2.next
             node1 = node1.next.next
+            node2 = node2.next
         return node2
 
