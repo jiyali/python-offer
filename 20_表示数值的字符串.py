@@ -8,7 +8,7 @@ class Solution(object):
             return False
 
         # 先判断是否为有符号整数
-        flag, s = self.isInterger(s)
+        flag, s = self.isInteger(s)
 
         # 判断是否是小数(小数点前面没有数字的小数）
 
@@ -17,7 +17,7 @@ class Solution(object):
                 s = s[1:]
             else:
                 s = None
-            flag1, s = self.isUnsignedInterger(s)
+            flag1, s = self.isUnsignedInteger(s)
             flag = flag or flag1
 
         # 判断指数
@@ -26,12 +26,12 @@ class Solution(object):
                 s = s[1:]
             else:
                 s = None
-            flag2, s = self.isInterger(s)
+            flag2, s = self.isInteger(s)
             flag = flag and flag2
 
         return flag and s is None
 
-    def isUnsignedInterger(self, s):
+    def isUnsignedInteger(self, s):
         flag = False
         while s is not None and '0' <= s[0] <= '9':
             if len(s) > 1:
@@ -41,13 +41,13 @@ class Solution(object):
             flag = True
         return flag, s
 
-    def isInterger(self, s):
+    def isInteger(self, s):
         if s is not None and (s[0] == '+' or s[0] == '-'):
             if len(s) > 1:
                 s = s[1:]
             else:
                 s = None
-        return self.isUnsignedInterger(s)
+        return self.isUnsignedInteger(s)
 
 
 print(Solution().isNumeric("12."))
