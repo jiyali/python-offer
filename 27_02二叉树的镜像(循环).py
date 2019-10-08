@@ -14,14 +14,14 @@ class Solution(object):
         if root is None:
             return None
 
-        stackNode = []
-        stackNode.append(root)
+        stackNode = [root]
 
         while len(stackNode) > 0:
             nodeNum = len(stackNode) - 1
             tree = stackNode[nodeNum]
             stackNode.pop()
             nodeNum -= 1
+
             if tree.left is not None or tree.right is not None:
                 tree.left, tree.right = tree.right, tree.left
             if tree.left:
