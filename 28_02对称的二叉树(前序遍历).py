@@ -16,7 +16,6 @@ class Solution(object):
         preList = self.preOrder(pRoot)
         mirrorList = self.mirrorPreOrder(pRoot)
 
-
         if preList == mirrorList:
             return True
         return False
