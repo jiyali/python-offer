@@ -8,14 +8,11 @@ class RandomListNode(object):
 class Solution(object):
     def Clone(self, pHead):
 
-        if pHead is None:
-            return None
-
         pNode = pHead
 
-        nodeList = []
-        randomList = []
-        labelList = []
+        nodeList = []  # 存放各个节点
+        randomList = []  # 存放各个节点指向的random节点。没有则为None
+        labelList = []  # 存放各个节点的值
 
         while pNode:
             nodeList.append(pNode)
@@ -27,15 +24,16 @@ class Solution(object):
         labelIndexList = list(map(lambda x: nodeList.index(x) if x else -1, randomList))
 
         pClone = RandomListNode(0)
+        pCloneNode = pClone
 
-        nodeList = list(map(lambda x: RandomListNode(x), labelIndexList))
+        nodeList = list(map(lambda x: RandomListNode(x), labelList))
 
         for i in range(len(nodeList)):
             if labelIndexList[i] != -1:
                 nodeList[i].random = nodeList[labelIndexList[i]]
         for i in nodeList:
-            pClone.next = i
-            pClone = pClone.next
+            pCloneNode.next = i
+            pCloneNode = pCloneNode.next
         return pClone.next
 
 
