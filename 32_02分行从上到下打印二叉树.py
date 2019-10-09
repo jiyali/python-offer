@@ -11,7 +11,6 @@ class TreeNode(object):
 class Solution:
     # 返回二维列表[[1,2],[4,5]]
     def BranchesPrintFromTopToBottom(self, pRoot):
-        # write code here
         if pRoot is None:
             return []
 
@@ -19,16 +18,16 @@ class Solution:
         output = []
 
         while nodes:
-            curStack = []
+            currentStack = []
             nextStack = []
 
             for node in nodes:
-                curStack.append(node.val)
+                currentStack.append(node.val)
                 if node.left:
                     nextStack.append(node.left)
                 if node.right:
                     nextStack.append(node.right)
-            output.append(curStack)
+            output.append(currentStack)
             nodes = nextStack
         return output
 
