@@ -20,7 +20,7 @@ class Solution(object):
         root = sequence[-1]
 
         if min(sequence) > root or max(sequence) < root:
-            return True
+            return False
 
         index = 0
 
