@@ -33,12 +33,12 @@ class Solution(object):
             if sequence[j] < root:
                 return False
 
-        # 递归检查左子树是否可以为BST
+        # 递归检查左子树是否是二叉搜索树
         left = True
         if index > 0:
             left = self.VerifySquenceOfBST(sequence[:index])
 
-        # 递归检查右子树是否可以为BST
+        # 递归检查右子树是否是二叉搜索树
         right = True
         if index < len(sequence) - 1:
             right = self.VerifySquenceOfBST(sequence[index: len(sequence) - 1])
