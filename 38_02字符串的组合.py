@@ -2,10 +2,30 @@
 #       例如输入字符串abc,则打印出由字符a,b,c所能排列出来的所有字符串a、b、c、ab、ac、bc、abc。
 
 
-import itertools
-
-
 class Solution(object):
+    def Combination(self, ss):
+        if len(ss) == 0:
+            return []
+        if len(ss) == 1:
+            return [ss]
+
+        output = set()
+
+        for i in range(len(ss)):
+            output.add(ss[i])
+            for j in self.Combination(ss[i+1:]):
+                output.add(ss[i] + j)
+
+        return sorted(output)
+
+
+# 另一种方法：itertools.combinations用于生成一个组合
+
+import itertools
+from functools import reduce
+
+
+class Solution1(object):
     def Combination(self, ss):
         if not ss:
             return []
@@ -16,9 +36,11 @@ class Solution(object):
             list1 = list(map(''.join, itertools.combinations(sorted(ss), i)))
             output.append(list1)
 
-        return output
+        return reduce(lambda x, y: x + y, output)
 
 
 ss = 'acb'
 S = Solution()
+S1 = Solution1()
 print(S.Combination(ss))
+print(S1.Combination(ss))
