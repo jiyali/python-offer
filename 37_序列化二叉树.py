@@ -45,3 +45,21 @@ class Solution:
             root.right = self.Deserialize(s)
 
         return root
+
+
+node1 = TreeNode(1)
+node2 = TreeNode(2)
+node3 = TreeNode(3)
+node4 = TreeNode(4)
+node5 = TreeNode(5)
+node6 = TreeNode(6)
+
+node1.left = node2
+node1.right = node3
+node2.left = node4
+node2.right = None
+node3.left = node5
+node3.right = node6
+
+s = Solution()
+print(s.Serialize(node1))
