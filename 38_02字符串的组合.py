@@ -2,6 +2,7 @@
 #       例如输入字符串abc,则打印出由字符a,b,c所能排列出来的所有字符串a、b、c、ab、ac、bc、abc。
 
 
+# 第一种方法：暂时输出为['a', 'ab', 'ac', 'acb', 'b', 'c', 'cb']，能力有限，后期来改进
 class Solution(object):
     def Combination(self, ss):
         if len(ss) == 0:
