@@ -1,4 +1,25 @@
-class Solution(object):
+class Solution:
+    def Permutation(self, nums):
+        if len(nums) == 0:
+            return []
+
+        res = []
+        nums.sort()
+
+        def backtrack(nums, tmp):
+            if len(nums) == 0:
+                res.append(tmp)
+                return
+            for i in range(len(nums)):
+                if i > 0 and nums[i] == nums[i-1]:
+                    continue
+                backtrack(nums[:i] + nums[i+1:], tmp + [nums[i]])
+
+        backtrack(nums, [])
+        return res
+
+
+class Solution1(object):
     def Permutation(self, nums):
         perms = [[]]
 
