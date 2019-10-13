@@ -15,7 +15,7 @@ class Solution(object):
         else:
             return 0
 
-# 思路二:用哈希表。时间复杂度O(n)
+# 思路二:根据数组特点。时间复杂度O(n)
 
 
 class Solution1(object):
@@ -33,7 +33,7 @@ class Solution1(object):
                 flag += 1
             else:
                 flag -= 1
-        if flag > 0 and self.check_more_than_half(numbers,value):
+        if flag > 0 and self.check_more_than_half(numbers, value):
             return value
         else:
             return 0
