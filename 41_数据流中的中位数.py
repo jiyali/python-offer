@@ -68,10 +68,8 @@ class Solution1(object):
 
         return left
 
+
 # 思路三：最炫酷的就是堆
-import heapq
-
-
 class Solution2(object):
 
     def __init__(self):
