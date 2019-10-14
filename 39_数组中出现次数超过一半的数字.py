@@ -53,11 +53,11 @@ class Solution1(object):
 # 第三种思路：基于patition的时间复杂度为O(n)
 class Solution2(object):
     def MoreThanHalfNum_Solution(self, numbers):
-
+        # write code here
         left = 0
         right = len(numbers) - 1
 
-        middle = (len(numbers)) >> 1
+        middle = len(numbers) >> 1
 
         index = self.Partition(numbers, left, right)
 
@@ -70,32 +70,34 @@ class Solution2(object):
                 index = self.Partition(numbers, left, right)
 
         result = numbers[middle]
-        if not self.CheckMoreThanHalf(numbers, result):
-            result = 0
+
+        if not self.CheckMoreThanHale(numbers, result):
+            return 0
         return result
 
     def Partition(self, numbers, left, right):
-
         pivot = numbers[left]
 
         while left < right:
             while left < right and numbers[right] >= pivot:
-                right = right - 1
+                right -= 1
             numbers[left], numbers[right] = numbers[right], numbers[left]
             while left < right and numbers[left] <= pivot:
-                left = left + 1
+                left += 1
             numbers[left], numbers[right] = numbers[right], numbers[left]
 
         return left
 
-    def CheckMoreThanHalf(self, numbers, number):
-        times = 0
+    def CheckMoreThanHale(self, numbers, result):
+        count = 0
+
         for i in range(len(numbers)):
-            if numbers[i] == number:
-                times += 1
-        if times * 2 <= len(numbers):
+            if numbers[i] == result:
+                count += 1
+        if count <= len(numbers) / 2:
             return False
-        return True
+        else:
+            return True
 
 
 # 第四种思路：使用python标准库collections，Counter是一个简单的计数器
