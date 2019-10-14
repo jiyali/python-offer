@@ -30,41 +30,45 @@ class Solution(object):
 # 思路二：寻找更快的方法O(n)：基于Partition思想(仅适用于可以修改数组的情况下)
 
 
-class Solution2(object):
+class Solution1(object):
     def GetLeastNumbers_Solution(self, tinput, k):
         if tinput is None or len(tinput) < k or k <= 0 or len(tinput) <= 0:
             return []
 
         length = len(tinput)
 
-        start = 0
-        end = length - 1
+        left = 0
+        right = length - 1
 
-        index = self.Partition(tinput, length, start, end)
+        index = self.Partition(tinput, left, right)
 
         while index != k - 1:
             if index > k - 1:
-                end = index - 1
-                index = self.Partition(tinput, length, start, end)
+                right = index - 1
+                index = self.Partition(tinput, left, right)
+            else:
+                left = index + 1
+                index = self.Partition(tinput, left, right)
+        output = tinput[:k]
+        output.sort()
+        return output
 
-    def Partition(self, tinput, length, start, end):
-        if tinput is None or length < 0 or start < 0 or end > length:
-            return None
+    def Partition(self, numbers, left, right):
 
-        if end == start:
-            return end
+        pivot = numbers[left]
 
-        pivot = tinput[start]
+        while left < right:
+            while left < right and numbers[right] >= pivot:
+                right = right - 1
+            numbers[left], numbers[right] = numbers[right], numbers[left]
+            while left < right and numbers[left] <= pivot:
+                left = left + 1
+            numbers[left], numbers[right] = numbers[right], numbers[left]
 
-        left = start
-        right = end
-
-        while left <right:
-            while right
-
+        return left
 
 
 tinput = [4, 5, 1, 6, 2, 7, 3, 8]
-s = Solution()
+s = Solution1()
 print(s.GetLeastNumbers_Solution(tinput, 4))
 print(s.GetLeastNumbers_Solution(tinput, 5))
