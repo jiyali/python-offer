@@ -50,7 +50,56 @@ class Solution1(object):
             return False
 
 
-S = Solution1()
+# 第三种思路：基于patition的时间复杂度为O(n)
+class Solution2(object):
+    def MoreThanHalfNum_Solution(self, numbers):
+
+        left = 0
+        right = len(numbers) - 1
+
+        middle = (len(numbers)) >> 1
+
+        index = self.Partition(numbers, left, right)
+
+        while index != middle:
+            if index > middle:
+                right = index - 1
+                index = self.Partition(numbers, left, right)
+            else:
+                left = index + 1
+                index = self.Partition(numbers, left, right)
+
+        result = numbers[middle]
+        if not self.CheckMoreThanHalf(numbers, result):
+            result = 0
+        return result
+
+    def Partition(self, numbers, left, right):
+
+        pivot = numbers[left]
+
+        while left < right:
+            while left < right and numbers[right] >= pivot:
+                right = right - 1
+            numbers[left], numbers[right] = numbers[right], numbers[left]
+            while left < right and numbers[left] <= pivot:
+                left = left + 1
+            numbers[left], numbers[right] = numbers[right], numbers[left]
+
+        numbers[left] = pivot
+        return left
+
+    def CheckMoreThanHalf(self, numbers, number):
+        times = 0
+        for i in range(len(numbers)):
+            if numbers[i] == number:
+                times += 1
+        if times * 2 <= len(numbers):
+            return False
+        return True
+
+
+S = Solution2()
 print(S.MoreThanHalfNum_Solution([1, 2, 3, 2, 2, 2, 5, 4, 2]))
 print(S.MoreThanHalfNum_Solution([1, 2, 3, 3, 3, 3, 4]))
 print(S.MoreThanHalfNum_Solution([1, 2]))
