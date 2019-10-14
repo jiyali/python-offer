@@ -15,39 +15,31 @@ class Solution(object):
         else:
             return 0
 
-# 思路二:根据数组特点。时间复杂度O(n)
+# 思路二:根据数组特点。时间复杂度O(n)，空间复杂度O(1)
+#        对数组进行遍历：如果遍历到下一个数字的时候，下一个数字与当前数字相同，次数加1，
+#        与当前数字不同，次数减1，
+#        如果次数为0，则要保存下一个数字，并把次数设置为1
 
 
 class Solution1(object):
     def MoreThanHalfNum_Solution(self, numbers):
-        if len(numbers) == 0:
+        # write code here
+        if not numbers:
             return 0
-
-        value = 0
-        flag = 0
-        for i in numbers:
-            if flag == 0:
-                value = i
-                flag = 1
-            elif i == value:
-                flag += 1
-            else:
-                flag -= 1
-        if flag > 0 and self.check_more_than_half(numbers, value):
-            return value
-        else:
-            return 0
-
-    def check_more_than_half(self, numbers, value):
+        res = 0
         times = 0
-
-        for i in numbers:
-            if i == value:
+        for i in range(len(numbers)):
+            if times == 0:
+                res = numbers[i]
+                times = 1
+            elif numbers[i] == res:
                 times += 1
-        if times > len(numbers)/2:
-            return times
+            else:
+                times -= 1
+        if numbers.count(res) > len(numbers) / 2:
+            return res
         else:
-            return False
+            return 0
 
 
 # 第三种思路：基于patition的时间复杂度为O(n)
@@ -114,7 +106,7 @@ class Solution3(object):
         return 0
 
 
-# 哈希表的思想，时间复杂度O(n)
+# 哈希表的思想，时间复杂度O(n)，空间复杂度O(n)
 class Solution4(object):
     def MoreThanHalfNum_Solution(self, numbers):
         dic = {}
@@ -129,7 +121,7 @@ class Solution4(object):
         return 0
 
 
-S = Solution4()
+S = Solution1()
 print(S.MoreThanHalfNum_Solution([1, 2, 3, 2, 2, 2, 5, 4, 2]))
 print(S.MoreThanHalfNum_Solution([1, 2, 3, 3, 3, 3, 4]))
 print(S.MoreThanHalfNum_Solution([1, 2]))
