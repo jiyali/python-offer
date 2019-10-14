@@ -24,9 +24,62 @@ class Solution(object):
             return self.data[int(length // 2)]
 
 
-# 思路二：将数据流中的数据存入堆中，
+# 思路二：将数据流中的数据存入数组中，按照Partition的思想排序
 class Solution1(object):
+    def __init__(self):
+        self.arr = []
+
     def Insert(self, num):
+        self.arr.append(num)
+
+    def GetMedian(self):  # 牛客上需要加一个变量 def GetMedian(self,arr)这样，我也不知道为啥
+        length = len(self.arr)
+        if length == 0:
+            return []
+        if length == 1:
+            return self.arr[0]
+        if length % 2 == 0:
+            return (self.find_kth(self.arr, 0, length - 1, (length - 1) // 2) + \
+                    self.find_kth(self.arr, 0, length - 1, length // 2)) / 2.0
+        if length % 2 == 1:
+            return self.find_kth(self.arr, 0, length - 1, length // 2)
+
+    def find_kth(self, num, left, right, k):
+        index = self.Partition(num, left, right)
+        if index == k:
+            return num[index]
+        if index < k:
+            return self.find_kth(num, index + 1, right, k)
+        if index > k:
+            return self.find_kth(num, left, index - 1, k)
+
+    def Partition(self, numbers, left, right):
+
+        pivot = numbers[left]
+
+        while left < right:
+            while left < right and numbers[right] >= pivot:
+                right -= 1
+            numbers[left], numbers[right] = numbers[right], numbers[left]
+            while left < right and numbers[left] <= pivot:
+                left += 1
+            numbers[left], numbers[right] = numbers[right], numbers[left]
+
+        return left
 
 
-    def GetMedian(self, data):
+s = Solution1()
+s.Insert(5)
+print(s.GetMedian())
+s.Insert(2)
+print(s.GetMedian())
+s.Insert(3)
+print(s.GetMedian())
+s.Insert(4)
+print(s.GetMedian())
+s.Insert(1)
+print(s.GetMedian())
+s.Insert(6)
+print(s.GetMedian())
+s.Insert(7)
+print(s.GetMedian())
