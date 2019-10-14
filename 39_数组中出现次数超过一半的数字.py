@@ -86,7 +86,6 @@ class Solution2(object):
                 left = left + 1
             numbers[left], numbers[right] = numbers[right], numbers[left]
 
-        numbers[left] = pivot
         return left
 
     def CheckMoreThanHalf(self, numbers, number):
@@ -99,7 +98,36 @@ class Solution2(object):
         return True
 
 
-S = Solution2()
+# 第四种思路：使用python标准库collections，Counter是一个简单的计数器
+#             most_common([n])函数，返回一个TopN列表。
+#             如果n没有被指定，则返回所有元素。当多个元素计数值相同时，排列是无确定顺序的。
+# 教程：http://www.pythoner.com/205.html
+class Solution3(object):
+    def MoreThanHalfNum_Solution(self, numbers):
+        # write code here
+        from collections import Counter
+        count = Counter(numbers).most_common()
+        if count[0][1] > len(numbers) / 2:
+            return count[0][0]
+        return 0
+
+
+# 哈希表的思想，时间复杂度O(n)
+class Solution4(object):
+    def MoreThanHalfNum_Solution(self, numbers):
+        dic = {}
+        for i in range(len(numbers)):
+            if numbers[i] not in dic:
+                dic[numbers[i]] = 1
+            else:
+                dic[numbers[i]] += 1
+        for key in dic:
+            if dic[key] > len(numbers) / 2:
+                return key
+        return 0
+
+
+S = Solution4()
 print(S.MoreThanHalfNum_Solution([1, 2, 3, 2, 2, 2, 5, 4, 2]))
 print(S.MoreThanHalfNum_Solution([1, 2, 3, 3, 3, 3, 4]))
 print(S.MoreThanHalfNum_Solution([1, 2]))
