@@ -59,16 +59,51 @@ class Solution1(object):
 
         while left < right:
             while left < right and numbers[right] >= pivot:
-                right = right - 1
+                right -= 1
             numbers[left], numbers[right] = numbers[right], numbers[left]
             while left < right and numbers[left] <= pivot:
-                left = left + 1
+                left += 1
             numbers[left], numbers[right] = numbers[right], numbers[left]
 
         return left
 
 
+# 思路三：在不能改变数组的情况下，且数据量巨大，时间复杂度O(nlogk)
+import heapq
+
+class Solution2(object):
+    def GetLeastNumbers_Solution(self, tinput, k):
+        if tinput is None or len(tinput) < k or len(tinput) <= 0 or k <= 0:
+            return []
+
+        output = []
+
+        for number in tinput:
+            if len(output) < k:
+                output.append(number)
+            else:  # 构建最大堆
+                output = heapq.nlargest(k, output)
+                if number >= output[0]:
+                    continue
+                else:
+                    output[0] = number
+        return output[::-1]
+
+
+
+
+
+# 思路四：sorted排序，输出前k个即可，时间复杂度为O(nlogn)
+class Solution3(object):
+    def GetLeastNumbers_Solution(self, tinput, k):
+        # write code here
+        if not tinput or len(tinput) < k:
+            return []
+        tinput = sorted(tinput)
+        return tinput[:k]
+
+
 tinput = [4, 5, 1, 6, 2, 7, 3, 8]
-s = Solution1()
+s = Solution2()
 print(s.GetLeastNumbers_Solution(tinput, 4))
 print(s.GetLeastNumbers_Solution(tinput, 5))
