@@ -69,6 +69,7 @@ class Solution1(object):
 
 
 # 思路三：在不能改变数组的情况下，且数据量巨大，时间复杂度O(nlogk)
+#         最大堆：除了父节点，在任一子树中，该子树所包含的所有节点的值都不大于该子树根节点的数，堆中的最大节点是根节点
 import heapq
 
 
@@ -77,18 +78,7 @@ class Solution2(object):
         if tinput is None or len(tinput) < k or len(tinput) <= 0 or k <= 0:
             return []
 
-        output = []
-
-        for number in tinput:
-            if len(output) < k:
-                output.append(number)
-            else:  # 构建最大堆
-                output = heapq.nlargest(k, output)
-                if number >= output[0]:
-                    continue
-                else:
-                    output[0] = number
-        return output[::-1]
+        return heapq.nsmallest(k, tinput)
 
 
 # 思路四：sorted排序，输出前k个即可，时间复杂度为O(nlogn)
@@ -103,5 +93,5 @@ class Solution3(object):
 
 tinput = [4, 5, 1, 6, 2, 7, 3, 8]
 s = Solution2()
-print(s.GetLeastNumbers_Solution(tinput, 4))
+print(s.GetLeastNumbers_Solution(tinput, 8))
 print(s.GetLeastNumbers_Solution(tinput, 5))
