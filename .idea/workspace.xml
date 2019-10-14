@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="3a8d48e4-62b6-4d4b-aedb-51dd4e787cc5" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/40_最小的K个数(高频题).py" beforeDir="false" afterPath="$PROJECT_DIR$/40_最小的K个数(高频题).py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/41_数据流中的中位数.py" beforeDir="false" afterPath="$PROJECT_DIR$/41_数据流中的中位数.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -102,11 +102,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/40_最小的K个数(高频题).py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="72" column="58" selection-start-line="72" selection-start-column="58" selection-end-line="72" selection-end-column="58" />
+            <state relative-caret-position="1223">
+              <caret line="75" lean-forward="true" selection-start-line="75" selection-end-line="75" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/41_数据流中的中位数.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="15" column="31" lean-forward="true" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -126,7 +135,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/16_数值的整数次方.py" />
         <option value="$PROJECT_DIR$/17_打印从1到最大的n位数.py" />
         <option value="$PROJECT_DIR$/17_02实现任意两个整数的加法.py" />
         <option value="$PROJECT_DIR$/17_01任意两个数字的加法.py" />
@@ -177,6 +185,7 @@
         <option value="$PROJECT_DIR$/40_最小的K个数.py" />
         <option value="$PROJECT_DIR$/39_数组中出现次数超过一半的数字.py" />
         <option value="$PROJECT_DIR$/40_最小的K个数(高频题).py" />
+        <option value="$PROJECT_DIR$/41_数据流中的中位数.py" />
       </list>
     </option>
   </component>
@@ -380,21 +389,7 @@
       <workItem from="1570879033559" duration="49000" />
       <workItem from="1570879100565" duration="31000" />
       <workItem from="1570879163451" duration="16607000" />
-      <workItem from="1571012811978" duration="23816000" />
-    </task>
-    <task id="LOCAL-00064" summary="添加新题解">
-      <created>1569677899909</created>
-      <option name="number" value="00064" />
-      <option name="presentableId" value="LOCAL-00064" />
-      <option name="project" value="LOCAL" />
-      <updated>1569677899909</updated>
-    </task>
-    <task id="LOCAL-00065" summary="添加新题解">
-      <created>1569677933578</created>
-      <option name="number" value="00065" />
-      <option name="presentableId" value="LOCAL-00065" />
-      <option name="project" value="LOCAL" />
-      <updated>1569677933578</updated>
+      <workItem from="1571012811978" duration="25339000" />
     </task>
     <task id="LOCAL-00066" summary="添加新题解">
       <created>1569680301203</created>
@@ -725,11 +720,25 @@
       <option name="project" value="LOCAL" />
       <updated>1571057238552</updated>
     </task>
-    <option name="localTasksCounter" value="113" />
+    <task id="LOCAL-00113" summary="添加新题解">
+      <created>1571057356685</created>
+      <option name="number" value="00113" />
+      <option name="presentableId" value="LOCAL-00113" />
+      <option name="project" value="LOCAL" />
+      <updated>1571057356685</updated>
+    </task>
+    <task id="LOCAL-00114" summary="添加新题解">
+      <created>1571058583554</created>
+      <option name="number" value="00114" />
+      <option name="presentableId" value="LOCAL-00114" />
+      <option name="project" value="LOCAL" />
+      <updated>1571058583554</updated>
+    </task>
+    <option name="localTasksCounter" value="115" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="349785000" />
+    <option name="totallyTimeSpent" value="351308000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="497" y="72" width="1399" height="982" extended-state="0" />
@@ -792,13 +801,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="添加新题解" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/14_剪绳子.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="517">
-          <caret line="51" selection-start-line="51" selection-end-line="51" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_imps/_pydev_execfile.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
@@ -1122,8 +1124,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/40_最小的K个数(高频题).py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="72" column="58" selection-start-line="72" selection-start-column="58" selection-end-line="72" selection-end-column="58" />
+        <state relative-caret-position="1223">
+          <caret line="75" lean-forward="true" selection-start-line="75" selection-end-line="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/41_数据流中的中位数.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="31" lean-forward="true" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
         </state>
       </provider>
     </entry>

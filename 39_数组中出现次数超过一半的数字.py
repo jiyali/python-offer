@@ -73,7 +73,6 @@ class Solution2(object):
         while left < right:
             while left < right and numbers[right] >= pivot:
                 right -= 1
-            numbers[left], numbers[right] = numbers[right], numbers[left]
             while left < right and numbers[left] <= pivot:
                 left += 1
             numbers[left], numbers[right] = numbers[right], numbers[left]

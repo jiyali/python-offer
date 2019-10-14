@@ -14,8 +14,19 @@ class Solution(object):
     def GetMedian(self, data):
         self.data.sort()
         length = len(self.data)
+        if length == 0:
+            return None
+        elif length == 1:
+            return self.data[0]
         if length % 2 == 0:
             return (self.data[length // 2] + self.data[length // 2 - 1]) / 2.0
         else:
             return self.data[int(length // 2)]
 
+
+# 思路二：将数据流中的数据存入堆中，
+class Solution1(object):
+    def Insert(self, num):
+
+
+    def GetMedian(self, data):
