@@ -69,7 +69,12 @@ class Solution1(object):
         return left
 
 
-# 思路三：最炫酷的就是堆
+# 思路三：最炫酷的就是堆，具体参考：https://leetcode-cn.com/problems/find-median-from-data-stream/solution/you-xian-dui-lie-python-dai-ma-java-dai-ma-by-liwe/
+# 要找出中位数，即当数据流读出的个数为奇数时，中位数是中位数之前的有序树组的最大值，
+#                当数据流读出的个数为偶数时，中位数是中位数之前的有序树组的最大值与中位数之后的有序树组的最小值的平均数
+#                所以我们可以将前半部分的有序树组动态的放置在一个“大顶堆”中，后半部分放置在“小顶堆”中
+#                当数据流中读出的个数为偶数时，让这两部分数组的个数相等，两个顶堆元素的平均值就是中位数
+#                                   为奇数时，只要保证大顶堆的元素永远比小顶堆的元素个数多1，则大顶堆的堆顶元素就是中位数
 class Solution2(object):
 
     def __init__(self):

@@ -97,8 +97,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/39_数组中出现次数超过一半的数字.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret line="72" column="27" lean-forward="true" selection-start-line="72" selection-start-column="27" selection-end-line="72" selection-end-column="27" />
+            <state relative-caret-position="1368">
+              <caret line="72" column="27" selection-start-line="72" selection-start-column="27" selection-end-line="72" selection-end-column="27" />
             </state>
           </provider>
         </entry>
@@ -106,8 +106,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/40_最小的K个数(高频题).py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="81" column="41" lean-forward="true" selection-start-line="81" selection-start-column="41" selection-end-line="81" selection-end-column="41" />
+            <state relative-caret-position="1539">
+              <caret line="81" column="41" selection-start-line="81" selection-start-column="41" selection-end-line="81" selection-end-column="41" />
             </state>
           </provider>
         </entry>
@@ -115,8 +115,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/41_数据流中的中位数.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="513">
-              <caret line="75" lean-forward="true" selection-start-line="75" selection-end-line="163" selection-end-column="64" />
+            <state relative-caret-position="262">
+              <caret line="76" column="79" selection-start-line="76" selection-start-column="79" selection-end-line="76" selection-end-column="79" />
             </state>
           </provider>
         </entry>
@@ -191,9 +191,9 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="677" />
-    <option name="y" value="53" />
-    <option name="width" value="1198" />
+    <option name="x" value="652" />
+    <option name="y" value="7" />
+    <option name="width" value="1297" />
     <option name="height" value="992" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -390,21 +390,8 @@
       <workItem from="1570879033559" duration="49000" />
       <workItem from="1570879100565" duration="31000" />
       <workItem from="1570879163451" duration="16607000" />
-      <workItem from="1571012811978" duration="28047000" />
-    </task>
-    <task id="LOCAL-00068" summary="添加新题解">
-      <created>1570503006564</created>
-      <option name="number" value="00068" />
-      <option name="presentableId" value="LOCAL-00068" />
-      <option name="project" value="LOCAL" />
-      <updated>1570503006564</updated>
-    </task>
-    <task id="LOCAL-00069" summary="添加新题解">
-      <created>1570503711900</created>
-      <option name="number" value="00069" />
-      <option name="presentableId" value="LOCAL-00069" />
-      <option name="project" value="LOCAL" />
-      <updated>1570503711900</updated>
+      <workItem from="1571012811978" duration="28177000" />
+      <workItem from="1571099633963" duration="3264000" />
     </task>
     <task id="LOCAL-00070" summary="添加新题解">
       <created>1570505004311</created>
@@ -735,22 +722,36 @@
       <option name="project" value="LOCAL" />
       <updated>1571060655595</updated>
     </task>
-    <option name="localTasksCounter" value="117" />
+    <task id="LOCAL-00117" summary="添加新题解">
+      <created>1571061652590</created>
+      <option name="number" value="00117" />
+      <option name="presentableId" value="LOCAL-00117" />
+      <option name="project" value="LOCAL" />
+      <updated>1571061652590</updated>
+    </task>
+    <task id="LOCAL-00118" summary="添加新题解">
+      <created>1571061712320</created>
+      <option name="number" value="00118" />
+      <option name="presentableId" value="LOCAL-00118" />
+      <option name="project" value="LOCAL" />
+      <updated>1571061712320</updated>
+    </task>
+    <option name="localTasksCounter" value="119" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="354016000" />
+    <option name="totallyTimeSpent" value="357410000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="677" y="53" width="1198" height="992" extended-state="0" />
+    <frame x="652" y="7" width="1297" height="992" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17047451" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15925626" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4988345" visible="true" weight="0.25757575" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4988345" weight="0.25757575" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.33490565" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -1118,22 +1119,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/39_数组中出现次数超过一半的数字.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="72" column="27" lean-forward="true" selection-start-line="72" selection-start-column="27" selection-end-line="72" selection-end-column="27" />
+        <state relative-caret-position="1368">
+          <caret line="72" column="27" selection-start-line="72" selection-start-column="27" selection-end-line="72" selection-end-column="27" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/40_最小的K个数(高频题).py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="81" column="41" lean-forward="true" selection-start-line="81" selection-start-column="41" selection-end-line="81" selection-end-column="41" />
+        <state relative-caret-position="1539">
+          <caret line="81" column="41" selection-start-line="81" selection-start-column="41" selection-end-line="81" selection-end-column="41" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/41_数据流中的中位数.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="75" lean-forward="true" selection-start-line="75" selection-end-line="163" selection-end-column="64" />
+        <state relative-caret-position="262">
+          <caret line="76" column="79" selection-start-line="76" selection-start-column="79" selection-end-line="76" selection-end-column="79" />
         </state>
       </provider>
     </entry>
