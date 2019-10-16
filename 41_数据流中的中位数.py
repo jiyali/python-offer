@@ -75,7 +75,57 @@ class Solution1(object):
 #                所以我们可以将前半部分的有序树组动态的放置在一个“大顶堆”中，后半部分放置在“小顶堆”中
 #                当数据流中读出的个数为偶数时，让这两部分数组的个数相等，两个顶堆元素的平均值就是中位数
 #                                   为奇数时，只要保证大顶堆的元素永远比小顶堆的元素个数多1，则大顶堆的堆顶元素就是中位数
+
+
+#  1.python使用heapq包的办法(heapq只能实现小顶堆，所以在实现大顶堆时需要绕个圈圈)
+import heapq
+
+
 class Solution2(object):
+    def __init__(self):
+        self.count = 0
+        self.max_heap = []
+        self.min_heap = []
+
+    def Insert(self, num):
+        self.count += 1
+        # print('self.count:', self.count)
+        # 因为 Python 中的堆默认是小顶堆，所以要传入一个 tuple，用于比较的元素需是相反数，
+        # 才能模拟出大顶堆的效果
+        # 先往大顶堆中存入数字，弹出最大值之后，放入小顶堆，如果count为奇数，则再从小顶堆中弹出放入大顶堆，
+        # 这样保证如果是奇数的话，大顶堆中的数据比小顶堆中的多一个，如果是偶数的话，则两个堆中的数据相同
+        heapq.heappush(self.max_heap, -num)  # heapq.heappush() 将值推入堆，保持堆不变
+        # print('1111111')
+        # print('self.min_heap:', self.min_heap)
+        # print('self.max_heap:', self.max_heap)
+        max_heap_top = heapq.heappop(self.max_heap)  # heapq.heappop() 弹出并从堆中返回最小的项，从而保持堆不变。
+        # print('22222222')
+        # print('self.min_heap:', self.min_heap)
+        # print('self.max_heap:', self.max_heap)
+        heapq.heappush(self.min_heap, -max_heap_top)
+        # print('33333333')
+        # print('self.min_heap:', self.min_heap)
+        # print('self.max_heap:', self.max_heap)
+        if self.count & 1:  # &1 代替%2
+            min_heap_top = heapq.heappop(self.min_heap)
+            # print('min_heap_top:', min_heap_top)
+            heapq.heappush(self.max_heap, -min_heap_top)
+            # print('44444444')
+            # print('self.min_heap:', self.min_heap)
+            # print('self.max_heap:', self.max_heap)
+
+    def GetMedian(self):
+        if self.count & 1:
+            # 如果两个堆合起来的元素个数是奇数，数据流的中位数大顶堆的堆顶元素
+            return -self.max_heap[0]
+        else:
+            # 如果两个堆合起来的元素个数是偶数，数据流的中位数就是各自堆顶元素的平均值
+            return (-self.max_heap[0] + self.min_heap[0]) / 2.0
+
+
+
+# 2.纯手写实现：
+class Solution3(object):
 
     def __init__(self):
         self.minNums = []
