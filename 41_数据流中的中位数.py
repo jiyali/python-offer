@@ -114,14 +114,13 @@ class Solution2(object):
             # print('self.min_heap:', self.min_heap)
             # print('self.max_heap:', self.max_heap)
 
-    def GetMedian(self):
+    def GetMedian(self):  # 牛客上依旧需要添加一个参数：def GetMedian(self , n = None):
         if self.count & 1:
             # 如果两个堆合起来的元素个数是奇数，数据流的中位数大顶堆的堆顶元素
             return -self.max_heap[0]
         else:
             # 如果两个堆合起来的元素个数是偶数，数据流的中位数就是各自堆顶元素的平均值
             return (-self.max_heap[0] + self.min_heap[0]) / 2.0
-
 
 
 # 2.纯手写实现：
