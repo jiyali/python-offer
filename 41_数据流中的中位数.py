@@ -75,6 +75,7 @@ class Solution1(object):
 #                所以我们可以将前半部分的有序树组动态的放置在一个“大顶堆”中，后半部分放置在“小顶堆”中
 #                当数据流中读出的个数为偶数时，让这两部分数组的个数相等，两个顶堆元素的平均值就是中位数
 #                                   为奇数时，只要保证大顶堆的元素永远比小顶堆的元素个数多1，则大顶堆的堆顶元素就是中位数
+#    时间复杂度O(n),空间复杂度O(n):两个堆的空间复杂度为O(n/2),计数器占用空间O(1)
 
 
 #  1.python使用heapq包的办法(heapq只能实现小顶堆，所以在实现大顶堆时需要绕个圈圈)
@@ -123,100 +124,78 @@ class Solution2(object):
             return (-self.max_heap[0] + self.min_heap[0]) / 2.0
 
 
-# 2.纯手写实现：
+# 2.纯手写实现：(暂时没整明白)
 class Solution3(object):
-
     def __init__(self):
-        self.minNums = []
-        self.maxNums = []
-
-    def maxHeapInsert(self, num):
-        self.maxNums.append(num)
-        lens = len(self.maxNums)
-        i = lens - 1
-        while i > 0:
-            if self.maxNums[int(i)] > self.maxNums[int((i - 1) / 2)]:
-                t = self.maxNums[int((i - 1) / 2)]
-                self.maxNums[int((i - 1) / 2)] = self.maxNums[int(i)]
-                self.maxNums[i] = t
-                i = (i - 1) / 2
-            else:
-                break
-
-    def maxHeapPop(self):
-        t = self.maxNums[0]
-        self.maxNums[0] = self.maxNums[-1]
-        self.maxNums.pop()
-        lens = len(self.maxNums)
-        i = 0
-        while 2 * i + 1 < lens:
-            nexti = 2 * i + 1
-            if (nexti + 1 < lens) and self.maxNums[nexti + 1] > self.maxNums[nexti]:
-                nexti += 1
-            if self.maxNums[nexti] > self.maxNums[i]:
-                tmp = self.maxNums[i]
-                self.maxNums[i] = self.maxNums[nexti]
-                self.maxNums[nexti] = tmp
-                i = nexti
-            else:
-                break
-        return t
-
-    def minHeapInsert(self, num):
-        self.minNums.append(num)
-        lens = len(self.minNums)
-        i = lens - 1
-        while i > 0:
-            if self.minNums[int(i)] < self.minNums[int((i - 1) / 2)]:
-                t = self.minNums[int((i - 1) / 2)]
-                self.minNums[int((i - 1) / 2)] = self.minNums[int(i)]
-                self.minNums[i] = t
-                i = (i - 1) / 2
-            else:
-                break
-
-    def minHeapPop(self):
-        t = self.minNums[0]
-        self.minNums[0] = self.minNums[-1]
-        self.minNums.pop()
-        lens = len(self.minNums)
-        i = 0
-        while 2 * i + 1 < lens:
-            nexti = 2 * i + 1
-            if (nexti + 1 < lens) and self.minNums[nexti + 1] < self.minNums[nexti]:
-                nexti += 1
-            if self.minNums[nexti] < self.minNums[i]:
-                tmp = self.minNums[i]
-                self.minNums[i] = self.minNums[nexti]
-                self.minNums[nexti] = tmp
-                i = nexti
-            else:
-                break
-        return t
+        self.left = []
+        self.right = []
+        self.count = 0
 
     def Insert(self, num):
-        if (len(self.minNums) + len(self.maxNums)) & 1 == 0:
-            if len(self.maxNums) > 0 and num < self.maxNums[0]:
-                self.maxHeapInsert(num)
-                num = self.maxHeapPop()
-            self.minHeapInsert(num)
+        if self.count & 1 == 0:
+            self.left.append(num)
         else:
-            if len(self.minNums) > 0 and num > self.minNums[0]:
-                self.minHeapInsert(num)
-                num = self.minHeapPop()
-            self.maxHeapInsert(num)
+            self.right.append(num)
+        self.count += 1
 
-    def GetMedian(self):  # 牛客上需要加一个变量 def GetMedian(self,n = None)这样，我也不知道为啥
-        allLen = len(self.minNums) + len(self.maxNums)
-        if allLen == 0:
-            return -1
-        if allLen & 1 == 1:
-            return self.minNums[0]
+    def GetMedian(self):
+        if self.count == 1:
+            return self.left[0]
+        self.MaxHeap(self.left)
+        self.MinHeap(self.right)
+        if self.left[0] > self.right[0]:
+            self.left[0], self.right[0] = self.right[0], self.left[0]
+        self.MaxHeap(self.left)
+        self.MinHeap(self.right)
+        if self.count & 1 == 0:
+            return (self.left[0] + self.right[0]) / 2.0
         else:
-            return (self.maxNums[0] + self.minNums[0] + 0.0) / 2
+            return self.left[0]
+
+    def MaxHeap(self, alist):
+        length = len(alist)
+        if alist is None or length <= 0:
+            return
+        if length == 1:
+            return alist
+        for i in range(length // 2 - 1, -1, -1):
+            k = i
+            temp = alist[k]
+            heap = False
+            while not heap and 2 * k < length - 1:
+                index = 2 * k + 1
+                if index < length - 1:
+                    if alist[index] < alist[index + 1]: index += 1
+                if temp >= alist[index]:
+                    heap = True
+                else:
+                    alist[k] = alist[index]
+                    k = index
+            alist[k] = temp
+
+    def MinHeap(self, alist):
+        length = len(alist)
+        if alist is None or length <= 0:
+            return
+        if length == 1:
+            return alist
+        for i in range(length // 2 - 1, -1, -1):
+            k = i
+            temp = alist[k]
+            heap = False
+            while not heap and 2 * k < length - 1:
+                index = 2 * k + 1
+                if index < length - 1:
+                    if alist[index] > alist[index + 1]: index += 1
+                if temp <= alist[index]:
+                    heap = True
+                else:
+                    alist[k] = alist[index]
+                    k = index
+            alist[k] = temp
 
 
-s = Solution2()
+s = Solution3()
 s.Insert(5)
 print(s.GetMedian())
 s.Insert(2)

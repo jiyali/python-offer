@@ -13,7 +13,7 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/offer$33_02.coverage" NAME="33_02二叉搜索树的前序遍历序列 Coverage Results" MODIFIED="1570605183313" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/python_target_offer$41_.coverage" NAME="41_数据流中的中位数 Coverage Results" MODIFIED="1571191262772" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/python_target_offer$41_.coverage" NAME="41_数据流中的中位数 Coverage Results" MODIFIED="1571192951914" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/offer$04_.coverage" NAME="04_二维数组中的查找 Coverage Results" MODIFIED="1569390166838" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/offer$10_03n.coverage" NAME="10_03青蛙跳台阶每次n种方法 Coverage Results" MODIFIED="1569241075456" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/offer$11_02.coverage" NAME="11_02旋转数组的最小数字 Coverage Results" MODIFIED="1569290811544" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -115,8 +115,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/41_数据流中的中位数.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="301">
-              <caret line="95" column="57" lean-forward="true" selection-start-line="95" selection-start-column="57" selection-end-line="95" selection-end-column="57" />
+            <state relative-caret-position="312">
+              <caret line="126" column="17" selection-start-line="126" selection-start-column="17" selection-end-line="126" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -191,10 +191,9 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="696" />
-    <option name="y" value="130" />
+    <option name="x" value="427" />
     <option name="width" value="1297" />
-    <option name="height" value="1038" />
+    <option name="height" value="1047" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -391,21 +390,7 @@
       <workItem from="1570879100565" duration="31000" />
       <workItem from="1570879163451" duration="16607000" />
       <workItem from="1571012811978" duration="28177000" />
-      <workItem from="1571099633963" duration="12013000" />
-    </task>
-    <task id="LOCAL-00071" summary="添加新题解">
-      <created>1570518689684</created>
-      <option name="number" value="00071" />
-      <option name="presentableId" value="LOCAL-00071" />
-      <option name="project" value="LOCAL" />
-      <updated>1570518689684</updated>
-    </task>
-    <task id="LOCAL-00072" summary="添加新题解">
-      <created>1570519644811</created>
-      <option name="number" value="00072" />
-      <option name="presentableId" value="LOCAL-00072" />
-      <option name="project" value="LOCAL" />
-      <updated>1570519644811</updated>
+      <workItem from="1571099633963" duration="13734000" />
     </task>
     <task id="LOCAL-00073" summary="添加新题解">
       <created>1570523016032</created>
@@ -736,14 +721,28 @@
       <option name="project" value="LOCAL" />
       <updated>1571104690503</updated>
     </task>
-    <option name="localTasksCounter" value="120" />
+    <task id="LOCAL-00120" summary="添加新题解">
+      <created>1571192024493</created>
+      <option name="number" value="00120" />
+      <option name="presentableId" value="LOCAL-00120" />
+      <option name="project" value="LOCAL" />
+      <updated>1571192024493</updated>
+    </task>
+    <task id="LOCAL-00121" summary="添加新题解">
+      <created>1571192370717</created>
+      <option name="number" value="00121" />
+      <option name="presentableId" value="LOCAL-00121" />
+      <option name="project" value="LOCAL" />
+      <updated>1571192370717</updated>
+    </task>
+    <option name="localTasksCounter" value="122" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="366159000" />
+    <option name="totallyTimeSpent" value="367880000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="696" y="130" width="1297" height="1038" extended-state="0" />
+    <frame x="427" y="0" width="1297" height="1047" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15925626" />
@@ -751,7 +750,7 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4988345" visible="true" weight="0.4800885" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4988345" visible="true" weight="0.19386637" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.33490565" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -1133,8 +1132,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/41_数据流中的中位数.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="301">
-          <caret line="95" column="57" lean-forward="true" selection-start-line="95" selection-start-column="57" selection-end-line="95" selection-end-column="57" />
+        <state relative-caret-position="312">
+          <caret line="126" column="17" selection-start-line="126" selection-start-column="17" selection-end-line="126" selection-end-column="17" />
         </state>
       </provider>
     </entry>
