@@ -20,28 +20,6 @@ class Solution(object):
         return count
 
 
-class Solution1(object):
-    def NumberOf1Between1AndN_Solution(self, n):
-        if n <= 0:
-            return 0
-        s = str(n)
-        res = 0
-        for i in range(len(s)):
-            leftbit = s[:i]
-            curbit = s[i]
-            rightbit = s[i+1:]
-            leftnum = int(leftbit) if len(leftbit) != 0 else 0
-            rightnum = int(rightbit) if len(rightbit) != 0 else 0
-            curnum = int(curbit)
-            if curnum == 1:
-                res += leftnum * (10 ** len(rightbit)) + rightnum+1
-            elif curnum == 0:
-                res += leftnum * (10 ** len(rightbit))
-            else:
-                res += (leftnum+1) * (10 ** len(rightbit))
-        return res
-
-
 # 思路二：找规律，
 #     如果十位上的数是0，比如101，则十位上可能出现1的情况为10~19.
 #                       最后结果为 高位数*位数  这个规律可以用n//(i*10)*i公式来表示。
@@ -49,7 +27,25 @@ class Solution1(object):
 #                       最后结果为 高位数*位数+低位数+1
 #     如果十位上的数大于1，那么十位上为1的所有的数都是符合要求的，这时候最后1的数量要加10，比如120，除了满足110的条件之外，还有11~19共十个数也满足条件。
 #                       最后结果为 高位数*位数+位数
+class Solution1(object):
+    def NumberOf1Between1AndN_Solution(self, n):
+        count = 0
+        s = str(n)
+        length = len(s)
+        for idx, i in enumerate(s):
+            place = length - idx  # 当前位数（个位是1，十位是2……）
+            pre = n // (10 ** place)  # 当前位数的高位数字
+            aft = n % (10 ** (place - 1))  # 当前位数的低位数字
+            if i == '0':
+                count += pre * 10 ** (place - 1)
+            elif i == '1':
+                count += pre * 10 ** (place - 1) + aft + 1
+            else:
+                count += pre * 10 ** (place - 1) + 10 ** (place - 1)
+        return count
 
+
+# 上述思想简化之后：
 class Solution2(object):
     def NumberOf1Between1AndN_Solution(self, n):
         count = 0
@@ -61,6 +57,5 @@ class Solution2(object):
         return count
 
 
-s = Solution1()
+s = Solution2()
 print(s.NumberOf1Between1AndN_Solution(10))
-print(1//10)
