@@ -17,7 +17,7 @@ class Solution(object):
         return int(str(i)[-1 - (total_len - n)])
 
 
-# 数字规律： 1~9有9个数，10~99有20*9个数，100~999有300*9个数，1000-9999有4000*9个数字
+# 数字规律： 1~9有9个数，10~99有2*10*9个数，100~999有3*100*9个数，1000-9999有4*1000*9个数字
 class Solution1(object):
     def findNthDigit(self, n):
         if n < 0:
@@ -28,22 +28,20 @@ class Solution1(object):
         i = 0
         total_len = 0
 
+        # 确定结果所在的数字位数
         while total_len < n:
             i += 1
             total_len += i * (9 * 10 ** (i-1))
 
-        start_len = n - total_len + i * (9 * 10 ** (i-1))  # 区间开始值
+        # 确定n所在的是第i位的第几个位置
+        state = n - total_len + i * (9 * 10 ** (i-1))
 
-        k_num = (start_len - 1) / i
-        k_end = (start_len - 1) % i
+        k_num = (state - 1) / i  # 属于i位数的哪个数
+        k_end = (state - 1) % i  # 属于i位数的第几位
 
         num = 10 ** (i - 1) + k_num
 
         return int(str(num)[k_end])
-
-
-
-
 
 
 s = Solution()
