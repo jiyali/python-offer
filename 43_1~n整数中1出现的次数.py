@@ -33,6 +33,7 @@ class Solution1(object):
         s = str(n)
         length = len(s)
         for idx, i in enumerate(s):
+            # enumerate() 函数用于将一个可遍历的数据对象(如列表、元组或字符串)组合为一个索引序列，同时列出数据和数据下标
             place = length - idx  # 当前位数（个位是1，十位是2……）
             pre = n // (10 ** place)  # 当前位数的高位数字
             aft = n % (10 ** (place - 1))  # 当前位数的低位数字
