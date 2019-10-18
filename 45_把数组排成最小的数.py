@@ -61,5 +61,36 @@ class Solution1(object):
         return ''.join(strList)
 
 
-s = Solution1()
+# 如果不借助包的话
+class Solution2(object):
+    def PrintMinNumber(self, numbers):
+        # write code here
+        if numbers is None or len(numbers) == 0:
+            return ''
+
+        strlist = []
+        for i in numbers:
+            strlist.append(str(i))
+
+        res = self.sort(strlist)
+
+        return ''.join(res)
+
+    def sort(self, numbers):
+        if len(numbers) == 0 or len(numbers) == 1:
+            return numbers
+
+        temp = numbers[0]
+        a = []
+        b = []
+
+        for i in range(1, len(numbers)):
+            if temp + numbers[i] > numbers[i] + temp:
+                a.append(numbers[i])
+            else:
+                b.append(numbers[i])
+        return self.sort(a) + [temp] + self.sort(b)
+
+
+s = Solution2()
 print(s.PrintMinNumber([3, 32, 321]))

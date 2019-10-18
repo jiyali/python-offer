@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3a8d48e4-62b6-4d4b-aedb-51dd4e787cc5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/46_把数字翻译成字符串.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/45_把数组排成最小的数.py" beforeDir="false" afterPath="$PROJECT_DIR$/45_把数组排成最小的数.py" afterDir="false" />
     </list>
@@ -73,7 +74,7 @@
     <SUITE FILE_PATH="coverage/offer$20_.coverage" NAME="20_表示数值的字符串 Coverage Results" MODIFIED="1569592653043" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/offer$33_.coverage" NAME="33_二叉搜索树的后序遍历序列 Coverage Results" MODIFIED="1570601733061" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/offer$14_.coverage" NAME="14_剪绳子 Coverage Results" MODIFIED="1569331795482" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/python_target_offer$45_.coverage" NAME="45_把数组排成最小的数 Coverage Results" MODIFIED="1571381400995" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/python_target_offer$45_.coverage" NAME="45_把数组排成最小的数 Coverage Results" MODIFIED="1571384613574" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/offer$27_.coverage" NAME="27_二叉树的镜像 Coverage Results" MODIFIED="1570503497655" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/offer$35_02__.coverage" NAME="35_02复杂链表的复制(哈希表) Coverage Results" MODIFIED="1570624492091" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/python_target_offer$11_01.coverage" NAME="11_01快速排序 Coverage Results" MODIFIED="1571022423978" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -110,17 +111,17 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/45_把数组排成最小的数.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="141">
-              <caret line="17" column="55" selection-start-line="17" selection-start-column="55" selection-end-line="17" selection-end-column="55" />
+            <state relative-caret-position="236">
+              <caret line="83" column="14" lean-forward="true" selection-start-line="83" selection-start-column="14" selection-end-line="83" selection-end-column="14" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/38_01字符串的排列.py">
+        <entry file="file://$PROJECT_DIR$/46_把数字翻译成字符串.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="17" column="23" lean-forward="true" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
+            <state>
+              <caret column="5" lean-forward="true" selection-start-column="5" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -140,7 +141,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/17_02实现任意两个数字的加法.py" />
         <option value="$PROJECT_DIR$/18_删除链表的节点.py" />
         <option value="$PROJECT_DIR$/18_01删除链表的节点.py" />
         <option value="$PROJECT_DIR$/18_02删除链表中重复的节点.py" />
@@ -190,6 +190,7 @@
         <option value="$PROJECT_DIR$/42_连续子数组的最大和.py" />
         <option value="$PROJECT_DIR$/43_1~n整数中1出现的次数.py" />
         <option value="$PROJECT_DIR$/44_数字序列中某一位的数字.py" />
+        <option value="$PROJECT_DIR$/46_把数字翻译成字符串.py" />
         <option value="$PROJECT_DIR$/45_把数组排成最小的数.py" />
       </list>
     </option>
@@ -398,21 +399,7 @@
       <workItem from="1571099633963" duration="29677000" />
       <workItem from="1571229358363" duration="29000" />
       <workItem from="1571273155863" duration="17692000" />
-      <workItem from="1571362591809" duration="10934000" />
-    </task>
-    <task id="LOCAL-00085" summary="添加新题解">
-      <created>1570602315511</created>
-      <option name="number" value="00085" />
-      <option name="presentableId" value="LOCAL-00085" />
-      <option name="project" value="LOCAL" />
-      <updated>1570602315511</updated>
-    </task>
-    <task id="LOCAL-00086" summary="添加新题解">
-      <created>1570602736281</created>
-      <option name="number" value="00086" />
-      <option name="presentableId" value="LOCAL-00086" />
-      <option name="project" value="LOCAL" />
-      <updated>1570602736281</updated>
+      <workItem from="1571362591809" duration="14934000" />
     </task>
     <task id="LOCAL-00087" summary="添加新题解">
       <created>1570605190851</created>
@@ -743,11 +730,25 @@
       <option name="project" value="LOCAL" />
       <updated>1571378474101</updated>
     </task>
-    <option name="localTasksCounter" value="134" />
+    <task id="LOCAL-00134" summary="添加新题解">
+      <created>1571381561807</created>
+      <option name="number" value="00134" />
+      <option name="presentableId" value="LOCAL-00134" />
+      <option name="project" value="LOCAL" />
+      <updated>1571381561807</updated>
+    </task>
+    <task id="LOCAL-00135" summary="添加新题解">
+      <created>1571383794435</created>
+      <option name="number" value="00135" />
+      <option name="presentableId" value="LOCAL-00135" />
+      <option name="project" value="LOCAL" />
+      <updated>1571383794435</updated>
+    </task>
+    <option name="localTasksCounter" value="136" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="412478000" />
+    <option name="totallyTimeSpent" value="416478000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="822" y="139" width="1062" height="987" extended-state="0" />
@@ -810,13 +811,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="添加新题解" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/06_01逆序打印链表.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" column="14" lean-forward="true" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/06_02逆序打印链表.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
@@ -1150,10 +1144,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/46_把数字翻译成字符串.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="5" lean-forward="true" selection-start-column="5" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/45_把数组排成最小的数.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="141">
-          <caret line="17" column="55" selection-start-line="17" selection-start-column="55" selection-end-line="17" selection-end-column="55" />
+        <state relative-caret-position="236">
+          <caret line="83" column="14" lean-forward="true" selection-start-line="83" selection-start-column="14" selection-end-line="83" selection-end-column="14" />
         </state>
       </provider>
     </entry>
