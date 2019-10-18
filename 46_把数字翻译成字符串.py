@@ -17,9 +17,9 @@ class Solution(object):
             cur = means[i - 1]
 
             if 9 < int(s[i - 1:i + 1]) < 26:  # 9 < s[i-1] 和 s[i] 组成的数 < 26
-                if i - 2 < 0:
+                if i - 2 < 0:  # 两位数字只能累加1 比如11~25
                     cur += 1
-                else:
+                else:  # 三位以上开始累加之前位数所有的可能性
                     cur += means[i - 2]
             means[i] = cur
 
