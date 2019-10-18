@@ -37,7 +37,7 @@ class Solution1(object):
         state = n - total_len + i * (9 * 10 ** (i-1))
 
         k_num = (state - 1) / i  # 属于i位数的哪个数
-        k_end = (state - 1) % i  # 属于i位数的第几位
+        k_end = (state - 1) % i  # 属于i位数的这个数的第几位
 
         num = 10 ** (i - 1) + k_num
 
