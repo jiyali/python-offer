@@ -2,7 +2,7 @@
 #      例如输入数组{3，32，321}，则打印出这三个数字能排成的最小数字为321323。
 
 
-# 常规做法就是先排列组合，再比较大小，输出比较小的那个数字
+# 常规做法就是先对输入数组排列组合，把每组数字拼起来，再比较大小，输出比较小的那个数字
 class Solution(object):
     def PrintMinNumber(self, numbers):
         if numbers is None or len(numbers) == 0:
@@ -19,6 +19,7 @@ class Solution(object):
 
         return min(tmp)
 
+    # 对数组进行全排列
     def Permutation(self, nums):
         if len(nums) == 0:
             return []
@@ -38,6 +39,9 @@ class Solution(object):
         backtrack(nums, [])
         return res
 
+
+class Solution1(object):
+    def
 
 s = Solution()
 print(s.PrintMinNumber([3, 32, 321]))
