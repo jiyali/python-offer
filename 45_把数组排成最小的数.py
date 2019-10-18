@@ -14,7 +14,8 @@ class Solution(object):
         for i in range(len(alist)):
             s = ''
             for j in range(len(alist[0])):
-                s += str((alist[i][j]))
+                s += str(alist[i][j])
+                # s = ''.join(str(n) for n in alist[i])
             tmp.append(s)
 
         return min(tmp)
@@ -40,8 +41,7 @@ class Solution(object):
         return res
 
 
-class Solution1(object):
-    def
+
 
 s = Solution()
 print(s.PrintMinNumber([3, 32, 321]))
