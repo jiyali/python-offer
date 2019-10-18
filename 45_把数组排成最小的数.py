@@ -41,7 +41,25 @@ class Solution(object):
         return res
 
 
+# 第二种方法：将数组中的每一个数字转换成字符串，将他们拼起来，如果字符串a+字符串b组成的数字大于字符串b+字符串a的数字的话，选择较小的拼接方式
+from functools import cmp_to_key
 
 
-s = Solution()
+class Solution1(object):
+    def PrintMinNumber(self, numbers):
+        if numbers is None or len(numbers) == 0:
+            return ''
+        # 直接拼接数字，可能导致数值溢出，这是一个隐形的大数问题，需要把数字转换成字符串
+        strList = []
+        for i in numbers:
+            strList.append(str(i))
+
+        # 比较 x+y 和 x-y 的大小, 因为为str型, 需要先转换成int型
+        key = cmp_to_key(lambda x, y: int(x + y) - int(y + x))
+        strList.sort(key=key)
+
+        return ''.join(strList)
+
+
+s = Solution1()
 print(s.PrintMinNumber([3, 32, 321]))
