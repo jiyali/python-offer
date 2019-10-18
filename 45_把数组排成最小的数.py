@@ -19,7 +19,6 @@ class Solution(object):
 
         return min(tmp)
 
-
     def Permutation(self, nums):
         if len(nums) == 0:
             return []
