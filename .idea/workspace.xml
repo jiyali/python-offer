@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="3a8d48e4-62b6-4d4b-aedb-51dd4e787cc5" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/47_礼物的最大价值.py" beforeDir="false" afterPath="$PROJECT_DIR$/47_礼物的最大价值.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -134,7 +133,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/695_岛屿的最大面积.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="57">
+            <state relative-caret-position="285">
               <caret line="15" column="11" lean-forward="true" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="11" />
             </state>
           </provider>
@@ -143,8 +142,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/47_礼物的最大价值.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="16">
-              <caret line="10" column="8" selection-start-line="10" selection-start-column="8" selection-end-line="32" selection-end-column="22" />
+            <state relative-caret-position="437">
+              <caret line="23" column="24" lean-forward="true" selection-start-line="23" selection-start-column="24" selection-end-line="23" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -422,21 +421,7 @@
       <workItem from="1571229358363" duration="29000" />
       <workItem from="1571273155863" duration="17692000" />
       <workItem from="1571362591809" duration="31003000" />
-      <workItem from="1571450577544" duration="4752000" />
-    </task>
-    <task id="LOCAL-00091" summary="添加新题解">
-      <created>1570624502250</created>
-      <option name="number" value="00091" />
-      <option name="presentableId" value="LOCAL-00091" />
-      <option name="project" value="LOCAL" />
-      <updated>1570624502250</updated>
-    </task>
-    <task id="LOCAL-00092" summary="添加新题解">
-      <created>1570624568817</created>
-      <option name="number" value="00092" />
-      <option name="presentableId" value="LOCAL-00092" />
-      <option name="project" value="LOCAL" />
-      <updated>1570624568817</updated>
+      <workItem from="1571450577544" duration="5187000" />
     </task>
     <task id="LOCAL-00093" summary="添加新题解">
       <created>1570676179561</created>
@@ -767,17 +752,31 @@
       <option name="project" value="LOCAL" />
       <updated>1571406426890</updated>
     </task>
-    <option name="localTasksCounter" value="140" />
+    <task id="LOCAL-00140" summary="添加新题解">
+      <created>1571455355017</created>
+      <option name="number" value="00140" />
+      <option name="presentableId" value="LOCAL-00140" />
+      <option name="project" value="LOCAL" />
+      <updated>1571455355018</updated>
+    </task>
+    <task id="LOCAL-00141" summary="添加新题解">
+      <created>1571455540193</created>
+      <option name="number" value="00141" />
+      <option name="presentableId" value="LOCAL-00141" />
+      <option name="project" value="LOCAL" />
+      <updated>1571455540193</updated>
+    </task>
+    <option name="localTasksCounter" value="142" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="437299000" />
+    <option name="totallyTimeSpent" value="437734000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="910" y="0" width="1011" height="1028" extended-state="0" />
+    <frame x="743" y="0" width="1178" height="1028" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15667719" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1332737" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -1169,15 +1168,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/695_岛屿的最大面积.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
+        <state relative-caret-position="285">
           <caret line="15" column="11" lean-forward="true" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="11" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/47_礼物的最大价值.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="16">
-          <caret line="10" column="8" selection-start-line="10" selection-start-column="8" selection-end-line="32" selection-end-column="22" />
+        <state relative-caret-position="437">
+          <caret line="23" column="24" lean-forward="true" selection-start-line="23" selection-start-column="24" selection-end-line="23" selection-end-column="24" />
         </state>
       </provider>
     </entry>
