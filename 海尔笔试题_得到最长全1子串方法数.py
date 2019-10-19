@@ -1,7 +1,9 @@
 # 题目：给定一个二进制字符串和整数 K。求得到由 1 组成的最长连续子段的不同方法数目。
 #
-# 返回仅包含 1 的最长（连续）子数组的长度
+
+
 class Solution:
+    # 返回仅包含 1 的最长（连续）子数组的长度
     def getMaxOnes(self, size, allowedChanges, str):
         n = size
         k = allowedChanges
@@ -16,6 +18,7 @@ class Solution:
             res = r - l + 1
         return res
 
+    # 依次得到最长长度的子串以及是否满足条件可以变成全1子串，返回整个字符串
     def Ways(self, size, allowedChanges, str):
         n = size
         k = allowedChanges
@@ -69,6 +72,7 @@ class Solution:
             right += 1
         return a
 
+    # 判断是否重复
     def CountWanys(self, size, allowedChanges, str1):
         n = size
         k = allowedChanges
