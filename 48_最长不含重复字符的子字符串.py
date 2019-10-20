@@ -38,7 +38,7 @@ class Solution1(object):
         for i in range(len(s)):
             if s[i] in dict and dict[s[i]] >= start:
                 start = dict[s[i]]+1
-            dict[s[i]] = i
+            dict[s[i]] = i  # 修改字典
             cur_len = i - start + 1
             if cur_len > max_len:
                 max_len = cur_len
