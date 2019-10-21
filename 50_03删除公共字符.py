@@ -8,12 +8,10 @@ class Solution(object):
         s2 = input()
 
         tmp = []
-        ans = []
         for i in s1:
             if i not in s2:
                 tmp.append(i)
-        ans.append(''.join(tmp))
 
-        return ' '.join(ans)
+        print(''.join(tmp))
 
 
