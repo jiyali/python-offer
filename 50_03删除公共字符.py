@@ -7,12 +7,13 @@ class Solution(object):
         s1 = input()
         s2 = input()
 
-        for i in s2:
-            s1 = s1.replace(i, '')
-        return s1
+        tmp = []
+        ans = []
+        for i in s1:
+            if i not in s2:
+                tmp.append(i)
+        ans.append(''.join(tmp))
 
-
-s = Solution()
-print(s.DeleCommonChar("They are students.", "aeiou"))
+        return ' '.join(ans)
 
 
