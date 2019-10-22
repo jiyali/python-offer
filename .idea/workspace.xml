@@ -4,10 +4,7 @@
     <bookmark url="file://$PROJECT_DIR$/695_岛屿的最大面积.py" line="10" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3a8d48e4-62b6-4d4b-aedb-51dd4e787cc5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/52_两个链表的第一个公共节点.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="3a8d48e4-62b6-4d4b-aedb-51dd4e787cc5" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -180,8 +177,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/52_两个链表的第一个公共节点.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="173">
-              <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+            <state relative-caret-position="418">
+              <caret line="34" column="35" lean-forward="true" selection-start-line="34" selection-start-column="35" selection-end-line="34" selection-end-column="35" />
             </state>
           </provider>
         </entry>
@@ -480,28 +477,7 @@
       <workItem from="1571362591809" duration="31003000" />
       <workItem from="1571450577544" duration="34532000" />
       <workItem from="1571618300773" duration="23160000" />
-      <workItem from="1571704734985" duration="14632000" />
-    </task>
-    <task id="LOCAL-00114" summary="添加新题解">
-      <created>1571058583554</created>
-      <option name="number" value="00114" />
-      <option name="presentableId" value="LOCAL-00114" />
-      <option name="project" value="LOCAL" />
-      <updated>1571058583554</updated>
-    </task>
-    <task id="LOCAL-00115" summary="添加新题解">
-      <created>1571058965189</created>
-      <option name="number" value="00115" />
-      <option name="presentableId" value="LOCAL-00115" />
-      <option name="project" value="LOCAL" />
-      <updated>1571058965189</updated>
-    </task>
-    <task id="LOCAL-00116" summary="添加新题解">
-      <created>1571060655595</created>
-      <option name="number" value="00116" />
-      <option name="presentableId" value="LOCAL-00116" />
-      <option name="project" value="LOCAL" />
-      <updated>1571060655595</updated>
+      <workItem from="1571704734985" duration="15452000" />
     </task>
     <task id="LOCAL-00117" summary="添加新题解">
       <created>1571061652590</created>
@@ -825,11 +801,32 @@
       <option name="project" value="LOCAL" />
       <updated>1571722644778</updated>
     </task>
-    <option name="localTasksCounter" value="163" />
+    <task id="LOCAL-00163" summary="添加新题解">
+      <created>1571728681520</created>
+      <option name="number" value="00163" />
+      <option name="presentableId" value="LOCAL-00163" />
+      <option name="project" value="LOCAL" />
+      <updated>1571728681520</updated>
+    </task>
+    <task id="LOCAL-00164" summary="添加新题解">
+      <created>1571728688737</created>
+      <option name="number" value="00164" />
+      <option name="presentableId" value="LOCAL-00164" />
+      <option name="project" value="LOCAL" />
+      <updated>1571728688737</updated>
+    </task>
+    <task id="LOCAL-00165" summary="添加新题解">
+      <created>1571728709983</created>
+      <option name="number" value="00165" />
+      <option name="presentableId" value="LOCAL-00165" />
+      <option name="project" value="LOCAL" />
+      <updated>1571728709983</updated>
+    </task>
+    <option name="localTasksCounter" value="166" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="504871000" />
+    <option name="totallyTimeSpent" value="505691000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="795" y="12" width="1060" height="1088" extended-state="0" />
@@ -1234,8 +1231,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/52_两个链表的第一个公共节点.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="173">
-          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+        <state relative-caret-position="418">
+          <caret line="34" column="35" lean-forward="true" selection-start-line="34" selection-start-column="35" selection-end-line="34" selection-end-column="35" />
         </state>
       </provider>
     </entry>
