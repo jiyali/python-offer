@@ -18,9 +18,10 @@ class Solution(object):
 
 # 归并排序，时间复杂度O(nlogn)
 class Solution1(object):
-    def InversePairs(self, data):
-        # return 24903408 if data[0]==26819 else 493330277 if data[0]==627126 else 988418660 if data[0]==74073 else 2519
+    def __init__(self):
         self.res = 0
+
+    def InversePairs(self, data):
         self.merge_sort(data)
         return self.res % 1000000007
 
