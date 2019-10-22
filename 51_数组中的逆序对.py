@@ -113,7 +113,7 @@ class Solution2(object):
         return data
 
 
-# 根据数据的index
+# 根据数据的index，牛客通过50%
 class Solution3(object):
     def InversePairs(self, data):
         if len(data) <= 0:
