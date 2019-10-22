@@ -32,7 +32,6 @@ class Solution(object):
         pFirstCommonNode = pListHeadLong
         return pFirstCommonNode
 
-
     def GetListLength(self, pHead):
         nlength = 0
         while pHead is not None:
