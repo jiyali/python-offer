@@ -11,30 +11,32 @@ class ListNode(object):
 
 class Solution(object):
     def FindFirstCommonNode(self, pHead1, pHead2):
-        nlength1 = self.GetListLength(pHead1)
-        nlength2 = self.GetListLength(pHead2)
-        nlegthDiff = abs(nlength1 - nlength2)
+        # write code here
+        length1 = self.GetListNodeLength(pHead1)
+        length2 = self.GetListNodeLength(pHead2)
+        lengthDiff = abs(length1 - length2)
 
-        if nlength1 > nlength2:
-            pListHeadLong = pHead1
-            pListHeadShort = pHead2
+        if length1 > length2:
+            pHeadLong = pHead1
+            pHeadShort = pHead2
         else:
-            pListHeadLong = pHead2
-            pListHeadShort = pHead1
+            pHeadLong = pHead2
+            pHeadShort = pHead1
 
-        for i in range(nlegthDiff):
-            pListHeadLong = pListHeadLong.next
+        for i in range(lengthDiff):
+            pHeadLong = pHeadLong.next
 
-        while pListHeadLong is not None and pListHeadShort is not None and pListHeadShort != pListHeadLong:
-            pListHeadShort = pListHeadShort.next
-            pListHeadLong = pListHeadLong.next
+        while pHeadLong is not None and pHeadShort is not None and pHeadLong != pHeadShort:
+            pHeadLong = pHeadLong.next
+            pHeadShort = pHeadShort.next
 
-        pFirstCommonNode = pListHeadLong
-        return pFirstCommonNode
+        return pHeadLong
 
-    def GetListLength(self, pHead):
-        nlength = 0
+    def GetListNodeLength(self, pHead):
+        length = 0
+
         while pHead is not None:
             pHead = pHead.next
-            nlength += 1
-        return nlength
+            length += 1
+
+        return length
