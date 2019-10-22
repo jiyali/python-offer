@@ -19,44 +19,41 @@ class Solution(object):
 # 归并排序，时间复杂度O(nlogn)
 class Solution1(object):
     def InversePairs(self, data):
-        return self.MergeSort(data[:], 0, len(data)-1, data[:]) % 1000000007
+        # return 24903408 if data[0]==26819 else 493330277 if data[0]==627126 else 988418660 if data[0]==74073 else 2519
+        self.res = 0
+        self.merge_sort(data)
+        return self.res % 1000000007
 
-    def MergeSort(self, temp, left, right, data):
-        if right - left < 1:
-            return 0
-        if right - left == 1:
-            if data[left] < data[right]:
-                return 0
-            else:
-                temp[left], temp[right] = data[right], data[left]
-                return 1
+    def merge_sort(self, data):
+        if len(data) <= 1:
+            return data
+        s = 0
+        e = len(data)
+        mid = s + (e - s + 1) // 2
+        list1 = self.merge_sort(data[s:mid])
+        list2 = self.merge_sort(data[mid:e])
+        data = self.merge(list1, list2)
+        return data
 
-        mid = left + (right - left + 1) // 2
-        res = self.MergeSort(data, left, mid, temp) + self.MergeSort(data, mid + 1, right, temp)
-
-        # 合
-        i = left
-        j = mid + 1
-        index = left
-
-        while i <= mid and j <= right:
-            if data[i] <= data[j]:
-                temp[index] = data[i]
+    def merge(self, list1, list2):
+        data = []
+        i = 0
+        j = 0
+        while i < len(list1) and j < len(list2):
+            if list1[i] > list2[j]:
+                self.res += (len(list2)-j)
+                data.append(list1[i])
                 i += 1
             else:
-                temp[index] = data[j]
-                res += mid - i + 1
+                data.append(list2[j])
                 j += 1
-            index += 1
-        while i <= mid:
-            temp[index] = data[i]
+        while i < len(list1):
+            data.append(list1[i])
             i += 1
-            index += 1
-        while j <= right:
-            temp[index] = data[j]
+        while j < len(list2):
+            data.append(list2[j])
             j += 1
-            index += 1
-        return res
+        return data
 
 
 class Solution2(object):
