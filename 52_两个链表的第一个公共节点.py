@@ -8,6 +8,7 @@ class ListNode(object):
         self.val = data
         self.next = None
 
+
 class Solution(object):
     def FindFirstCommonNode(self, pHead1, pHead2):
         nlength1 = self.GetListLength(pHead1)
