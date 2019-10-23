@@ -9,6 +9,7 @@ class TreeNode(object):
         self.right = None
 
 
+# 常规解法，递归遍历树，记录树的深度。然后判断左右子树的深度是否相同
 class Solution(object):
     def IsBalanced_Solution(self, pRoot):
         if pRoot is None:
