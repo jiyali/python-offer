@@ -39,7 +39,6 @@ class Solution1(object):
                 right = mid - 1
             else:
                 left = mid + 1
-
         return left
 
 
