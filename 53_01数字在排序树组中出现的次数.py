@@ -89,6 +89,6 @@ class Solution1(object):
         return self.GetLastK(data, k, left, right)
 
 
-alist = [3, 3, 3, 3, 4, 5]
+alist = [1, 2, 3, 3, 3, 3]
 s = Solution1()
 print(s.GetNumberOfK(alist, 3))
