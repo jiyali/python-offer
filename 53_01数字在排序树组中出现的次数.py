@@ -3,19 +3,21 @@
 
 
 # 常规思路：二分法查找大于等于k的第一个数字的下标和大于等于k+1的第一个数字的下标，相减
-class Solution(object):
+# -*- coding:utf-8 -*-
+class Solution:
     def GetNumberOfK(self, data, k):
+        # write code here
         if len(data) == 0:
             return 0
 
-        return self.GetFistK(data, k+1) - self.GetFistK(data, k)
+        return self.GetFirstK(data, k + 1) - self.GetFirstK(data, k)
 
-    def GetFistK(self, data, k):
+    def GetFirstK(self, data, k):
         if data[0] == k:
             return 0
 
         left = 0
-        right = len(data)-1
+        right = len(data) - 1
 
         while left < right:
             mid = left + (right - left) // 2
@@ -24,16 +26,17 @@ class Solution(object):
             else:
                 left = mid + 1
 
-        # 因为 k 有可能不存在，所以不一定符合要求，所以一定要单独判断一下
         if data[left] != k:
             if data[len(data) - 1] < k:
                 return len(data)
             elif data[0] > k:
                 return 0
-
         return left
+
+
+# 思路二：
 
 
 alist = [1, 2, 3, 3, 3, 3, 4, 5]
 s = Solution()
-print(s.GetFistK(alist, 3))
+print(s.GetNumberOfK(alist, 3))
