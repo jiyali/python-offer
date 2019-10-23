@@ -44,5 +44,5 @@ pNode2.right = pNode5
 pNode3.right = pNode6
 pNode5.left = pNode7
 
-S = Solution()
-print(S.IsBalanced_Solution(pNode1))
+s = Solution()
+print(s.IsBalanced_Solution(pNode1))
