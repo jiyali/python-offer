@@ -70,11 +70,7 @@ class Solution1(object):
         return self.GetFirstK(data, k, left, right)
 
     def GetLastK(self, data, k, left, right):
-        # if data[0] == k:
-        #     return 0
 
-        # left = 0
-        # right = len(data) - 1
         if left > right:
             return -1
 
