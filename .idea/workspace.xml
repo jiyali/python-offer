@@ -4,7 +4,13 @@
     <bookmark url="file://$PROJECT_DIR$/695_岛屿的最大面积.py" line="10" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3a8d48e4-62b6-4d4b-aedb-51dd4e787cc5" name="Default Changelist" comment="" />
+    <list default="true" id="3a8d48e4-62b6-4d4b-aedb-51dd4e787cc5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/52_02二叉搜索树两个节点的最低公共祖先.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/52_03二叉树的两个节点的最低公共祖先.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/53_01数字在排序树组中出现的次数.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/52_两个链表的第一个公共节点.py" beforeDir="false" afterPath="$PROJECT_DIR$/52_01两个链表的第一个公共节点.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,6 +50,7 @@
     <SUITE FILE_PATH="coverage/offer$07_.coverage" NAME="07_重建二叉树 Coverage Results" MODIFIED="1569141295292" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/offer$26_.coverage" NAME="26_树的子结构 Coverage Results" MODIFIED="1570502982935" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/python_target_offer$47_.coverage" NAME="47_礼物的最大价值 Coverage Results" MODIFIED="1571464066007" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/python_target_offer$2222.coverage" NAME="2222 Coverage Results" MODIFIED="1571748423578" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/offer$11_01.coverage" NAME="11_01快速排序 Coverage Results" MODIFIED="1569245993451" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/offer$13_.coverage" NAME="13_机器人的运动范围 Coverage Results" MODIFIED="1569312161169" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/offer$09_02.coverage" NAME="09_02用两个队列实现栈 Coverage Results" MODIFIED="1569208746638" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -59,8 +66,10 @@
     <SUITE FILE_PATH="coverage/offer$10_.coverage" NAME="10_斐波那契数列 Coverage Results" MODIFIED="1569227925232" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/offer$22_02.coverage" NAME="22_02求链表的中间节点 Coverage Results" MODIFIED="1569660008883" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/python_target_offer$1004_1.coverage" NAME="1004_最大连续1的个数 Coverage Results" MODIFIED="1571475221593" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/python_target_offer$52_02.coverage" NAME="52_02二叉搜索树两个节点的最低公共祖先 Coverage Results" MODIFIED="1571796054617" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/offer$06_02.coverage" NAME="06_02逆序打印链表 Coverage Results" MODIFIED="1569391038488" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/offer$21_.coverage" NAME="21_调整数组顺序使奇数位位于偶数前面 Coverage Results" MODIFIED="1569659143942" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/python_target_offer$1111.coverage" NAME="1111 Coverage Results" MODIFIED="1571745381128" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/offer$25_.coverage" NAME="25_合并两个排序的链表 Coverage Results" MODIFIED="1570501537673" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/offer$35_03_python_.coverage" NAME="35_03复杂链表的复制(python深拷贝) Coverage Results" MODIFIED="1570620969408" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/offer$38_06.coverage" NAME="38_06重复数字全排列 Coverage Results" MODIFIED="1570851699170" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -112,73 +121,60 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/49_丑数.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="532">
-              <caret line="28" column="35" selection-start-line="28" selection-start-column="35" selection-end-line="28" selection-end-column="35" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/50_01第一个只出现一次的字符.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="21" column="43" selection-start-line="21" selection-start-column="43" selection-end-line="21" selection-end-column="43" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/50_02字符流中第一个只出现依次的字符.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="18" column="27" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="27" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/50_03删除公共字符.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="17" selection-start-line="17" selection-end-line="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/50_04删除字符串中重复字符.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="38">
-              <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/50_05有效的变位词.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="11" column="42" selection-start-line="11" selection-start-column="42" selection-end-line="11" selection-end-column="42" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/51_数组中的逆序对.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="325">
-              <caret line="122" column="34" lean-forward="true" selection-start-line="122" selection-start-column="34" selection-end-line="122" selection-end-column="34" />
+            <state relative-caret-position="2318">
+              <caret line="122" column="34" selection-start-line="122" selection-start-column="34" selection-end-line="122" selection-end-column="34" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/52_01两个链表的第一个公共节点.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="247">
+              <caret line="13" column="8" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/52_03二叉树的两个节点的最低公共祖先.py">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/52_两个链表的第一个公共节点.py">
+        <entry file="file://$PROJECT_DIR$/52_02二叉搜索树两个节点的最低公共祖先.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
-              <caret line="34" column="35" lean-forward="true" selection-start-line="34" selection-start-column="35" selection-end-line="34" selection-end-column="35" />
+            <state relative-caret-position="171">
+              <caret line="9" column="38" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/53_01数字在排序树组中出现的次数.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="228">
+              <caret line="12" column="8" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/1111.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="722">
+              <caret line="38" column="20" selection-start-line="38" selection-start-column="20" selection-end-line="38" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/2222.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-51">
+              <caret line="3" column="3" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="3" />
             </state>
           </provider>
         </entry>
@@ -216,13 +212,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/27_02二叉树的镜像(循环).py" />
-        <option value="$PROJECT_DIR$/28_对称的二叉树.py" />
-        <option value="$PROJECT_DIR$/28_01对称的二叉树(递归).py" />
-        <option value="$PROJECT_DIR$/28_02对称的二叉树(前序遍历).py" />
-        <option value="$PROJECT_DIR$/29_顺时针打印矩阵.py" />
-        <option value="$PROJECT_DIR$/30_包含min函数的栈.py" />
-        <option value="$PROJECT_DIR$/31_栈的压入、弹出序列.py" />
         <option value="$PROJECT_DIR$/32_从上到下打印二叉树.py" />
         <option value="$PROJECT_DIR$/32_02分行从上到下打印二叉树.py" />
         <option value="$PROJECT_DIR$/32_03之字形打印二叉树.py" />
@@ -267,14 +256,21 @@
         <option value="$PROJECT_DIR$/50_05有效的变位词.py" />
         <option value="$PROJECT_DIR$/51_数组中的逆序对.py" />
         <option value="$PROJECT_DIR$/52_两个链表的第一个公共节点.py" />
+        <option value="$PROJECT_DIR$/52_02两个节点的最低公共祖先.py" />
+        <option value="$PROJECT_DIR$/53_在排序树组中查找数字.py" />
+        <option value="$PROJECT_DIR$/53_01数字在排序树组中出现的次数.py" />
+        <option value="$PROJECT_DIR$/3333.py" />
+        <option value="$PROJECT_DIR$/1111.py" />
+        <option value="$PROJECT_DIR$/2222.py" />
+        <option value="$PROJECT_DIR$/52_02二叉搜索树两个节点的最低公共祖先.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="795" />
-    <option name="y" value="12" />
-    <option name="width" value="1060" />
-    <option name="height" value="1088" />
+    <option name="x" value="620" />
+    <option name="y" value="34" />
+    <option name="width" value="1226" />
+    <option name="height" value="1002" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -314,8 +310,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.52_两个链表的第一个公共节点">
-    <configuration name="50_03删除公共字符" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.52_02二叉搜索树两个节点的最低公共祖先">
+    <configuration name="1111" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="剑指offer" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -328,7 +324,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/50_03删除公共字符.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/1111.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -337,7 +333,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="50_04删除字符串中重复字符" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="2222" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="剑指offer" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -350,29 +346,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/50_04删除字符串中重复字符.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="50_05有效的变位词" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="剑指offer" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/50_05有效的变位词.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/2222.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -416,7 +390,29 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/52_两个链表的第一个公共节点.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\Administrator\Desktop\python-target-offer\52_01两个链表的第一个公共节点.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="52_02二叉搜索树两个节点的最低公共祖先" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="剑指offer" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/52_02二叉搜索树两个节点的最低公共祖先.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -426,19 +422,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.50_03删除公共字符" />
-      <item itemvalue="Python.50_04删除字符串中重复字符" />
-      <item itemvalue="Python.50_05有效的变位词" />
       <item itemvalue="Python.51_数组中的逆序对" />
       <item itemvalue="Python.52_两个链表的第一个公共节点" />
+      <item itemvalue="Python.1111" />
+      <item itemvalue="Python.2222" />
+      <item itemvalue="Python.52_02二叉搜索树两个节点的最低公共祖先" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.52_02二叉搜索树两个节点的最低公共祖先" />
+        <item itemvalue="Python.2222" />
+        <item itemvalue="Python.1111" />
         <item itemvalue="Python.52_两个链表的第一个公共节点" />
         <item itemvalue="Python.51_数组中的逆序对" />
-        <item itemvalue="Python.50_05有效的变位词" />
-        <item itemvalue="Python.50_04删除字符串中重复字符" />
-        <item itemvalue="Python.50_03删除公共字符" />
       </list>
     </recent_temporary>
   </component>
@@ -477,21 +473,8 @@
       <workItem from="1571362591809" duration="31003000" />
       <workItem from="1571450577544" duration="34532000" />
       <workItem from="1571618300773" duration="23160000" />
-      <workItem from="1571704734985" duration="15452000" />
-    </task>
-    <task id="LOCAL-00117" summary="添加新题解">
-      <created>1571061652590</created>
-      <option name="number" value="00117" />
-      <option name="presentableId" value="LOCAL-00117" />
-      <option name="project" value="LOCAL" />
-      <updated>1571061652590</updated>
-    </task>
-    <task id="LOCAL-00118" summary="添加新题解">
-      <created>1571061712320</created>
-      <option name="number" value="00118" />
-      <option name="presentableId" value="LOCAL-00118" />
-      <option name="project" value="LOCAL" />
-      <updated>1571061712320</updated>
+      <workItem from="1571704734985" duration="25420000" />
+      <workItem from="1571790570882" duration="3115000" />
     </task>
     <task id="LOCAL-00119" summary="添加新题解">
       <created>1571104690502</created>
@@ -822,22 +805,36 @@
       <option name="project" value="LOCAL" />
       <updated>1571728709983</updated>
     </task>
-    <option name="localTasksCounter" value="166" />
+    <task id="LOCAL-00166" summary="添加新题解">
+      <created>1571729538435</created>
+      <option name="number" value="00166" />
+      <option name="presentableId" value="LOCAL-00166" />
+      <option name="project" value="LOCAL" />
+      <updated>1571729538435</updated>
+    </task>
+    <task id="LOCAL-00167" summary="添加新题解">
+      <created>1571729552604</created>
+      <option name="number" value="00167" />
+      <option name="presentableId" value="LOCAL-00167" />
+      <option name="project" value="LOCAL" />
+      <updated>1571729552604</updated>
+    </task>
+    <option name="localTasksCounter" value="168" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="505691000" />
+    <option name="totallyTimeSpent" value="518774000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="795" y="12" width="1060" height="1088" extended-state="0" />
+    <frame x="620" y="34" width="1226" height="1002" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.268" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25385934" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4988345" visible="true" weight="0.29350105" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4988345" visible="true" weight="0.35714287" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.34067085" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -856,13 +853,13 @@
       <window_info anchor="right" id="Database" order="4" weight="0.32928678" />
     </layout>
     <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19860017" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13197969" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4988345" visible="true" weight="0.21452895" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3944134" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4988345" visible="true" weight="0.35744235" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.34067085" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -871,7 +868,7 @@
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.502331" side_tool="true" weight="0.29550827" />
       <window_info anchor="bottom" id="Terminal" order="11" />
-      <window_info anchor="bottom" id="Python Console" order="12" />
+      <window_info anchor="bottom" id="Python Console" order="12" weight="0.32928178" />
       <window_info anchor="bottom" id="Messages" order="13" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -889,48 +886,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="添加新题解" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/25_合并两个排序的链表.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="367">
-          <caret line="37" column="18" lean-forward="true" selection-start-line="37" selection-start-column="18" selection-end-line="37" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/26_树的子结构.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="590">
-          <caret line="55" column="35" lean-forward="true" selection-start-line="55" selection-start-column="35" selection-end-line="55" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/27_02二叉树的镜像(循环).py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="34" column="20" lean-forward="true" selection-start-line="34" selection-start-column="20" selection-end-line="34" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/27_01二叉树的镜像(递归).py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" column="24" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/28_01对称的二叉树(递归).py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="627">
-          <caret line="33" selection-start-line="33" selection-end-line="42" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/28_02对称的二叉树(前序遍历).py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1596">
-          <caret line="84" column="13" selection-start-line="84" selection-start-column="13" selection-end-line="84" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/29_顺时针打印矩阵.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="38">
@@ -1208,6 +1163,38 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/3333.py" />
+    <entry file="file://$PROJECT_DIR$/51_数组中的逆序对.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2318">
+          <caret line="122" column="34" selection-start-line="122" selection-start-column="34" selection-end-line="122" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/52_01两个链表的第一个公共节点.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" column="8" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/52_03二叉树的两个节点的最低公共祖先.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/53_01数字在排序树组中出现的次数.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="8" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1111.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="722">
+          <caret line="38" column="20" selection-start-line="38" selection-start-column="20" selection-end-line="38" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/41_数据流中的中位数.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2185">
@@ -1222,17 +1209,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/51_数组中的逆序对.py">
+    <entry file="file://$PROJECT_DIR$/2222.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="122" column="34" lean-forward="true" selection-start-line="122" selection-start-column="34" selection-end-line="122" selection-end-column="34" />
+        <state relative-caret-position="-51">
+          <caret line="3" column="3" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="3" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/52_两个链表的第一个公共节点.py">
+    <entry file="file://$PROJECT_DIR$/52_02二叉搜索树两个节点的最低公共祖先.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="34" column="35" lean-forward="true" selection-start-line="34" selection-start-column="35" selection-end-line="34" selection-end-column="35" />
+        <state relative-caret-position="171">
+          <caret line="9" column="38" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
         </state>
       </provider>
     </entry>
