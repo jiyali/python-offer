@@ -25,13 +25,11 @@ class Solution1(object):
     def getMissingNumber(self, nums):
         if nums is None or len(nums) == 0:
             return 0
-        if len(nums) == 1:
-            return 1
 
         left = 0
         right = len(nums) - 1
 
-        while left < right:
+        while left <= right:
             mid = left + (right - left + 1) // 2
             if nums[mid] != mid:
                 if nums[mid - 1] == mid - 1:
