@@ -20,4 +20,4 @@ class Solution(object):
 
 
 s = Solution()
-print(s.getMissingNumber([0]))
+print(s.getMissingNumber([0, 1, 2, 4]))
