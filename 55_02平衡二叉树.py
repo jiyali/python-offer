@@ -8,6 +8,7 @@ class TreeNode(object):
         self.left = None
         self.right = None
 
+
 class Solution(object):
     def IsBalanced_Solution(self, pRoot):
         if pRoot is None:
@@ -26,3 +27,22 @@ class Solution(object):
         right = self.TreeDepth(pRoot.right)
 
         return max(left + 1, right + 1)
+
+
+pNode1 = TreeNode(1)
+pNode2 = TreeNode(2)
+pNode3 = TreeNode(3)
+pNode4 = TreeNode(4)
+pNode5 = TreeNode(5)
+pNode6 = TreeNode(6)
+pNode7 = TreeNode(7)
+
+pNode1.left = pNode2
+pNode1.right = pNode3
+pNode2.left = pNode4
+pNode2.right = pNode5
+pNode3.right = pNode6
+pNode5.left = pNode7
+
+S = Solution()
+print(S.IsBalanced_Solution(pNode1))
