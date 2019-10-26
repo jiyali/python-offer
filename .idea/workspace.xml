@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3a8d48e4-62b6-4d4b-aedb-51dd4e787cc5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/57_和为s的数字.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/57_02和为s的连续正数序列.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/57_和为s的数字.py" beforeDir="false" afterPath="$PROJECT_DIR$/57_01和为s的数字.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -45,6 +46,7 @@
     <SUITE FILE_PATH="coverage/offer$38_01.coverage" NAME="38_01字符串的排列 Coverage Results" MODIFIED="1570705872596" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/python_target_offer$38_04.coverage" NAME="38_04八皇后 Coverage Results" MODIFIED="1570868036765" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/python_target_offer$50_03.coverage" NAME="50_03删除公共字符 Coverage Results" MODIFIED="1571627217791" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/python_target_offer$57_02s.coverage" NAME="57_02和为s的连续正数序列 Coverage Results" MODIFIED="1572081340977" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/offer$07_.coverage" NAME="07_重建二叉树 Coverage Results" MODIFIED="1569141295292" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/offer$26_.coverage" NAME="26_树的子结构 Coverage Results" MODIFIED="1570502982935" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/python_target_offer$47_.coverage" NAME="47_礼物的最大价值 Coverage Results" MODIFIED="1571464066007" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -128,15 +130,6 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/53_01数字在排序树组中出现的次数.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="15" column="24" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/53_02 0~n-1缺失的数字.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="665">
@@ -190,11 +183,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/57_和为s的数字.py">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/57_01和为s的数字.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="6" column="8" lean-forward="true" selection-start-line="6" selection-start-column="8" selection-end-line="21" selection-end-column="17" />
+            <state relative-caret-position="209">
+              <caret line="11" selection-start-line="11" selection-end-line="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/57_02和为s的连续正数序列.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="398">
+              <caret line="24" column="26" lean-forward="true" selection-start-line="24" selection-start-column="26" selection-end-line="24" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -228,7 +230,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/37_序列化二叉树.py" />
         <option value="$PROJECT_DIR$/38_字符串的排列.py" />
         <option value="$PROJECT_DIR$/38_01字符串的排列.py" />
         <option value="$PROJECT_DIR$/38_03八皇后.py" />
@@ -279,13 +280,14 @@
         <option value="$PROJECT_DIR$/56_02数组中唯一只出现一次的数字.py" />
         <option value="$PROJECT_DIR$/56_01数组中只出现一次的两个数字.py" />
         <option value="$PROJECT_DIR$/57_和为s的数字.py" />
+        <option value="$PROJECT_DIR$/57_02和为s的连续正数序列.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="394" />
-    <option name="y" value="45" />
-    <option name="width" value="1527" />
+    <option name="x" value="706" />
+    <option name="y" value="52" />
+    <option name="width" value="1152" />
     <option name="height" value="1046" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -326,29 +328,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.57_和为s的数字">
-    <configuration name="55_01二叉树的深度" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="剑指offer" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/55_01二叉树的深度.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.57_02和为s的连续正数序列">
     <configuration name="55_02平衡二叉树" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="剑指offer" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -415,6 +395,28 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="57_02和为s的连续正数序列" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="剑指offer" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/57_02和为s的连续正数序列.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="57_和为s的数字" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="剑指offer" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -428,7 +430,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/57_和为s的数字.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\Administrator\Desktop\python-target-offer\57_01和为s的数字.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -438,19 +440,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.55_01二叉树的深度" />
       <item itemvalue="Python.55_02平衡二叉树" />
       <item itemvalue="Python.56_01数组中只出现一次的两个数字" />
       <item itemvalue="Python.56_02数组中唯一只出现一次的数字" />
       <item itemvalue="Python.57_和为s的数字" />
+      <item itemvalue="Python.57_02和为s的连续正数序列" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.57_02和为s的连续正数序列" />
         <item itemvalue="Python.57_和为s的数字" />
         <item itemvalue="Python.56_02数组中唯一只出现一次的数字" />
         <item itemvalue="Python.56_01数组中只出现一次的两个数字" />
         <item itemvalue="Python.55_02平衡二叉树" />
-        <item itemvalue="Python.55_01二叉树的深度" />
       </list>
     </recent_temporary>
   </component>
@@ -492,14 +494,7 @@
       <workItem from="1571704734985" duration="25420000" />
       <workItem from="1571790570882" duration="33241000" />
       <workItem from="1572056581436" duration="2003000" />
-      <workItem from="1572067001936" duration="5824000" />
-    </task>
-    <task id="LOCAL-00138" summary="添加新题解">
-      <created>1571406404147</created>
-      <option name="number" value="00138" />
-      <option name="presentableId" value="LOCAL-00138" />
-      <option name="project" value="LOCAL" />
-      <updated>1571406404147</updated>
+      <workItem from="1572067001936" duration="7332000" />
     </task>
     <task id="LOCAL-00139" summary="添加新题解">
       <created>1571406426890</created>
@@ -837,22 +832,29 @@
       <option name="project" value="LOCAL" />
       <updated>1572078603869</updated>
     </task>
-    <option name="localTasksCounter" value="187" />
+    <task id="LOCAL-00187" summary="添加新题解">
+      <created>1572080217738</created>
+      <option name="number" value="00187" />
+      <option name="presentableId" value="LOCAL-00187" />
+      <option name="project" value="LOCAL" />
+      <updated>1572080217738</updated>
+    </task>
+    <option name="localTasksCounter" value="188" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="556727000" />
+    <option name="totallyTimeSpent" value="558235000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="734" y="32" width="1527" height="1046" extended-state="0" />
+    <frame x="822" y="45" width="1152" height="1046" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1799591" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24175824" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4988345" visible="true" weight="0.32127193" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4988345" visible="true" weight="0.27631578" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39377683" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -904,13 +906,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="添加新题解" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/35_01复杂链表的复制.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1083">
-          <caret line="57" selection-start-line="57" selection-end-line="66" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/35_02复杂链表的复制(哈希表).py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="266">
@@ -1234,10 +1229,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/57_和为s的数字.py">
+    <entry file="file://$PROJECT_DIR$/57_01和为s的数字.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="8" lean-forward="true" selection-start-line="6" selection-start-column="8" selection-end-line="21" selection-end-column="17" />
+        <state relative-caret-position="209">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/57_02和为s的连续正数序列.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="398">
+          <caret line="24" column="26" lean-forward="true" selection-start-line="24" selection-start-column="26" selection-end-line="24" selection-end-column="26" />
         </state>
       </provider>
     </entry>
