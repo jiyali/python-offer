@@ -48,7 +48,7 @@ class Solution1(object):
         startIndex = 0
         endIndex = len(alist) - 1
         while startIndex < endIndex:
-            alist[startIndex], alist[endIndex] = alist[endIndex],alist[startIndex]
+            alist[startIndex], alist[endIndex] = alist[endIndex], alist[startIndex]
             startIndex += 1
             endIndex -= 1
         return alist
