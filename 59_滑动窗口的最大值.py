@@ -20,20 +20,19 @@ class Solution(object):
 
         for i in range(len(num)):
 
-            # 考虑什么时候，要把最大移除
-            # 左边界划出的时候，应该是 window.pop(0)
-            # [0,1,2,3,4]
-            #     [    i]
-            # window[0] == i - k 这个条件特别容易忽略
+            # 当元素从左边界滑出的时候，如果它恰恰好是滑动窗口的最大值
+            # 那么将它弹出
             if i >= size and window[0] == i - size:
                 window.pop(0)
-            # 考虑把不可能是最大的元素全部 kill 掉
+            # 如果滑动窗口非空，新进来的数比队列里已经存在的数还要大
+            # 则说明已经存在数一定不会是滑动窗口的最大值（它们毫无出头之日）
+            # 将它们弹出
             while window and num[i] >= num[window[-1]]:
                 window.pop()
             # 不管怎么着都加当前的索引
             window.append(i)
 
-            # 什么时候有滑动窗口呢？
+            # 队首一定是滑动窗口的最大值的索引
             if i >= size - 1:
                 res.append(num[window[0]])
         return res
@@ -50,12 +49,12 @@ class Solution1:
         for i in range(size, len(num)):
             if num[i] > window_max:
                 window_max = num[i]
-            elif num[i - size] == window_max:  # 这个是要出来的
+            elif num[i - size] == window_max:
                 window_max = max(num[i - size + 1:i + 1])
             result.append(window_max)
 
         return result
 
 
-s = Solution1()
+s = Solution()
 print(s.maxInWindows([2, 3, 4, 2, 6, 2, 5, 1], 3))

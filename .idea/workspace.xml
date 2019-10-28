@@ -4,11 +4,9 @@
     <bookmark url="file://$PROJECT_DIR$/695_岛屿的最大面积.py" line="10" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3a8d48e4-62b6-4d4b-aedb-51dd4e787cc5" name="Default Changelist" comment="添加新题解">
-      <change afterPath="$PROJECT_DIR$/59_滑动窗口的最大值.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode917_仅反转字母.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/按正负排序数组.py" afterDir="false" />
+    <list default="true" id="3a8d48e4-62b6-4d4b-aedb-51dd4e787cc5" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/59_滑动窗口的最大值.py" beforeDir="false" afterPath="$PROJECT_DIR$/59_滑动窗口的最大值.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -24,7 +22,7 @@
     <SUITE FILE_PATH="coverage/python_target_offer$52_.coverage" NAME="52_两个链表的第一个公共节点 Coverage Results" MODIFIED="1571728487346" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/offer$python.coverage" NAME="python实现链表 Coverage Results" MODIFIED="1569052965227" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/offer$30_min.coverage" NAME="30_包含min函数的栈 Coverage Results" MODIFIED="1570539402661" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/python_target_offer$59_.coverage" NAME="59_滑动窗口的最大值 Coverage Results" MODIFIED="1572182101146" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/python_target_offer$59_.coverage" NAME="59_滑动窗口的最大值 Coverage Results" MODIFIED="1572229166940" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/python_target_offer$44_.coverage" NAME="44_数字序列中某一位的数字 Coverage Results" MODIFIED="1571364889866" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/offer$31_.coverage" NAME="31_栈的压入、弹出序列 Coverage Results" MODIFIED="1570540311398" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/offer$23_.coverage" NAME="23_链表中环的入口节点 Coverage Results" MODIFIED="1569677894931" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -215,8 +213,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/59_滑动窗口的最大值.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="475">
-              <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+            <state relative-caret-position="337">
+              <caret line="32" column="28" lean-forward="true" selection-start-line="32" selection-start-column="28" selection-end-line="32" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -291,9 +289,9 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="395" />
-    <option name="y" value="75" />
-    <option name="width" value="1530" />
+    <option name="x" value="519" />
+    <option name="y" value="46" />
+    <option name="width" value="1392" />
     <option name="height" value="1022" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -501,21 +499,7 @@
       <workItem from="1571790570882" duration="33241000" />
       <workItem from="1572056581436" duration="2003000" />
       <workItem from="1572067001936" duration="15264000" />
-      <workItem from="1572158870266" duration="9226000" />
-    </task>
-    <task id="LOCAL-00142" summary="添加新题解">
-      <created>1571455775042</created>
-      <option name="number" value="00142" />
-      <option name="presentableId" value="LOCAL-00142" />
-      <option name="project" value="LOCAL" />
-      <updated>1571455775042</updated>
-    </task>
-    <task id="LOCAL-00143" summary="添加新题解">
-      <created>1571475358224</created>
-      <option name="number" value="00143" />
-      <option name="presentableId" value="LOCAL-00143" />
-      <option name="project" value="LOCAL" />
-      <updated>1571475358224</updated>
+      <workItem from="1572158870266" duration="15059000" />
     </task>
     <task id="LOCAL-00144" summary="添加新题解">
       <created>1571475564217</created>
@@ -846,23 +830,37 @@
       <option name="project" value="LOCAL" />
       <updated>1572094360352</updated>
     </task>
-    <option name="localTasksCounter" value="191" />
+    <task id="LOCAL-00191" summary="添加新题解">
+      <created>1572182269354</created>
+      <option name="number" value="00191" />
+      <option name="presentableId" value="LOCAL-00191" />
+      <option name="project" value="LOCAL" />
+      <updated>1572182269354</updated>
+    </task>
+    <task id="LOCAL-00192" summary="添加新题解">
+      <created>1572183377684</created>
+      <option name="number" value="00192" />
+      <option name="presentableId" value="LOCAL-00192" />
+      <option name="project" value="LOCAL" />
+      <updated>1572183377684</updated>
+    </task>
+    <option name="localTasksCounter" value="193" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="575393000" />
+    <option name="totallyTimeSpent" value="581226000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="605" y="75" width="1320" height="1022" extended-state="0" />
+    <frame x="777" y="49" width="1392" height="1022" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25079367" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26276276" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4988345" visible="true" weight="0.3704955" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39377683" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4988345" weight="0.29504505" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.393018" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -911,6 +909,22 @@
     <MESSAGE value="添加解题思路" />
     <MESSAGE value="添加新题解" />
     <option name="LAST_COMMIT_MESSAGE" value="添加新题解" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/59_滑动窗口的最大值.py</url>
+          <line>18</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/59_滑动窗口的最大值.py</url>
+          <line>17</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/19_正则表达式匹配.py">
@@ -1251,8 +1265,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/59_滑动窗口的最大值.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+        <state relative-caret-position="337">
+          <caret line="32" column="28" lean-forward="true" selection-start-line="32" selection-start-column="28" selection-end-line="32" selection-end-column="28" />
         </state>
       </provider>
     </entry>
