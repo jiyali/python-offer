@@ -1,9 +1,34 @@
 # 题目：请定义一个队列并实现函数max得到队列里的最大值，要求函数max、push_back和pop_front的时间复杂度都是O(1)
 
+
+class Solution(object):
+    def __init__(self):
+        self.stack = []
+        self.maxStack = []
+
+    def push_back(self, num):
+        self.stack.append(num)
+
+        while len(self.maxStack) != 0 and num >= self.maxStack[-1]:
+            self.maxStack.pop()
+
+        self.maxStack.append(num)
+
+    def pop_front(self):
+        if len(self.stack) > 0:
+            if self.stack[0] == self.max():
+                self.maxStack.pop(0)
+            self.stack.pop(0)
+
+    def max(self):
+        return self.maxStack[0]
+
+
+# 网上的另一种做法
 from collections import deque
 
 
-class Solution(object):
+class Solution1(object):
     def __init__(self):
         self.data = deque()
         self.max_queue = deque()
@@ -27,30 +52,6 @@ class Solution(object):
         return self.max_queue[0][1]
 
 
-class Solution1(object):
-    def __init__(self):
-        self.stack = []
-        self.maxStack = []
-
-    def push_back(self, num):
-        self.stack.append(num)
-        if self.maxStack == [] or num > self.max():
-            self.maxStack.append(num)
-        else:
-            temp = self.max()
-            self.maxStack.append(temp)
-
-    def pop_front(self):
-        if self.maxStack == [] or self.stack == []:
-            return None
-
-        self.maxStack.pop()
-        self.stack.pop()
-
-    def max(self):
-        return self.maxStack[-1]
-
-
 s = Solution1()
 s.push_back(3)
 print(s.max())
@@ -61,4 +62,6 @@ print(s.max())
 s.pop_front()
 print(s.max())
 s.pop_front()
+print(s.max())
+s.push_back(4)
 print(s.max())
