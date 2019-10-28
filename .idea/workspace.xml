@@ -4,7 +4,11 @@
     <bookmark url="file://$PROJECT_DIR$/leetcode695_岛屿的最大面积.py" line="10" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3a8d48e4-62b6-4d4b-aedb-51dd4e787cc5" name="Default Changelist" comment="" />
+    <list default="true" id="3a8d48e4-62b6-4d4b-aedb-51dd4e787cc5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/63_股票的最大利润.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/62_圆圈中最后剩下的数字.py" beforeDir="false" afterPath="$PROJECT_DIR$/62_圆圈中最后剩下的数字.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,6 +73,7 @@
     <SUITE FILE_PATH="coverage/offer$38_02.coverage" NAME="38_02字符串的组合 Coverage Results" MODIFIED="1570709485956" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/python_target_offer$50_04.coverage" NAME="50_04删除字符串中重复字符 Coverage Results" MODIFIED="1571633316351" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/python_target_offer$50_2.coverage" NAME="50_2字符流中第一个只出现依次的字符 Coverage Results" MODIFIED="1571626308787" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/python_target_offer$63_.coverage" NAME="63_股票的最大利润 Coverage Results" MODIFIED="1572268268415" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/offer$34_.coverage" NAME="34_二叉树中和为某一值的路径 Coverage Results" MODIFIED="1570609198545" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/python_target_offer$49_.coverage" NAME="49_丑数 Coverage Results" MODIFIED="1571574042053" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/python_target_offer$.coverage" NAME="按正负排序数组 Coverage Results" MODIFIED="1572181774710" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -104,7 +109,7 @@
     <SUITE FILE_PATH="coverage/python_target_offer$Demo.coverage" NAME="Demo Coverage Results" MODIFIED="1572180023785" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="D:/我的文档/Documents/Tencent Files/762115542/FileRecv" />
     <SUITE FILE_PATH="coverage/offer$03_02_DuplicationInArrayNoEdit.coverage" NAME="03_02_DuplicationInArrayNoEdit Coverage Results" MODIFIED="1568944329798" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/python_target_offer$56_01.coverage" NAME="56_01数组中只出现一次的两个数字 Coverage Results" MODIFIED="1571838974376" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/python_target_offer$61_.coverage" NAME="61_扑克中的顺子 Coverage Results" MODIFIED="1572263645912" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/python_target_offer$61_.coverage" NAME="61_扑克中的顺子 Coverage Results" MODIFIED="1572268264196" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/python_target_offer$55_01.coverage" NAME="55_01二叉树的深度 Coverage Results" MODIFIED="1571831865214" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/offer$20_.coverage" NAME="20_表示数值的字符串 Coverage Results" MODIFIED="1569592653043" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/offer$33_.coverage" NAME="33_二叉搜索树的后序遍历序列 Coverage Results" MODIFIED="1570601733061" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -171,20 +176,29 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/61_扑克中的顺子.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="430">
-              <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
+            <state relative-caret-position="171">
+              <caret line="9" column="25" lean-forward="true" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/47_礼物的最大价值.py">
+        <entry file="file://$PROJECT_DIR$/62_圆圈中最后剩下的数字.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="515">
-              <caret line="28" column="45" selection-start-line="28" selection-start-column="45" selection-end-line="28" selection-end-column="45" />
+            <state relative-caret-position="487">
+              <caret line="39" column="33" lean-forward="true" selection-start-line="39" selection-start-column="33" selection-end-line="39" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/63_股票的最大利润.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="266">
+              <caret line="14" column="33" lean-forward="true" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -204,8 +218,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/42_连续子数组的最大和.py" />
-        <option value="$PROJECT_DIR$/43_1~n整数中1出现的次数.py" />
         <option value="$PROJECT_DIR$/44_数字序列中某一位的数字.py" />
         <option value="$PROJECT_DIR$/45_把数组排成最小的数.py" />
         <option value="$PROJECT_DIR$/46_把数字翻译成字符串.py" />
@@ -255,13 +267,15 @@
         <option value="$PROJECT_DIR$/59_02队列的最大值.py" />
         <option value="$PROJECT_DIR$/60_n个骰子的点数.py" />
         <option value="$PROJECT_DIR$/61_扑克中的顺子.py" />
+        <option value="$PROJECT_DIR$/62_圆圈中最后剩下的数字.py" />
+        <option value="$PROJECT_DIR$/63_股票的最大利润.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="706" />
-    <option name="y" value="16" />
-    <option name="width" value="1151" />
+    <option name="x" value="654" />
+    <option name="y" value="37" />
+    <option name="width" value="1263" />
     <option name="height" value="1027" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -302,29 +316,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.61_扑克中的顺子">
-    <configuration name="30_包含min函数的栈" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="剑指offer" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/30_包含min函数的栈.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.63_股票的最大利润">
     <configuration name="59_01滑动窗口的最大值" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="剑指offer" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -413,20 +405,42 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="63_股票的最大利润" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="剑指offer" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/63_股票的最大利润.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue="Python.59_02队列的最大值" />
-      <item itemvalue="Python.30_包含min函数的栈" />
       <item itemvalue="Python.59_01滑动窗口的最大值" />
       <item itemvalue="Python.60_n个骰子的点数" />
       <item itemvalue="Python.61_扑克中的顺子" />
+      <item itemvalue="Python.63_股票的最大利润" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.63_股票的最大利润" />
         <item itemvalue="Python.61_扑克中的顺子" />
         <item itemvalue="Python.60_n个骰子的点数" />
         <item itemvalue="Python.59_02队列的最大值" />
         <item itemvalue="Python.59_01滑动窗口的最大值" />
-        <item itemvalue="Python.30_包含min函数的栈" />
       </list>
     </recent_temporary>
   </component>
@@ -469,14 +483,7 @@
       <workItem from="1571790570882" duration="33241000" />
       <workItem from="1572056581436" duration="2003000" />
       <workItem from="1572067001936" duration="15264000" />
-      <workItem from="1572158870266" duration="38169000" />
-    </task>
-    <task id="LOCAL-00151" summary="添加新题解">
-      <created>1571626362213</created>
-      <option name="number" value="00151" />
-      <option name="presentableId" value="LOCAL-00151" />
-      <option name="project" value="LOCAL" />
-      <updated>1571626362213</updated>
+      <workItem from="1572158870266" duration="42533000" />
     </task>
     <task id="LOCAL-00152" summary="添加新题解">
       <created>1571627193181</created>
@@ -814,17 +821,24 @@
       <option name="project" value="LOCAL" />
       <updated>1572263653342</updated>
     </task>
-    <option name="localTasksCounter" value="200" />
+    <task id="LOCAL-00200" summary="添加新题解">
+      <created>1572264143824</created>
+      <option name="number" value="00200" />
+      <option name="presentableId" value="LOCAL-00200" />
+      <option name="project" value="LOCAL" />
+      <updated>1572264143824</updated>
+    </task>
+    <option name="localTasksCounter" value="201" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="604336000" />
+    <option name="totallyTimeSpent" value="608700000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="706" y="16" width="1151" height="1027" extended-state="0" />
+    <frame x="750" y="35" width="1263" height="1027" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13290559" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20698254" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -881,20 +895,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="添加新题解" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/40_最小的K个数(高频题).py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="765">
-          <caret line="81" column="41" selection-start-line="81" selection-start-column="41" selection-end-line="81" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/38_05非重复数字全排列.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/38_01字符串的排列.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
@@ -1219,8 +1219,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/61_扑克中的顺子.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="430">
-          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
+        <state relative-caret-position="171">
+          <caret line="9" column="25" lean-forward="true" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/62_圆圈中最后剩下的数字.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="487">
+          <caret line="39" column="33" lean-forward="true" selection-start-line="39" selection-start-column="33" selection-end-line="39" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/63_股票的最大利润.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="33" lean-forward="true" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
         </state>
       </provider>
     </entry>
