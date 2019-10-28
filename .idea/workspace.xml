@@ -58,7 +58,7 @@
     <SUITE FILE_PATH="coverage/python_target_offer$45_.coverage" NAME="45_把数组排成最小的数 Coverage Results" MODIFIED="1571384613574" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/offer$27_.coverage" NAME="27_二叉树的镜像 Coverage Results" MODIFIED="1570503497655" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/python_target_offer$38_02.coverage" NAME="38_02字符串的组合 Coverage Results" MODIFIED="1570868388794" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/python_target_offer$59_02.coverage" NAME="59_02队列的最大值 Coverage Results" MODIFIED="1572245059808" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/python_target_offer$59_02.coverage" NAME="59_02队列的最大值 Coverage Results" MODIFIED="1572247113811" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/python_target_offer$58_02.coverage" NAME="58_02左旋转字符串 Coverage Results" MODIFIED="1572094316049" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/offer$33_02.coverage" NAME="33_02二叉搜索树的前序遍历序列 Coverage Results" MODIFIED="1570605183313" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/python_target_offer$41_.coverage" NAME="41_数据流中的中位数 Coverage Results" MODIFIED="1571192951914" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -148,8 +148,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/59_01滑动窗口的最大值.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-28">
-              <caret line="15" column="21" lean-forward="true" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
+            <state relative-caret-position="371">
+              <caret line="36" column="42" lean-forward="true" selection-start-line="36" selection-start-column="42" selection-end-line="36" selection-end-column="42" />
             </state>
           </provider>
         </entry>
@@ -157,8 +157,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/59_02队列的最大值.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="38">
-              <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+            <state relative-caret-position="171">
+              <caret line="9" column="8" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -233,10 +233,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="200" />
-    <option name="y" value="104" />
+    <option name="x" value="327" />
+    <option name="y" value="47" />
     <option name="width" value="1602" />
-    <option name="height" value="1022" />
+    <option name="height" value="1033" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -443,14 +443,7 @@
       <workItem from="1571790570882" duration="33241000" />
       <workItem from="1572056581436" duration="2003000" />
       <workItem from="1572067001936" duration="15264000" />
-      <workItem from="1572158870266" duration="23002000" />
-    </task>
-    <task id="LOCAL-00147" summary="添加新题解">
-      <created>1571572075082</created>
-      <option name="number" value="00147" />
-      <option name="presentableId" value="LOCAL-00147" />
-      <option name="project" value="LOCAL" />
-      <updated>1571572075082</updated>
+      <workItem from="1572158870266" duration="24824000" />
     </task>
     <task id="LOCAL-00148" summary="添加新题解">
       <created>1571574066358</created>
@@ -788,14 +781,21 @@
       <option name="project" value="LOCAL" />
       <updated>1572233036519</updated>
     </task>
-    <option name="localTasksCounter" value="196" />
+    <task id="LOCAL-00196" summary="添加新题解">
+      <created>1572245121217</created>
+      <option name="number" value="00196" />
+      <option name="presentableId" value="LOCAL-00196" />
+      <option name="project" value="LOCAL" />
+      <updated>1572245121218</updated>
+    </task>
+    <option name="localTasksCounter" value="197" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="589169000" />
+    <option name="totallyTimeSpent" value="590991000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="200" y="104" width="1602" height="1022" extended-state="0" />
+    <frame x="185" y="72" width="1602" height="1022" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22697794" />
@@ -803,7 +803,7 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4988345" visible="true" weight="0.45833334" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4988345" visible="true" weight="0.3536036" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.393018" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -1186,15 +1186,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/59_01滑动窗口的最大值.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-28">
-          <caret line="15" column="21" lean-forward="true" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
+        <state relative-caret-position="371">
+          <caret line="36" column="42" lean-forward="true" selection-start-line="36" selection-start-column="42" selection-end-line="36" selection-end-column="42" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/59_02队列的最大值.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+        <state relative-caret-position="171">
+          <caret line="9" column="8" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
         </state>
       </provider>
     </entry>
