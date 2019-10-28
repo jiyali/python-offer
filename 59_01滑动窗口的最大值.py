@@ -29,6 +29,7 @@ class Solution(object):
             # 将它们弹出
             while window and num[i] >= num[window[-1]]:
                 window.pop()
+
             # 不管怎么着都加当前的索引
             window.append(i)
 
