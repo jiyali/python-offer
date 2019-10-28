@@ -4,12 +4,7 @@
     <bookmark url="file://$PROJECT_DIR$/leetcode695_岛屿的最大面积.py" line="10" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3a8d48e4-62b6-4d4b-aedb-51dd4e787cc5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/61_扑克中的顺子.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/60_n个骰子的点数.py" beforeDir="false" afterPath="$PROJECT_DIR$/60_n个骰子的点数.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/695_岛屿的最大面积.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode695_岛屿的最大面积.py" afterDir="false" />
-    </list>
+    <list default="true" id="3a8d48e4-62b6-4d4b-aedb-51dd4e787cc5" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -179,8 +174,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/61_扑克中的顺子.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="373">
-              <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="33" selection-end-column="60" />
+            <state relative-caret-position="430">
+              <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
             </state>
           </provider>
         </entry>
@@ -264,9 +259,9 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="439" />
-    <option name="y" value="72" />
-    <option name="width" value="1509" />
+    <option name="x" value="706" />
+    <option name="y" value="16" />
+    <option name="width" value="1151" />
     <option name="height" value="1027" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -474,14 +469,7 @@
       <workItem from="1571790570882" duration="33241000" />
       <workItem from="1572056581436" duration="2003000" />
       <workItem from="1572067001936" duration="15264000" />
-      <workItem from="1572158870266" duration="37774000" />
-    </task>
-    <task id="LOCAL-00150" summary="添加新题解">
-      <created>1571624940833</created>
-      <option name="number" value="00150" />
-      <option name="presentableId" value="LOCAL-00150" />
-      <option name="project" value="LOCAL" />
-      <updated>1571624940833</updated>
+      <workItem from="1572158870266" duration="38169000" />
     </task>
     <task id="LOCAL-00151" summary="添加新题解">
       <created>1571626362213</created>
@@ -819,17 +807,24 @@
       <option name="project" value="LOCAL" />
       <updated>1572253587145</updated>
     </task>
-    <option name="localTasksCounter" value="199" />
+    <task id="LOCAL-00199" summary="添加新题解">
+      <created>1572263653342</created>
+      <option name="number" value="00199" />
+      <option name="presentableId" value="LOCAL-00199" />
+      <option name="project" value="LOCAL" />
+      <updated>1572263653342</updated>
+    </task>
+    <option name="localTasksCounter" value="200" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="603941000" />
+    <option name="totallyTimeSpent" value="604336000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1045" y="94" width="1509" height="1027" extended-state="0" />
+    <frame x="706" y="16" width="1151" height="1027" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.100069016" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13290559" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -1224,8 +1219,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/61_扑克中的顺子.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="373">
-          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="33" selection-end-column="60" />
+        <state relative-caret-position="430">
+          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
         </state>
       </provider>
     </entry>
