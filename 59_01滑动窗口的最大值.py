@@ -30,7 +30,6 @@ class Solution(object):
             while window and num[i] >= num[window[-1]]:
                 window.pop()
 
-            # 不管怎么着都加当前的索引
             window.append(i)
 
             # 队首一定是滑动窗口的最大值的索引
