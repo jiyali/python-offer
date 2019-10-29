@@ -42,6 +42,6 @@ class Solution(object):
         return res
 
 
-test = '-2147483649'
+test = '+'
 s = Solution()
 print(s.StrToInt(test))
