@@ -2,8 +2,9 @@
 #       数值为0或者字符串不是一个合法的数值则返回0
 
 
-class Solution(object):
+class Solution:
     def StrToInt(self, s):
+        # write code here
         if len(s) == 0:
             return 0
 
@@ -19,23 +20,17 @@ class Solution(object):
         if s[0] == '+':
             sign = 1
             res = sign * self.str_to_int(s[1:])
-
         elif s[0] == '-':
             sign = -1
             res = sign * self.str_to_int(s[1:])
-
         else:
-            sign = 1
-            res = sign * self.str_to_int(s)
+            res = self.str_to_int(s)
 
-        if res < -2 ** 31:
+        if res < -2 ** 31 or res > 2 ** 31 - 1:
             return 0
-        if res > 2 ** 31 - 1:
-            return 0
-
         return res
 
-    def str_to_int(self, s):
+    def str_to_int(slef, s):
         res = 0
         for val in s:
             res = res * 10 + int(val)
