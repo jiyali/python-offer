@@ -30,7 +30,7 @@ class Solution:
             return 0
         return res
 
-    def str_to_int(slef, s):
+    def str_to_int(self, s):
         res = 0
         for val in s:
             res = res * 10 + int(val)
