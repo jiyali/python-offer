@@ -6,4 +6,4 @@ class Solution(object):
         if not s:
             return None
         temp = s.split(' ')
-        return temp[::-1][::-1]
+        return ' '.join(temp[::-1])[::-1]
