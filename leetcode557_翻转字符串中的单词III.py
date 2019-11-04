@@ -4,6 +4,6 @@
 class Solution(object):
     def reverseWords(self, s):
         if not s:
-            return None
+            return ""
         temp = s.split(' ')
         return ' '.join(temp[::-1])[::-1]
