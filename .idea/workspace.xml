@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3a8d48e4-62b6-4d4b-aedb-51dd4e787cc5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/leetcode292_Nim游戏.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode557_翻转字符串中的单词III.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode344_翻转字符串.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -59,6 +58,7 @@
     <SUITE FILE_PATH="coverage/offer$24_.coverage" NAME="24_反转链表 Coverage Results" MODIFIED="1569680296218" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/offer$17_011n.coverage" NAME="17_01打印从1到最大的n位数 Coverage Results" MODIFIED="1569466047966" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/offer$37_.coverage" NAME="37_序列化二叉树 Coverage Results" MODIFIED="1570689958672" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/python_target_offer$leetcode344_.coverage" NAME="leetcode344_翻转字符串 Coverage Results" MODIFIED="1572871299450" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/offer$14_.coverage" NAME="14_剪绳子 Coverage Results" MODIFIED="1569331795482" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/python_target_offer$45_.coverage" NAME="45_把数组排成最小的数 Coverage Results" MODIFIED="1571384613574" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/offer$27_.coverage" NAME="27_二叉树的镜像 Coverage Results" MODIFIED="1570503497655" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -181,11 +181,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/leetcode557_翻转字符串中的单词III.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="171">
               <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/leetcode344_翻转字符串.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="133">
+              <caret line="7" column="8" lean-forward="true" selection-start-line="7" selection-start-column="8" selection-end-line="10" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -222,15 +231,6 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/18_01删除链表的节点.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="24" column="40" lean-forward="true" selection-start-line="24" selection-start-column="40" selection-end-line="24" selection-end-column="40" />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -246,7 +246,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/50_第一个只出现一次的字符.py" />
         <option value="$PROJECT_DIR$/50_01第一个只出现一次的字符.py" />
         <option value="$PROJECT_DIR$/50_2字符流中第一个只出现依次的字符.py" />
         <option value="$PROJECT_DIR$/50_03删除公共字符.py" />
@@ -297,13 +296,14 @@
         <option value="$PROJECT_DIR$/leetcode95_验证二叉搜索树.py" />
         <option value="$PROJECT_DIR$/leetcode292_Nim游戏.py" />
         <option value="$PROJECT_DIR$/leetcode557_翻转字符串中的单词III.py" />
+        <option value="$PROJECT_DIR$/leetcode344_翻转字符串.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="482" />
+    <option name="x" value="786" />
     <option name="y" value="37" />
-    <option name="width" value="1340" />
+    <option name="width" value="1036" />
     <option name="height" value="1027" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -344,29 +344,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.leetcode95_验证二叉搜索树">
-    <configuration name="64_求1+2+…+n" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="剑指offer" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/64_求1+2+…+n.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.leetcode344_翻转字符串">
     <configuration name="65_不用加减乘除做加法" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="剑指offer" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -433,6 +411,28 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="leetcode344_翻转字符串" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="剑指offer" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/leetcode344_翻转字符串.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="leetcode95_验证二叉搜索树" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="剑指offer" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -456,19 +456,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.64_求1+2+…+n" />
       <item itemvalue="Python.65_不用加减乘除做加法" />
       <item itemvalue="Python.66_构建乘积数组" />
       <item itemvalue="Python.67_把字符串转换成整数" />
       <item itemvalue="Python.leetcode95_验证二叉搜索树" />
+      <item itemvalue="Python.leetcode344_翻转字符串" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.leetcode344_翻转字符串" />
         <item itemvalue="Python.leetcode95_验证二叉搜索树" />
         <item itemvalue="Python.67_把字符串转换成整数" />
         <item itemvalue="Python.66_构建乘积数组" />
         <item itemvalue="Python.65_不用加减乘除做加法" />
-        <item itemvalue="Python.64_求1+2+…+n" />
       </list>
     </recent_temporary>
   </component>
@@ -514,28 +514,7 @@
       <workItem from="1572158870266" duration="54364000" />
       <workItem from="1572678692887" duration="1932000" />
       <workItem from="1572752019635" duration="1197000" />
-      <workItem from="1572853165779" duration="7086000" />
-    </task>
-    <task id="LOCAL-00162" summary="添加新题解">
-      <created>1571722644778</created>
-      <option name="number" value="00162" />
-      <option name="presentableId" value="LOCAL-00162" />
-      <option name="project" value="LOCAL" />
-      <updated>1571722644778</updated>
-    </task>
-    <task id="LOCAL-00163" summary="添加新题解">
-      <created>1571728681520</created>
-      <option name="number" value="00163" />
-      <option name="presentableId" value="LOCAL-00163" />
-      <option name="project" value="LOCAL" />
-      <updated>1571728681520</updated>
-    </task>
-    <task id="LOCAL-00164" summary="添加新题解">
-      <created>1571728688737</created>
-      <option name="number" value="00164" />
-      <option name="presentableId" value="LOCAL-00164" />
-      <option name="project" value="LOCAL" />
-      <updated>1571728688737</updated>
+      <workItem from="1572853165779" duration="10587000" />
     </task>
     <task id="LOCAL-00165" summary="添加新题解">
       <created>1571728709983</created>
@@ -859,23 +838,44 @@
       <option name="project" value="LOCAL" />
       <updated>1572858690052</updated>
     </task>
-    <option name="localTasksCounter" value="211" />
+    <task id="LOCAL-00211" summary="添加新题解">
+      <created>1572860263963</created>
+      <option name="number" value="00211" />
+      <option name="presentableId" value="LOCAL-00211" />
+      <option name="project" value="LOCAL" />
+      <updated>1572860263963</updated>
+    </task>
+    <task id="LOCAL-00212" summary="添加新题解">
+      <created>1572860357047</created>
+      <option name="number" value="00212" />
+      <option name="presentableId" value="LOCAL-00212" />
+      <option name="project" value="LOCAL" />
+      <updated>1572860357047</updated>
+    </task>
+    <task id="LOCAL-00213" summary="添加新题解">
+      <created>1572860464577</created>
+      <option name="number" value="00213" />
+      <option name="presentableId" value="LOCAL-00213" />
+      <option name="project" value="LOCAL" />
+      <updated>1572860464577</updated>
+    </task>
+    <option name="localTasksCounter" value="214" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="630746000" />
+    <option name="totallyTimeSpent" value="634247000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="482" y="37" width="1340" height="1027" extended-state="0" />
+    <frame x="786" y="37" width="1036" height="1027" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.259375" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.34016395" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4988345" weight="0.28219485" />
-      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.29227322" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4988345" visible="true" weight="0.28219485" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.29227322" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -926,7 +926,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="添加新题解" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/3333.py" />
     <entry file="file://$PROJECT_DIR$/51_数组中的逆序对.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2318">
@@ -1260,6 +1259,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
           <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetcode344_翻转字符串.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="8" lean-forward="true" selection-start-line="7" selection-start-column="8" selection-end-line="10" selection-end-column="16" />
         </state>
       </provider>
     </entry>
