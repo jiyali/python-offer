@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3a8d48e4-62b6-4d4b-aedb-51dd4e787cc5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/leetcode344_翻转字符串.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode001_两数之和.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode95_验证二叉搜索树.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode095_验证二叉搜索树.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -146,15 +147,6 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/leetcode237删除链表中的节点.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
-              <caret line="20" column="32" selection-start-line="20" selection-start-column="32" selection-end-line="20" selection-end-column="32" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/leetcode104_二叉树的最大深度.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="399">
@@ -164,10 +156,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/leetcode95_验证二叉搜索树.py">
+        <entry file="file://$PROJECT_DIR$/leetcode095_验证二叉搜索树.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="342">
-              <caret line="18" column="16" lean-forward="true" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
+              <caret line="18" column="16" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -190,11 +182,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/leetcode344_翻转字符串.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="7" column="8" lean-forward="true" selection-start-line="7" selection-start-column="8" selection-end-line="10" selection-end-column="16" />
+            <state relative-caret-position="342">
+              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/leetcode001_两数之和.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="266">
+              <caret line="14" column="47" lean-forward="true" selection-start-line="14" selection-start-column="47" selection-end-line="14" selection-end-column="47" />
             </state>
           </provider>
         </entry>
@@ -246,7 +247,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/50_01第一个只出现一次的字符.py" />
         <option value="$PROJECT_DIR$/50_2字符流中第一个只出现依次的字符.py" />
         <option value="$PROJECT_DIR$/50_03删除公共字符.py" />
         <option value="$PROJECT_DIR$/50_04删除字符串中重复字符.py" />
@@ -297,12 +297,13 @@
         <option value="$PROJECT_DIR$/leetcode292_Nim游戏.py" />
         <option value="$PROJECT_DIR$/leetcode557_翻转字符串中的单词III.py" />
         <option value="$PROJECT_DIR$/leetcode344_翻转字符串.py" />
+        <option value="$PROJECT_DIR$/leetcode001_两数之和.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="786" />
-    <option name="y" value="37" />
+    <option name="x" value="866" />
+    <option name="y" value="31" />
     <option name="width" value="1036" />
     <option name="height" value="1027" />
   </component>
@@ -446,7 +447,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/leetcode95_验证二叉搜索树.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\Administrator\Desktop\python-target-offer\leetcode095_验证二叉搜索树.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -514,14 +515,7 @@
       <workItem from="1572158870266" duration="54364000" />
       <workItem from="1572678692887" duration="1932000" />
       <workItem from="1572752019635" duration="1197000" />
-      <workItem from="1572853165779" duration="10587000" />
-    </task>
-    <task id="LOCAL-00165" summary="添加新题解">
-      <created>1571728709983</created>
-      <option name="number" value="00165" />
-      <option name="presentableId" value="LOCAL-00165" />
-      <option name="project" value="LOCAL" />
-      <updated>1571728709983</updated>
+      <workItem from="1572853165779" duration="11419000" />
     </task>
     <task id="LOCAL-00166" summary="添加新题解">
       <created>1571729538435</created>
@@ -859,14 +853,21 @@
       <option name="project" value="LOCAL" />
       <updated>1572860464577</updated>
     </task>
-    <option name="localTasksCounter" value="214" />
+    <task id="LOCAL-00214" summary="添加新题解">
+      <created>1572871740889</created>
+      <option name="number" value="00214" />
+      <option name="presentableId" value="LOCAL-00214" />
+      <option name="project" value="LOCAL" />
+      <updated>1572871740889</updated>
+    </task>
+    <option name="localTasksCounter" value="215" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="634247000" />
+    <option name="totallyTimeSpent" value="635079000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="786" y="37" width="1036" height="1027" extended-state="0" />
+    <frame x="866" y="31" width="1036" height="1027" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.34016395" />
@@ -926,13 +927,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="添加新题解" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/51_数组中的逆序对.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2318">
-          <caret line="122" column="34" selection-start-line="122" selection-start-column="34" selection-end-line="122" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/52_01两个链表的第一个公共节点.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
@@ -1234,10 +1228,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/leetcode95_验证二叉搜索树.py">
+    <entry file="file://$PROJECT_DIR$/leetcode095_验证二叉搜索树.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="342">
-          <caret line="18" column="16" lean-forward="true" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
+          <caret line="18" column="16" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
         </state>
       </provider>
     </entry>
@@ -1264,8 +1258,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/leetcode344_翻转字符串.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="8" lean-forward="true" selection-start-line="7" selection-start-column="8" selection-end-line="10" selection-end-column="16" />
+        <state relative-caret-position="342">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetcode001_两数之和.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="47" lean-forward="true" selection-start-line="14" selection-start-column="47" selection-end-line="14" selection-end-column="47" />
         </state>
       </provider>
     </entry>
