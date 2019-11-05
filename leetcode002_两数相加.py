@@ -4,20 +4,39 @@
 #       您可以假设除了数字 0 之外，这两个数都不会以 0 开头。
 
 
-class ListNonde(object):
+class ListNode(object):
     def __init__(self, data):
-        self.data = data
+        self.val = data
         self.next = None
 
 
 class Solution(object):
     def addTwoNumber(self, l1, l2):
-        if not l1 or not l2:
-            return None
+        # 累加获得第一个链表的数字和
+        a, one = 0, 0
+        while l1:
+            a += (l1.val) * (10 ** one)
+            one += 1
+            l1 = l1.next
 
-    def getNum(self, l):
-        if l.next is None:
-            return l.val
-        return self.getNum((l.next) * 10 + l.val)
+        b, two = 0, 0
+        # 累加获得第二个链表的数字和
+        while l2:
+            b += (l2.val) * (10 ** two)
+            two += 1
+            l2 = l2.next
 
-    def
+        # 翻转由链表生成的list
+        Sum = list(str(a + b))[::-1]
+
+        # 构建两个临时节点，用于形成最终的链表
+        tmp_node = ListNode(None)
+        node = ListNode(None)
+        for i in Sum:
+            if tmp_node.val is None:
+                tmp_node = ListNode(i)
+                node = tmp_node
+            else:
+                tmp_node.next = ListNode(i)
+                tmp_node = tmp_node.next
+        return node
