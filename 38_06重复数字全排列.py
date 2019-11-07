@@ -19,6 +19,6 @@ class Solution(object):
         return res
 
 
-nums = [2, 3, 9, 7, 0, 11, 6]
+nums = [0, 1, 2, 2, 3, 3]
 s = Solution()
 print(s.Permutation(nums))
