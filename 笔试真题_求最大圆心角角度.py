@@ -3,8 +3,9 @@
 # 输入描述：输入为N个N个[0, 360)的有序float值
 # 输出描述：输出最大圆心角的角度
 
+
 class Solution(object):
-    import sys
+
     def find_key(self, arr, l, r):
         mid = l + (r - l) // 2
         if arr[mid] == 180.0:
@@ -32,9 +33,9 @@ class Solution(object):
             res = arr[n - 1] - arr[key]
         return res
 
-s = Solution()
 
-line = raw_input().split()
+s = Solution()
+line = input().split()
 n = int(line[0])
 arr1 = [float(i) for i in line[1:]]
-print(max_angle(arr1, n))
+print(s.max_angle(arr1, n))
