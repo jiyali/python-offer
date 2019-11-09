@@ -3,7 +3,7 @@
 # 输入描述：输入包括3行，第一行为数组长度N，第二行和第三行分别为一个长度为N的数组
 # 输出描述：输出结果为一个整数
 
-# 中位数的做法
+
 class Solution(object):
     def getMidnum(self, a, b):
         if a is None or b is None or len(a) != len(b):
