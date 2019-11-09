@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3a8d48e4-62b6-4d4b-aedb-51dd4e787cc5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/笔试真题_n个骰子的点数(骰子点数自定义).py" beforeDir="false" afterPath="$PROJECT_DIR$/笔试真题_n个骰子的点数(骰子点数自定义).py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/笔试真题_两个数组中所有数的上中位数.py" beforeDir="false" afterPath="$PROJECT_DIR$/笔试真题_两个数组中所有数的上中位数.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -103,7 +103,7 @@
     <SUITE FILE_PATH="coverage/python_target_offer$39_.coverage" NAME="39_数组中出现次数超过一半的数字 Coverage Results" MODIFIED="1571055334002" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/python_target_offer$46_.coverage" NAME="46_把数字翻译成字符串 Coverage Results" MODIFIED="1571388466039" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/offer$28_.coverage" NAME="28_对称的二叉树 Coverage Results" MODIFIED="1570519615606" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/python_target_offer$_.coverage" NAME="笔试真题_求最大圆心角角度 Coverage Results" MODIFIED="1573305945003" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/python_target_offer$_.coverage" NAME="笔试真题_求最大圆心角角度 Coverage Results" MODIFIED="1573306042459" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/offer$10_01.coverage" NAME="10_01青蛙跳台阶问题 Coverage Results" MODIFIED="1569228063327" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/offer$38_03.coverage" NAME="38_03正方体相对面顶点和相等 Coverage Results" MODIFIED="1570849654518" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/offer$28_02__.coverage" NAME="28_02对称的二叉树(前序遍历) Coverage Results" MODIFIED="1570523011324" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -148,11 +148,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/笔试真题_n个骰子的点数(骰子点数自定义).py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="57">
-              <caret line="3" column="32" selection-start-line="3" selection-start-column="32" selection-end-line="3" selection-end-column="32" />
+            <state relative-caret-position="171">
+              <caret line="9" column="17" lean-forward="true" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -160,8 +160,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/笔试真题_求最大圆心角角度.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="9" column="29" lean-forward="true" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
+            <state relative-caret-position="399">
+              <caret line="33" column="18" lean-forward="true" selection-start-line="33" selection-start-column="18" selection-end-line="33" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -189,11 +189,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/笔试真题_两个数组中所有数的上中位数.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="456">
-              <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+            <state relative-caret-position="95">
+              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
             </state>
           </provider>
         </entry>
@@ -289,16 +289,16 @@
         <option value="$PROJECT_DIR$/38_06重复数字全排列.py" />
         <option value="$PROJECT_DIR$/44444.py" />
         <option value="$PROJECT_DIR$/笔试真题_ip地址转32位无符号整数.py" />
+        <option value="$PROJECT_DIR$/笔试真题_n个骰子的点数(骰子点数自定义).py" />
         <option value="$PROJECT_DIR$/笔试真题_求最大圆心角角度.py" />
         <option value="$PROJECT_DIR$/笔试真题_两个数组中所有数的上中位数.py" />
-        <option value="$PROJECT_DIR$/笔试真题_n个骰子的点数(骰子点数自定义).py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="475" />
-    <option name="y" value="50" />
-    <option name="width" value="1485" />
+    <option name="x" value="382" />
+    <option name="y" value="51" />
+    <option name="width" value="1351" />
     <option name="height" value="1077" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -512,21 +512,7 @@
       <workItem from="1572853165779" duration="13656000" />
       <workItem from="1572915054108" duration="6219000" />
       <workItem from="1573124660758" duration="12235000" />
-      <workItem from="1573263337537" duration="4919000" />
-    </task>
-    <task id="LOCAL-00173" summary="添加新题解">
-      <created>1571815857355</created>
-      <option name="number" value="00173" />
-      <option name="presentableId" value="LOCAL-00173" />
-      <option name="project" value="LOCAL" />
-      <updated>1571815857355</updated>
-    </task>
-    <task id="LOCAL-00174" summary="添加新题解">
-      <created>1571816889811</created>
-      <option name="number" value="00174" />
-      <option name="presentableId" value="LOCAL-00174" />
-      <option name="project" value="LOCAL" />
-      <updated>1571816889811</updated>
+      <workItem from="1573263337537" duration="5160000" />
     </task>
     <task id="LOCAL-00175" summary="添加新题解">
       <created>1571821980470</created>
@@ -857,22 +843,36 @@
       <option name="project" value="LOCAL" />
       <updated>1573305590812</updated>
     </task>
-    <option name="localTasksCounter" value="222" />
+    <task id="LOCAL-00222" summary="添加新题解">
+      <created>1573305859733</created>
+      <option name="number" value="00222" />
+      <option name="presentableId" value="LOCAL-00222" />
+      <option name="project" value="LOCAL" />
+      <updated>1573305859733</updated>
+    </task>
+    <task id="LOCAL-00223" summary="添加新题解">
+      <created>1573306004298</created>
+      <option name="number" value="00223" />
+      <option name="presentableId" value="LOCAL-00223" />
+      <option name="project" value="LOCAL" />
+      <updated>1573306004298</updated>
+    </task>
+    <option name="localTasksCounter" value="224" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="660689000" />
+    <option name="totallyTimeSpent" value="660930000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="493" y="294" width="1485" height="1077" extended-state="0" />
+    <frame x="382" y="51" width="1351" height="1077" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22175439" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2447715" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4988345" visible="true" weight="0.32555673" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4988345" visible="true" weight="0.2799576" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.26552463" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -1127,13 +1127,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/笔试真题_求最大圆心角角度.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="29" lean-forward="true" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/海尔笔试题_得到最长全1子串方法数.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -1141,13 +1134,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="380">
           <caret line="104" column="48" lean-forward="true" selection-start-line="104" selection-start-column="48" selection-end-line="104" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/笔试真题_两个数组中所有数的上中位数.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
         </state>
       </provider>
     </entry>
@@ -1160,8 +1146,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/笔试真题_n个骰子的点数(骰子点数自定义).py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="32" selection-start-line="3" selection-start-column="32" selection-end-line="3" selection-end-column="32" />
+        <state relative-caret-position="171">
+          <caret line="9" column="17" lean-forward="true" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/笔试真题_求最大圆心角角度.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="33" column="18" lean-forward="true" selection-start-line="33" selection-start-column="18" selection-end-line="33" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/笔试真题_两个数组中所有数的上中位数.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
         </state>
       </provider>
     </entry>
