@@ -16,7 +16,7 @@ class Solution(object):
         if n1 > n2:
             return self.findMedianSortedArrays(nums2, nums1)
 
-            # 如果两个都为空的异常处理
+        # 如果两个都为空的异常处理
         if n2 == 0:
             raise ValueError
 
