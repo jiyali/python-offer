@@ -16,7 +16,7 @@ class Solution(object):
         if n1 > n2:
             return self.findMedianSortedArrays(nums2, nums1)
 
-        # 如果两个都为空的异常处理
+            # 如果两个都为空的异常处理
         if n2 == 0:
             raise ValueError
 
@@ -59,10 +59,11 @@ class Solution(object):
                 # 前面也提过，因为取中间的时候用的是向下取整，所以如果总数是奇数的话，
                 # 应该是右边个数多一些，边界的minright就是中位数
                 if ((n1 + n2) % 2) == 1:
-                    return minright
+                    return float(minright)
 
                     # 否则我们在两个值中间做个平均
                 return (maxleft + minright) / 2.0
 
 
-
+s = Solution()
+print(s.findMedianSortedArrays(nums1=[1, 3], nums2=[2]))
