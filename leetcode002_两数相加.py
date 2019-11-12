@@ -15,28 +15,26 @@ class Solution(object):
         # 累加获得第一个链表的数字和
         a, one = 0, 0
         while l1:
-            a += (l1.val) * (10 ** one)
+            a += l1.val * (10 ** one)
             one += 1
             l1 = l1.next
 
         b, two = 0, 0
-        # 累加获得第二个链表的数字和
         while l2:
-            b += (l2.val) * (10 ** two)
+            b += l2.val * (10 ** two)
             two += 1
             l2 = l2.next
 
-        # 翻转由链表生成的list
         Sum = list(str(a + b))[::-1]
 
-        # 构建两个临时节点，用于形成最终的链表
-        tmp_node = ListNode(None)
+        temp = ListNode(None)
         node = ListNode(None)
+
         for i in Sum:
-            if tmp_node.val is None:
-                tmp_node = ListNode(i)
-                node = tmp_node
+            if temp.val is None:
+                temp = ListNode(i)
+                node = temp
             else:
-                tmp_node.next = ListNode(i)
-                tmp_node = tmp_node.next
+                temp.next = ListNode(i)
+                temp = temp.next
         return node
