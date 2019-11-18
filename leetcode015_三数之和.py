@@ -6,18 +6,24 @@
 
 class Solution(object):
     def threeSum(self, nums):
+        """
+        :type nums: List[int]
+        :rtype: List[List[int]]
+        """
         dic = {}
         res = []
 
         for i in nums:
             dic[i] = dic.get(i, 0) + 1
 
+        # 正数
         pos = [i for i in dic if i > 0]
+        # 负数
         neg = [i for i in dic if i < 0]
 
         neg.sort()
 
-        if 0 in dic and dic[0] >= 3:
+        if 0 in dic and dic[0] > 2:
             res.append([0, 0, 0])
         for i in pos:
             for j in neg:
@@ -25,9 +31,9 @@ class Solution(object):
                 if k in dic:
                     if j < k < i:
                         res.append([i, j, k])
-                    elif (j == k or k == i) and dic[k] >= 2:
+                    elif (k == i or k == j) and dic[k] > 1:
                         res.append([i, j, k])
-                    if k < j:
+                    elif k < j:
                         break
         return res
 
