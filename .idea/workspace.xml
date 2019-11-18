@@ -4,7 +4,10 @@
     <bookmark url="file://$PROJECT_DIR$/leetcode695_岛屿的最大面积.py" line="10" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3a8d48e4-62b6-4d4b-aedb-51dd4e787cc5" name="Default Changelist" comment="" />
+    <list default="true" id="3a8d48e4-62b6-4d4b-aedb-51dd4e787cc5" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode009_回文数.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode009_回文数.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -199,11 +202,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/leetcode008_字符串转换整数.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="267">
-              <caret line="21" column="26" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
+            <state relative-caret-position="153">
+              <caret line="15" column="37" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/leetcode009_回文数.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="133">
+              <caret line="7" column="8" lean-forward="true" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -216,15 +228,6 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/面经真题_装饰器.py">
           <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/按正负排序数组.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="437">
-              <caret line="23" selection-start-line="23" selection-end-line="24" selection-end-column="14" />
-            </state>
-          </provider>
         </entry>
       </file>
     </leaf>
@@ -242,7 +245,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/53_02 0~n-1缺失的数字.py" />
         <option value="$PROJECT_DIR$/54_二叉搜索树的第K大节点.py" />
         <option value="$PROJECT_DIR$/55_01二叉树的深度.py" />
         <option value="$PROJECT_DIR$/55_02平衡二叉树.py" />
@@ -293,6 +295,7 @@
         <option value="$PROJECT_DIR$/leetcode005_最长回文子串.py" />
         <option value="$PROJECT_DIR$/leetcode007_整数反转.py" />
         <option value="$PROJECT_DIR$/leetcode008_字符串转换整数.py" />
+        <option value="$PROJECT_DIR$/leetcode009_回文数.py" />
       </list>
     </option>
   </component>
@@ -587,14 +590,7 @@
       <workItem from="1573779399170" duration="2297000" />
       <workItem from="1573893616796" duration="1003000" />
       <workItem from="1574039324354" duration="280000" />
-      <workItem from="1574039625515" duration="7957000" />
-    </task>
-    <task id="LOCAL-00185" summary="添加新题解">
-      <created>1571834635609</created>
-      <option name="number" value="00185" />
-      <option name="presentableId" value="LOCAL-00185" />
-      <option name="project" value="LOCAL" />
-      <updated>1571834635609</updated>
+      <workItem from="1574039625515" duration="8254000" />
     </task>
     <task id="LOCAL-00186" summary="添加新题解">
       <created>1572078603868</created>
@@ -932,14 +928,21 @@
       <option name="project" value="LOCAL" />
       <updated>1574062649991</updated>
     </task>
-    <option name="localTasksCounter" value="234" />
+    <task id="LOCAL-00234" summary="添加新题解">
+      <created>1574063225053</created>
+      <option name="number" value="00234" />
+      <option name="presentableId" value="LOCAL-00234" />
+      <option name="project" value="LOCAL" />
+      <updated>1574063225053</updated>
+    </task>
+    <option name="localTasksCounter" value="235" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="694084000" />
+    <option name="totallyTimeSpent" value="694381000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="699" y="23" width="1165" height="1019" extended-state="0" />
+    <frame x="671" y="17" width="1165" height="1019" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26696834" />
@@ -999,9 +1002,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="添加新题解" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/48_最长不含重复字符的子字符串.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/49_丑数.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -1233,8 +1233,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/leetcode008_字符串转换整数.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="267">
-          <caret line="21" column="26" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
+        <state relative-caret-position="153">
+          <caret line="15" column="37" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetcode009_回文数.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="8" lean-forward="true" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
         </state>
       </provider>
     </entry>

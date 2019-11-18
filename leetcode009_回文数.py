@@ -3,8 +3,7 @@
 
 class Solution(object):
     def isPalindrome(self, x):
-        x = x.lstrip()
-        if len(x) == 0:
-            return 0
-
-        if
+        if str(x) == str(x)[::-1]:
+            return True
+        else:
+            return False
