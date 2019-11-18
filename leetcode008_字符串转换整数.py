@@ -13,7 +13,7 @@
 class Solution(object):
     def myAtoi(self, str):
         # 去掉左边字符
-        str = str.lstrip()
+        str = str.lstrip()  # 去掉左边的空格
         # 如果字符串空，返回
         if len(str) == 0:
             return 0
