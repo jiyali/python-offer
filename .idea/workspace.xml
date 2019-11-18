@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3a8d48e4-62b6-4d4b-aedb-51dd4e787cc5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/leetcode011_盛最多水的容器.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode009_回文数.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode009_回文数.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -153,15 +153,6 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/leetcode004_寻找两个有序数组的中位数.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="142">
-              <caret line="19" column="19" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/笔试真题_n个骰子的点数(骰子点数自定义).py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="171">
@@ -211,11 +202,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/leetcode009_回文数.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="7" column="8" lean-forward="true" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
+            <state relative-caret-position="76">
+              <caret line="4" column="30" lean-forward="true" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/leetcode011_盛最多水的容器.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="152">
+              <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="17" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -245,7 +245,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/54_二叉搜索树的第K大节点.py" />
         <option value="$PROJECT_DIR$/55_01二叉树的深度.py" />
         <option value="$PROJECT_DIR$/55_02平衡二叉树.py" />
         <option value="$PROJECT_DIR$/56_01数组中数字出现的次数.py" />
@@ -296,13 +295,14 @@
         <option value="$PROJECT_DIR$/leetcode007_整数反转.py" />
         <option value="$PROJECT_DIR$/leetcode008_字符串转换整数.py" />
         <option value="$PROJECT_DIR$/leetcode009_回文数.py" />
+        <option value="$PROJECT_DIR$/leetcode011_盛最多水的容器.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="671" />
-    <option name="y" value="17" />
-    <option name="width" value="1165" />
+    <option name="x" value="638" />
+    <option name="y" value="65" />
+    <option name="width" value="1057" />
     <option name="height" value="1019" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -590,14 +590,7 @@
       <workItem from="1573779399170" duration="2297000" />
       <workItem from="1573893616796" duration="1003000" />
       <workItem from="1574039324354" duration="280000" />
-      <workItem from="1574039625515" duration="8254000" />
-    </task>
-    <task id="LOCAL-00186" summary="添加新题解">
-      <created>1572078603868</created>
-      <option name="number" value="00186" />
-      <option name="presentableId" value="LOCAL-00186" />
-      <option name="project" value="LOCAL" />
-      <updated>1572078603869</updated>
+      <workItem from="1574039625515" duration="8767000" />
     </task>
     <task id="LOCAL-00187" summary="添加新题解">
       <created>1572080217738</created>
@@ -935,17 +928,24 @@
       <option name="project" value="LOCAL" />
       <updated>1574063225053</updated>
     </task>
-    <option name="localTasksCounter" value="235" />
+    <task id="LOCAL-00235" summary="添加新题解">
+      <created>1574063484958</created>
+      <option name="number" value="00235" />
+      <option name="presentableId" value="LOCAL-00235" />
+      <option name="project" value="LOCAL" />
+      <updated>1574063484958</updated>
+    </task>
+    <option name="localTasksCounter" value="236" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="694381000" />
+    <option name="totallyTimeSpent" value="694894000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="671" y="17" width="1165" height="1019" extended-state="0" />
+    <frame x="947" y="53" width="1057" height="1019" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26696834" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.29588765" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -1002,9 +1002,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="添加新题解" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/49_丑数.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/50_01第一个只出现一次的字符.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -1240,8 +1237,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/leetcode009_回文数.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="8" lean-forward="true" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
+        <state relative-caret-position="76">
+          <caret line="4" column="30" lean-forward="true" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetcode011_盛最多水的容器.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="17" selection-end-column="18" />
         </state>
       </provider>
     </entry>
