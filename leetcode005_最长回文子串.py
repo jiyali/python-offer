@@ -8,8 +8,8 @@ class Solution(object):
 
         start, maxlength = 0, 1
         for i in range(len(s)):
-            odd = s[i - maxlength - 1:i + 1]
-            even = s[i - maxlength:i + 1]
+            odd = s[i - maxlength - 1:i + 1]  # 奇数
+            even = s[i - maxlength:i + 1]  # 偶数
             if i - maxlength - 1 >= 0 and odd == odd[::-1]:
                 start = i - maxlength - 1
                 maxlength += 2
