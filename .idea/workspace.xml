@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3a8d48e4-62b6-4d4b-aedb-51dd4e787cc5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/leetcode011_盛最多水的容器.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode015_三数之和.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -167,28 +167,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/leetcode005_最长回文子串.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="7" selection-start-line="7" selection-end-line="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/笔试真题_求最大圆心角角度.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="514">
               <caret line="38" column="16" selection-start-line="38" selection-start-column="16" selection-end-line="38" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/leetcode007_整数反转.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="5" column="25" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -211,11 +193,29 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/leetcode011_盛最多水的容器.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="17" selection-end-column="18" />
+            <state relative-caret-position="323">
+              <caret line="17" column="18" lean-forward="true" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/leetcode014_最长公共前缀.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="133">
+              <caret line="7" column="5" lean-forward="true" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/leetcode015_三数之和.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="388">
+              <caret line="21" column="8" selection-start-line="21" selection-start-column="8" selection-end-line="30" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -245,8 +245,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/55_01二叉树的深度.py" />
-        <option value="$PROJECT_DIR$/55_02平衡二叉树.py" />
         <option value="$PROJECT_DIR$/56_01数组中数字出现的次数.py" />
         <option value="$PROJECT_DIR$/56_02数组中唯一只出现一次的数字.py" />
         <option value="$PROJECT_DIR$/56_01数组中只出现一次的两个数字.py" />
@@ -296,13 +294,15 @@
         <option value="$PROJECT_DIR$/leetcode008_字符串转换整数.py" />
         <option value="$PROJECT_DIR$/leetcode009_回文数.py" />
         <option value="$PROJECT_DIR$/leetcode011_盛最多水的容器.py" />
+        <option value="$PROJECT_DIR$/leetcode014_最长公共前缀.py" />
+        <option value="$PROJECT_DIR$/leetcode015_三数之和.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="638" />
-    <option name="y" value="65" />
-    <option name="width" value="1057" />
+    <option name="x" value="534" />
+    <option name="y" value="70" />
+    <option name="width" value="1242" />
     <option name="height" value="1019" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -590,21 +590,7 @@
       <workItem from="1573779399170" duration="2297000" />
       <workItem from="1573893616796" duration="1003000" />
       <workItem from="1574039324354" duration="280000" />
-      <workItem from="1574039625515" duration="8767000" />
-    </task>
-    <task id="LOCAL-00187" summary="添加新题解">
-      <created>1572080217738</created>
-      <option name="number" value="00187" />
-      <option name="presentableId" value="LOCAL-00187" />
-      <option name="project" value="LOCAL" />
-      <updated>1572080217738</updated>
-    </task>
-    <task id="LOCAL-00188" summary="添加新题解">
-      <created>1572081674006</created>
-      <option name="number" value="00188" />
-      <option name="presentableId" value="LOCAL-00188" />
-      <option name="project" value="LOCAL" />
-      <updated>1572081674006</updated>
+      <workItem from="1574039625515" duration="11031000" />
     </task>
     <task id="LOCAL-00189" summary="添加新题解">
       <created>1572090666136</created>
@@ -935,23 +921,37 @@
       <option name="project" value="LOCAL" />
       <updated>1574063484958</updated>
     </task>
-    <option name="localTasksCounter" value="236" />
+    <task id="LOCAL-00236" summary="添加新题解">
+      <created>1574064003470</created>
+      <option name="number" value="00236" />
+      <option name="presentableId" value="LOCAL-00236" />
+      <option name="project" value="LOCAL" />
+      <updated>1574064003470</updated>
+    </task>
+    <task id="LOCAL-00237" summary="添加新题解">
+      <created>1574064949128</created>
+      <option name="number" value="00237" />
+      <option name="presentableId" value="LOCAL-00237" />
+      <option name="project" value="LOCAL" />
+      <updated>1574064949128</updated>
+    </task>
+    <option name="localTasksCounter" value="238" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="694894000" />
+    <option name="totallyTimeSpent" value="697158000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="947" y="53" width="1057" height="1019" extended-state="0" />
+    <frame x="691" y="66" width="1242" height="1019" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.29588765" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24957699" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4988345" weight="0.31299436" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.24745762" />
+      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.24745762" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -965,7 +965,7 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="right" id="SciView" order="3" weight="0.32998997" />
       <window_info anchor="right" id="Database" order="4" weight="0.32853025" />
     </layout>
     <layout-to-restore>
@@ -1002,12 +1002,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="添加新题解" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/50_01第一个只出现一次的字符.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/50_02字符流中第一个只出现依次的字符.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/50_03删除公共字符.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -1244,8 +1238,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/leetcode011_盛最多水的容器.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="17" selection-end-column="18" />
+        <state relative-caret-position="323">
+          <caret line="17" column="18" lean-forward="true" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetcode014_最长公共前缀.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="5" lean-forward="true" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetcode015_三数之和.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="388">
+          <caret line="21" column="8" selection-start-line="21" selection-start-column="8" selection-end-line="30" selection-end-column="29" />
         </state>
       </provider>
     </entry>
