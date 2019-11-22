@@ -1,39 +1,44 @@
-class ListNode(object):
+class ListNode:
     def __init__(self, data):
         self.val = data
         self.next = None
 
 
-class Solution(object):
+class Solution:
     def sort_alternating(self, head):
-        if not head:
+        if head is None:
             return None
 
-        # separate two lists
-        odd_head = odd_h = ListNode(0)  # 奇数
-        even_head = even_h = ListNode(0)  # 偶数
+        odd_head = odd_h = ListNode(0)
+        even_head = even_h = ListNode(0)
+
         odd = head
         even = head.next
+
         while odd:
             odd_h.next = ListNode(odd.val)
-            odd, odd_h = odd.next.next if odd.next else None, odd_h.next
+            odd = odd.next.next if odd.next else None
+            odd_h = odd_h.next
+
         while even:
             even_h.next = ListNode(even.val)
-            even, even_h = even.next.next if even.next else None, even_h.next
+            even = even.next.next if even.next else None
+            even_h = even_h.next
 
-        # reverse the one with descending order
         prev = None
-        odd_head, even_head = odd_head.next, even_head.next
+        odd_head = odd_head.next
+        even_head = even_head.next
         while even_head:
             even_head.next, prev, even_head = prev, even_head, even_head.next
 
-        # merge both lists
         ans = h = ListNode(0)
         while odd_head and prev:
             if odd_head.val <= prev.val:
-                h.next, odd_head = odd_head, odd_head.next
+                h.next = odd_head
+                odd_head = odd_head.next
             else:
-                h.next, prev = prev, prev.next
+                h.next = prev
+                prev = prev.next
             h = h.next
         h.next = odd_head or prev
         return ans.next
@@ -60,5 +65,3 @@ node8.next = node9
 
 s = Solution()
 print(s.sort_alternating(node1).next.val)
-
-
