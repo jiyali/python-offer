@@ -4,9 +4,9 @@
     <bookmark url="file://$PROJECT_DIR$/leetcode695_岛屿的最大面积.py" line="10" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3a8d48e4-62b6-4d4b-aedb-51dd4e787cc5" name="Default Changelist" comment="添加新题解">
-      <change afterPath="$PROJECT_DIR$/100_Numpy_exercises.py" afterDir="false" />
+    <list default="true" id="3a8d48e4-62b6-4d4b-aedb-51dd4e787cc5" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/100_Numpy_exercises.py" beforeDir="false" afterPath="$PROJECT_DIR$/100_Numpy_exercises.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -68,6 +68,7 @@
     <SUITE FILE_PATH="coverage/offer$test.coverage" NAME="test Coverage Results" MODIFIED="1569403088640" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/python_target_offer$38_02.coverage" NAME="38_02字符串的组合 Coverage Results" MODIFIED="1570868388794" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/offer$17_011n.coverage" NAME="17_01打印从1到最大的n位数 Coverage Results" MODIFIED="1569466047966" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/python_target_offer$100_Numpy_exercises.coverage" NAME="100_Numpy_exercises Coverage Results" MODIFIED="1574859048888" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/offer$21_.coverage" NAME="21_调整数组顺序使奇数位位于偶数前面 Coverage Results" MODIFIED="1569659143942" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/python_target_offer$44444.coverage" NAME="44444 Coverage Results" MODIFIED="1573807080117" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/offer$34_.coverage" NAME="34_二叉树中和为某一值的路径 Coverage Results" MODIFIED="1570609198545" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -112,7 +113,7 @@
     <SUITE FILE_PATH="coverage/offer$27_02__.coverage" NAME="27_02二叉树的镜像(循环) Coverage Results" MODIFIED="1570518620372" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/python_target_offer$45_.coverage" NAME="45_把数组排成最小的数 Coverage Results" MODIFIED="1571384613574" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/offer$29_.coverage" NAME="29_顺时针打印矩阵 Coverage Results" MODIFIED="1570538181966" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/python_target_offer$leetcode016_.coverage" NAME="leetcode016_最接近的三数之和 Coverage Results" MODIFIED="1574413068759" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/python_target_offer$leetcode016_.coverage" NAME="leetcode016_最接近的三数之和 Coverage Results" MODIFIED="1574858584035" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/python_target_offer$30_min.coverage" NAME="30_包含min函数的栈 Coverage Results" MODIFIED="1572232881510" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/python_target_offer$1004_1.coverage" NAME="1004_最大连续1的个数 Coverage Results" MODIFIED="1571475221593" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/offer$25_.coverage" NAME="25_合并两个排序的链表 Coverage Results" MODIFIED="1570501537673" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -166,8 +167,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/100_Numpy_exercises.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="29" column="54" selection-start-line="29" selection-start-column="54" selection-end-line="29" selection-end-column="54" />
+            <state relative-caret-position="378">
+              <caret line="51" column="6" lean-forward="true" selection-start-line="51" selection-start-column="6" selection-end-line="51" selection-end-column="58" />
             </state>
           </provider>
         </entry>
@@ -306,8 +307,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="314" />
-    <option name="y" value="44" />
+    <option name="x" value="466" />
+    <option name="y" value="14" />
     <option name="width" value="1314" />
     <option name="height" value="1043" />
   </component>
@@ -350,8 +351,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.leetcode016_最接近的三数之和">
-    <configuration name="44444" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.100_Numpy_exercises">
+    <configuration name="100_Numpy_exercises" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="剑指offer" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -364,7 +365,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="C:\Users\Administrator\Desktop\python-target-offer\笔试真题_n个骰子的点数(骰子点数自定义).py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/100_Numpy_exercises.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -528,19 +529,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.44444" />
       <item itemvalue="Python.leetcode005_最长回文子串" />
       <item itemvalue="Python.leetcode325_" />
       <item itemvalue="Python.面经真题_将一个奇数位升序，偶数位降序的链表转成一个升序的链表" />
       <item itemvalue="Python.leetcode016_最接近的三数之和" />
+      <item itemvalue="Python.100_Numpy_exercises" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.100_Numpy_exercises" />
         <item itemvalue="Python.leetcode016_最接近的三数之和" />
         <item itemvalue="Python.面经真题_将一个奇数位升序，偶数位降序的链表转成一个升序的链表" />
         <item itemvalue="Python.leetcode325_" />
         <item itemvalue="Python.leetcode005_最长回文子串" />
-        <item itemvalue="Python.44444" />
       </list>
     </recent_temporary>
   </component>
@@ -602,14 +603,7 @@
       <workItem from="1574385792284" duration="8741000" />
       <workItem from="1574430338841" duration="37000" />
       <workItem from="1574752716245" duration="857000" />
-      <workItem from="1574820983034" duration="1389000" />
-    </task>
-    <task id="LOCAL-00196" summary="添加新题解">
-      <created>1572245121217</created>
-      <option name="number" value="00196" />
-      <option name="presentableId" value="LOCAL-00196" />
-      <option name="project" value="LOCAL" />
-      <updated>1572245121218</updated>
+      <workItem from="1574820983034" duration="1906000" />
     </task>
     <task id="LOCAL-00197" summary="添加新题解">
       <created>1572247150844</created>
@@ -947,14 +941,21 @@
       <option name="project" value="LOCAL" />
       <updated>1574430343676</updated>
     </task>
-    <option name="localTasksCounter" value="245" />
+    <task id="LOCAL-00245" summary="添加新题解">
+      <created>1574858438971</created>
+      <option name="number" value="00245" />
+      <option name="presentableId" value="LOCAL-00245" />
+      <option name="project" value="LOCAL" />
+      <updated>1574858438972</updated>
+    </task>
+    <option name="localTasksCounter" value="246" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="724652000" />
+    <option name="totallyTimeSpent" value="725169000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="314" y="44" width="1314" height="1043" extended-state="0" />
+    <frame x="466" y="14" width="1314" height="1043" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25917065" />
@@ -962,7 +963,7 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4988345" weight="0.20983607" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4988345" visible="true" weight="0.29922992" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.24745762" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -1280,8 +1281,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/100_Numpy_exercises.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="29" column="54" selection-start-line="29" selection-start-column="54" selection-end-line="29" selection-end-column="54" />
+        <state relative-caret-position="378">
+          <caret line="51" column="6" lean-forward="true" selection-start-line="51" selection-start-column="6" selection-end-line="51" selection-end-column="58" />
         </state>
       </provider>
     </entry>

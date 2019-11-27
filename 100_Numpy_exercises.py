@@ -33,20 +33,26 @@ print(np.arange(9).reshape(3, 3))
 # 10. Find indices of non-zero elements from \[1,2,0,0,4,0\] (★☆☆)
 print(np.nonzero([1, 2, 0, 0, 4, 0]))
 
-# 11. Create a 3x3 identity matrix (★☆☆)
-
+# 11. Create a 3x3 identity matrix (★☆☆) 单位矩阵
+print(np.eye(3))
 
 # 12. Create a 3x3x3 array with random values (★☆☆)
-
+print(np.random.random((3, 3, 3)))
 
 # 13. Create a 10x10 array with random values and find the minimum and maximum values (★☆☆)
-
+Z = np.random.random((10, 10, 10))
+Zmin, Zmax = Z.min(), Z.max()
+print(Zmin, Zmax)
 
 # 14. Create a random vector of size 30 and find the mean value (★☆☆)
-
+Z = np.random.random(30)
+Zmean = Z.mean()
+print(Zmean)
 
 # 15. Create a 2d array with 1 on the border and 0 inside (★☆☆)
-
+Z = np.ones((10, 10))
+Z[1:-1, 1:-1] = 0
+print(Z)
 
 # 16. How to add a border (filled with 0's) around an existing array? (★☆☆)
 
