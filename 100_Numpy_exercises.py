@@ -156,10 +156,11 @@ print(np.array(0) // np.array(0))  # 0
 print(np.array([np.nan]).astype(int).astype(float))  # [-2.14748365e+09]
 
 
-# 29. How to round away from zero a float array ? (★☆☆) 四舍五入
+# 29. How to round away from zero a float array ? (★☆☆) 从0开始四舍五入
 Z = np.random.uniform(-10, +10, 10)
 print(Z)
-print(around(Z))
+print(around(Z, 0))  # 全部四舍五入
+print(np.copysign(np.ceil(np.abs(Z)), Z))
 
 
 # 30. How to find common values between two arrays? (★☆☆)
