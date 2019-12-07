@@ -164,12 +164,19 @@ print(np.copysign(np.ceil(np.abs(Z)), Z))
 
 
 # 30. How to find common values between two arrays? (★☆☆)
+Z1 = np.random.randint(1, 10, 10)
+Z2 = np.random.randint(1, 10, 10)
+print(np.intersect1d(Z1, Z2))
 
 
+# 31. How to ignore all numpy warnings (not recommended)? (★☆☆)
+defaults = np.seterr(all='ignore')
+Z = np.ones(1) / 0
 
-#### 31. How to ignore all numpy warnings (not recommended)? (★☆☆)
+_ = np.seterr(**defaults)
 
-
+with np.errstate(divide='ignore'):
+    Z = np.ones(1) / 0
 
 #### 32. Is the following expressions true? (★☆☆)
 

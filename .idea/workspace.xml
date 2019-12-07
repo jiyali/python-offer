@@ -68,7 +68,7 @@
     <SUITE FILE_PATH="coverage/offer$test.coverage" NAME="test Coverage Results" MODIFIED="1569403088640" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/python_target_offer$38_02.coverage" NAME="38_02字符串的组合 Coverage Results" MODIFIED="1570868388794" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/offer$17_011n.coverage" NAME="17_01打印从1到最大的n位数 Coverage Results" MODIFIED="1569466047966" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/python_target_offer$100_Numpy_exercises.coverage" NAME="100_Numpy_exercises Coverage Results" MODIFIED="1575467278930" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/python_target_offer$100_Numpy_exercises.coverage" NAME="100_Numpy_exercises Coverage Results" MODIFIED="1575721495327" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/offer$21_.coverage" NAME="21_调整数组顺序使奇数位位于偶数前面 Coverage Results" MODIFIED="1569659143942" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/python_target_offer$44444.coverage" NAME="44444 Coverage Results" MODIFIED="1573807080117" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/offer$34_.coverage" NAME="34_二叉树中和为某一值的路径 Coverage Results" MODIFIED="1570609198545" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -158,8 +158,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/100_Numpy_exercises.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="327">
-              <caret line="160" column="7" selection-start-line="160" selection-start-column="7" selection-end-line="160" selection-end-column="7" />
+            <state relative-caret-position="355">
+              <caret line="174" lean-forward="true" selection-start-line="174" selection-end-line="174" />
             </state>
           </provider>
         </entry>
@@ -298,8 +298,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="414" />
-    <option name="y" value="23" />
+    <option name="x" value="369" />
+    <option name="y" value="11" />
     <option name="width" value="1421" />
     <option name="height" value="1036" />
   </component>
@@ -309,7 +309,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -321,6 +320,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -595,21 +595,9 @@
       <workItem from="1574430338841" duration="37000" />
       <workItem from="1574752716245" duration="857000" />
       <workItem from="1574820983034" duration="5526000" />
-      <workItem from="1575200675047" duration="11063000" />
-    </task>
-    <task id="LOCAL-00200" summary="添加新题解">
-      <created>1572264143824</created>
-      <option name="number" value="00200" />
-      <option name="presentableId" value="LOCAL-00200" />
-      <option name="project" value="LOCAL" />
-      <updated>1572264143824</updated>
-    </task>
-    <task id="LOCAL-00201" summary="添加新题解">
-      <created>1572268538156</created>
-      <option name="number" value="00201" />
-      <option name="presentableId" value="LOCAL-00201" />
-      <option name="project" value="LOCAL" />
-      <updated>1572268538156</updated>
+      <workItem from="1575200675047" duration="12245000" />
+      <workItem from="1575508509260" duration="2189000" />
+      <workItem from="1575718791060" duration="2494000" />
     </task>
     <task id="LOCAL-00202" summary="添加新题解">
       <created>1572269154561</created>
@@ -940,17 +928,31 @@
       <option name="project" value="LOCAL" />
       <updated>1574862424787</updated>
     </task>
-    <option name="localTasksCounter" value="249" />
+    <task id="LOCAL-00249" summary="添加新题解">
+      <created>1575467375189</created>
+      <option name="number" value="00249" />
+      <option name="presentableId" value="LOCAL-00249" />
+      <option name="project" value="LOCAL" />
+      <updated>1575467375190</updated>
+    </task>
+    <task id="LOCAL-00250" summary="添加新题解">
+      <created>1575468367861</created>
+      <option name="number" value="00250" />
+      <option name="presentableId" value="LOCAL-00250" />
+      <option name="project" value="LOCAL" />
+      <updated>1575468367861</updated>
+    </task>
+    <option name="localTasksCounter" value="251" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="739852000" />
+    <option name="totallyTimeSpent" value="745717000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="650" y="8" width="1421" height="1036" extended-state="0" />
+    <frame x="369" y="11" width="1421" height="1036" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19544452" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20132256" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -1216,6 +1218,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://D:/Image-Captions/main_notebook.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/100_Numpy_exercises.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="355">
+          <caret line="174" lean-forward="true" selection-start-line="174" selection-end-line="174" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/leetcode011_盛最多水的容器.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
@@ -1263,20 +1279,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/面经真题_装饰器.py">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://D:/Image-Captions/main_notebook.ipynb">
-      <provider selected="true" editor-type-id="ipnb-editor">
-        <state>
-          <selected id="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/100_Numpy_exercises.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="327">
-          <caret line="160" column="7" selection-start-line="160" selection-start-column="7" selection-end-line="160" selection-end-column="7" />
-        </state>
-      </provider>
     </entry>
   </component>
 </project>
