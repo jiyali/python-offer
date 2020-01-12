@@ -25,7 +25,7 @@ class Solution:
         for _str in strs:
             key_val = 1
             for s in _str:
-                key_val *= prime[ord(s) - 97]
+                key_val *= prime[ord(s) - ord('a')]
             lookup[key_val].append(_str)
         return list(lookup.values())
 
