@@ -2,13 +2,13 @@
 # 你应当保留两个分区中每个节点的初始相对位置。
 
 
-class ListNode():
+class ListNode:
     def __init__(self, val):
         self.val = val
         self.next = None
 
 
-class Solution():
+class Solution:
     def partition(self, head, x):
         left = left_head = ListNode(0)
         right = right_head = ListNode(0)
