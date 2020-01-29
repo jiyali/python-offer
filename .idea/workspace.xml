@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3a8d48e4-62b6-4d4b-aedb-51dd4e787cc5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/leetcode003_无重复字符的最长子串.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode82_删除排序链表中的重复元素II.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode82_删除排序链表中的重复元素II.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -40,6 +40,7 @@
     <SUITE FILE_PATH="coverage/offer$17_011n.coverage" NAME="17_01打印从1到最大的n位数 Coverage Results" MODIFIED="1569466047966" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/offer$35_.coverage" NAME="35_复杂链表的复制 Coverage Results" MODIFIED="1570618782613" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/python_target_offer$52_02.coverage" NAME="52_02二叉搜索树两个节点的最低公共祖先 Coverage Results" MODIFIED="1571796054617" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/python_target_offer$leetcode003_.coverage" NAME="leetcode003_无重复字符的最长子串 Coverage Results" MODIFIED="1580295018869" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/offer$python.coverage" NAME="python实现链表 Coverage Results" MODIFIED="1569052965227" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/python_target_offer$leetcode016_.coverage" NAME="leetcode016_最接近的三数之和 Coverage Results" MODIFIED="1574858584035" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/python_target_offer$44444.coverage" NAME="44444 Coverage Results" MODIFIED="1573807080117" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -127,6 +128,7 @@
     <SUITE FILE_PATH="coverage/python_target_offer$leetcode004_.coverage" NAME="leetcode004_寻找两个有序数组的中位数 Coverage Results" MODIFIED="1573566643993" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/python_target_offer$39_.coverage" NAME="39_数组中出现次数超过一半的数字 Coverage Results" MODIFIED="1571055334002" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/python_target_offer$53_03.coverage" NAME="53_03数组中数值和下标相等的元素 Coverage Results" MODIFIED="1571828411128" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/python_target_offer$leetcode001_.coverage" NAME="leetcode001_两数之和 Coverage Results" MODIFIED="1580288555506" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/python_target_offer$53_02_0_n_1.coverage" NAME="53_02 0~n-1缺失的数字 Coverage Results" MODIFIED="1571830387258" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/offer$37_.coverage" NAME="37_序列化二叉树 Coverage Results" MODIFIED="1570689958672" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/offer$38_05.coverage" NAME="38_05非重复数字全排列 Coverage Results" MODIFIED="1570851703808" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -195,11 +197,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/leetcode82_删除排序链表中的重复元素II.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="25" selection-end-column="28" />
+            <state relative-caret-position="165">
+              <caret line="12" column="23" lean-forward="true" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -207,8 +209,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/leetcode001_两数之和.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="15" column="17" lean-forward="true" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
+            <state relative-caret-position="152">
+              <caret line="8" column="50" lean-forward="true" selection-start-line="8" selection-start-column="50" selection-end-line="8" selection-end-column="50" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/leetcode003_无重复字符的最长子串.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="361">
+              <caret line="23" column="33" selection-start-line="23" selection-start-column="33" selection-end-line="23" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -217,15 +228,6 @@
         <entry file="file://$PROJECT_DIR$/leetcode002_两数相加.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-324" />
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/leetcode83_删除排序链表中的重复元素.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="8" selection-start-line="8" selection-end-line="8" />
-            </state>
           </provider>
         </entry>
       </file>
@@ -271,9 +273,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/leetcode001_两数之和.py" />
-        <option value="$PROJECT_DIR$/leetcode206_反转链表.py" />
-        <option value="$PROJECT_DIR$/33333.py" />
         <option value="$PROJECT_DIR$/38_06重复数字全排列.py" />
         <option value="$PROJECT_DIR$/44444.py" />
         <option value="$PROJECT_DIR$/笔试真题_ip地址转32位无符号整数.py" />
@@ -322,11 +321,14 @@
         <option value="$PROJECT_DIR$/leetcode203_移除链表元素.py" />
         <option value="$PROJECT_DIR$/leetcode445_两数相加II.py" />
         <option value="$PROJECT_DIR$/leetcode82_删除排序链表中的重复元素II.py" />
+        <option value="$PROJECT_DIR$/leetcode001_两数之和.py" />
+        <option value="$PROJECT_DIR$/leetcode003_无重复字符的最场子串.py" />
+        <option value="$PROJECT_DIR$/leetcode003_无重复字符的最长子串.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="233" />
+    <option name="x" value="362" />
     <option name="width" value="1094" />
     <option name="height" value="728" />
   </component>
@@ -369,29 +371,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.16_数值的整数次方">
-    <configuration name="手写堆排" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="剑指offer" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/手写堆排.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.leetcode003_无重复字符的最长子串">
     <configuration name="16_数值的整数次方" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="剑指offer" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -436,7 +416,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="leetcode209_长度最小的子数组" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="leetcode001_两数之和" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="剑指offer" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -449,7 +429,29 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/leetcode209_长度最小的子数组.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/leetcode001_两数之和.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="leetcode003_无重复字符的最长子串" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="剑指offer" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/leetcode003_无重复字符的最长子串.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -503,19 +505,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.手写堆排" />
-      <item itemvalue="Python.leetcode209_长度最小的子数组" />
       <item itemvalue="Python.leetcode454_四数相加II" />
       <item itemvalue="Python.leetcode49_字母异位词分组" />
       <item itemvalue="Python.16_数值的整数次方" />
+      <item itemvalue="Python.leetcode001_两数之和" />
+      <item itemvalue="Python.leetcode003_无重复字符的最长子串" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.leetcode003_无重复字符的最长子串" />
+        <item itemvalue="Python.leetcode001_两数之和" />
         <item itemvalue="Python.16_数值的整数次方" />
         <item itemvalue="Python.leetcode49_字母异位词分组" />
         <item itemvalue="Python.leetcode454_四数相加II" />
-        <item itemvalue="Python.leetcode209_长度最小的子数组" />
-        <item itemvalue="Python.手写堆排" />
       </list>
     </recent_temporary>
   </component>
@@ -598,21 +600,7 @@
       <workItem from="1579617016560" duration="456000" />
       <workItem from="1579745257856" duration="5108000" />
       <workItem from="1580045482749" duration="1416000" />
-      <workItem from="1580276298419" duration="3279000" />
-    </task>
-    <task id="LOCAL-00223" summary="添加新题解">
-      <created>1573306004298</created>
-      <option name="number" value="00223" />
-      <option name="presentableId" value="LOCAL-00223" />
-      <option name="project" value="LOCAL" />
-      <updated>1573306004298</updated>
-    </task>
-    <task id="LOCAL-00224" summary="添加新题解">
-      <created>1573306113567</created>
-      <option name="number" value="00224" />
-      <option name="presentableId" value="LOCAL-00224" />
-      <option name="project" value="LOCAL" />
-      <updated>1573306113567</updated>
+      <workItem from="1580276298419" duration="8024000" />
     </task>
     <task id="LOCAL-00225" summary="添加新题解">
       <created>1573306127918</created>
@@ -943,14 +931,28 @@
       <option name="project" value="LOCAL" />
       <updated>1580281579790</updated>
     </task>
-    <option name="localTasksCounter" value="272" />
+    <task id="LOCAL-00272" summary="添加新题解">
+      <created>1580284450117</created>
+      <option name="number" value="00272" />
+      <option name="presentableId" value="LOCAL-00272" />
+      <option name="project" value="LOCAL" />
+      <updated>1580284450117</updated>
+    </task>
+    <task id="LOCAL-00273" summary="添加新题解">
+      <created>1580288566909</created>
+      <option name="number" value="00273" />
+      <option name="presentableId" value="LOCAL-00273" />
+      <option name="project" value="LOCAL" />
+      <updated>1580288566909</updated>
+    </task>
+    <option name="localTasksCounter" value="274" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="817266000" />
+    <option name="totallyTimeSpent" value="822011000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="358" y="0" width="1094" height="728" extended-state="0" />
+    <frame x="362" y="0" width="1094" height="728" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24758221" />
@@ -958,7 +960,7 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49775112" visible="true" weight="0.24672489" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49775112" visible="true" weight="0.24537815" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.38537118" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -1010,7 +1012,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="添加新题解" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/Downloads/bert-for-humans-tutorial-baseline.ipynb" />
     <entry file="file://$PROJECT_DIR$/leetcode020_有效的括号.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="247">
@@ -1287,13 +1288,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/leetcode001_两数之和.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" column="17" lean-forward="true" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/leetcode002_两数相加.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-324" />
@@ -1308,8 +1302,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/leetcode82_删除排序链表中的重复元素II.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="25" selection-end-column="28" />
+        <state relative-caret-position="165">
+          <caret line="12" column="23" lean-forward="true" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetcode001_两数之和.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="50" lean-forward="true" selection-start-line="8" selection-start-column="50" selection-end-line="8" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetcode003_无重复字符的最长子串.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="23" column="33" selection-start-line="23" selection-start-column="33" selection-end-line="23" selection-end-column="33" />
         </state>
       </provider>
     </entry>
