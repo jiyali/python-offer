@@ -11,7 +11,11 @@ class Solution(object):
 
         dic = {}
         for i in range(len(nums)):
-            if target - nums[i] not in dic:
+            if (target - nums[i]) not in dic:
                 dic[nums[i]] = i
             else:
                 return dic[target - nums[i]], i
+
+
+s = Solution()
+print(s.twoSum(nums=[2, 7, 11, 15], target=9))
