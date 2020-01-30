@@ -4,19 +4,9 @@
     <bookmark url="file://$PROJECT_DIR$/leetcode695_岛屿的最大面积.py" line="10" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3a8d48e4-62b6-4d4b-aedb-51dd4e787cc5" name="Default Changelist" comment="添加新题解">
+    <list default="true" id="3a8d48e4-62b6-4d4b-aedb-51dd4e787cc5" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode10_正则表达式匹配.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode010_正则表达式匹配.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode26_删除排序数组中的重复项.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode026_删除排序数组中的重复项.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode27_移除元素.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode027_移除元素.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode49_字母异位词分组.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode049_字母异位词分组.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode75_颜色分类.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode075_颜色分类.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode80_删除排序数组中的重复项II.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode080_删除排序数组中的重复项II.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode82_删除排序链表中的重复元素II.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode082_删除排序链表中的重复元素II.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode83_删除排序链表中的重复元素.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode083_删除排序链表中的重复元素.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode86_分隔链表.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode086_分隔链表.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode88_合并两个有序数组.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode088_合并两个有序数组.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode92_反转链表II.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode092_反转链表II.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode004_寻找两个有序数组的中位数.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode004_寻找两个有序数组的中位数.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -181,15 +171,6 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/leetcode328_奇偶链表.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="494">
-              <caret line="26" column="32" selection-start-line="26" selection-start-column="32" selection-end-line="26" selection-end-column="32" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/leetcode203_移除链表元素.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="152">
@@ -237,8 +218,17 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/leetcode004_寻找两个有序数组的中位数.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="271">
-              <caret line="21" selection-start-line="21" selection-end-line="21" />
+            <state relative-caret-position="57">
+              <caret line="3" column="128" selection-start-line="3" selection-start-column="128" selection-end-line="3" selection-end-column="128" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/attention_is_all_you_need.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-196">
+              <caret line="170" selection-start-line="170" selection-end-line="170" />
             </state>
           </provider>
         </entry>
@@ -290,7 +280,6 @@
         <option value="$PROJECT_DIR$/面经真题_找出第一个缺失的正整数.py" />
         <option value="$PROJECT_DIR$/面经真题_装饰器.py" />
         <option value="$PROJECT_DIR$/leetcode002_两数相加.py" />
-        <option value="$PROJECT_DIR$/leetcode004_寻找两个有序数组的中位数.py" />
         <option value="$PROJECT_DIR$/真题_.py" />
         <option value="$PROJECT_DIR$/leetcode005_最长回文子串.py" />
         <option value="$PROJECT_DIR$/leetcode007_整数反转.py" />
@@ -332,13 +321,15 @@
         <option value="$PROJECT_DIR$/leetcode001_两数之和.py" />
         <option value="$PROJECT_DIR$/leetcode003_无重复字符的最场子串.py" />
         <option value="$PROJECT_DIR$/leetcode003_无重复字符的最长子串.py" />
+        <option value="$PROJECT_DIR$/leetcode004_寻找两个有序数组的中位数.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="292" />
-    <option name="width" value="1094" />
-    <option name="height" value="728" />
+    <option name="x" value="-111" />
+    <option name="y" value="27" />
+    <option name="width" value="1386" />
+    <option name="height" value="725" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -610,21 +601,7 @@
       <workItem from="1579745257856" duration="5108000" />
       <workItem from="1580045482749" duration="1416000" />
       <workItem from="1580276298419" duration="10338000" />
-      <workItem from="1580367732325" duration="1012000" />
-    </task>
-    <task id="LOCAL-00226" summary="添加新题解">
-      <created>1573481005310</created>
-      <option name="number" value="00226" />
-      <option name="presentableId" value="LOCAL-00226" />
-      <option name="project" value="LOCAL" />
-      <updated>1573481005311</updated>
-    </task>
-    <task id="LOCAL-00227" summary="添加新题解">
-      <created>1573481014879</created>
-      <option name="number" value="00227" />
-      <option name="presentableId" value="LOCAL-00227" />
-      <option name="project" value="LOCAL" />
-      <updated>1573481014879</updated>
+      <workItem from="1580367732325" duration="3701000" />
     </task>
     <task id="LOCAL-00228" summary="添加新题解">
       <created>1573561079210</created>
@@ -955,17 +932,31 @@
       <option name="project" value="LOCAL" />
       <updated>1580295025465</updated>
     </task>
-    <option name="localTasksCounter" value="275" />
+    <task id="LOCAL-00275" summary="添加新题解">
+      <created>1580369074958</created>
+      <option name="number" value="00275" />
+      <option name="presentableId" value="LOCAL-00275" />
+      <option name="project" value="LOCAL" />
+      <updated>1580369074959</updated>
+    </task>
+    <task id="LOCAL-00276" summary="添加新题解">
+      <created>1580388976900</created>
+      <option name="number" value="00276" />
+      <option name="presentableId" value="LOCAL-00276" />
+      <option name="project" value="LOCAL" />
+      <updated>1580388976901</updated>
+    </task>
+    <option name="localTasksCounter" value="277" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="825337000" />
+    <option name="totallyTimeSpent" value="828026000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="292" y="0" width="1094" height="728" extended-state="0" />
+    <frame x="-111" y="27" width="1386" height="725" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2524178" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19683258" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -1089,13 +1080,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/2222.py">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/attention_is_all_you_need.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="838">
-          <caret line="170" selection-start-line="170" selection-end-line="170" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/leetcode917_仅反转字母.py">
       <provider selected="true" editor-type-id="text-editor" />
@@ -1322,10 +1306,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/attention_is_all_you_need.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-196">
+          <caret line="170" selection-start-line="170" selection-end-line="170" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/leetcode004_寻找两个有序数组的中位数.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="271">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        <state relative-caret-position="57">
+          <caret line="3" column="128" selection-start-line="3" selection-start-column="128" selection-end-line="3" selection-end-column="128" />
         </state>
       </provider>
     </entry>
