@@ -14,11 +14,15 @@ class Solution(object):
 
         if len(nums1) > len(nums2):
             nums1, nums2 = nums2, nums1
-        m, n = len(nums1), len(nums2)
+        m = len(nums1)
+        n = len(nums2)
 
-        left, right, half_len = 0, m, (m + n + 1) // 2
+        mid = (m + n + 1) // 2
+
+        left = 0
+        right = m
         mid1 = (left + right) // 2
-        mid2 = half_len - mid1
+        mid2 = mid - mid1
 
         while left < right:
             if mid1 < m and nums2[mid2 - 1] > nums1[mid1]:
@@ -26,7 +30,7 @@ class Solution(object):
             else:
                 right = mid1
             mid1 = (left + right) // 2
-            mid2 = half_len - mid1
+            mid2 = mid - mid1
 
         if mid1 == 0:
             max_of_left = nums2[mid2 - 1]
