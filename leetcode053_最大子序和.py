@@ -10,6 +10,12 @@ class Solution:
             max_sum = max(cur_sum, max_sum)
         return max_sum
 
+    def maxSubArray1(self, nums):
+        for i in range(1, len(nums)):
+            nums[i] = nums[i] + max(nums[i - 1], 0)
+        return max(nums)
+
 
 s = Solution()
 print(s.maxSubArray([-2, 1, -3, 4, -1, 2, 1, -5, 4]))
+print(s.maxSubArray1([-2, 1, -3, 4, -1, 2, 1, -5, 4]))
