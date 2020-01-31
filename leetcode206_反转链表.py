@@ -13,6 +13,13 @@ class Solution(object):
         if head is None:
             return None
 
-        pre = ListNode()
+        pre = None
+        cur = head
+        while cur:
+            temp = cur.next
+            cur.next = pre
+            pre = cur
+            cur = temp
+        return pre
         
 
