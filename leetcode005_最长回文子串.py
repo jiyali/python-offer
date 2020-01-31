@@ -20,8 +20,8 @@ class Solution(object):
 
     def longestPalindrome1(self, s):
         # 动态规划
-        if not s:
-            return ""
+        if len(s) <= 1 or s == s[::-1]:
+            return s
         res = ""
         n = len(s)
         dp = [[0] * n for _ in range(n)]
@@ -37,5 +37,5 @@ class Solution(object):
 
 
 s = Solution()
-print(s.longestPalindrome("babad"))
+# print(s.longestPalindrome("babad"))
 print(s.longestPalindrome1("babad"))
