@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3a8d48e4-62b6-4d4b-aedb-51dd4e787cc5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/leetcode42_接雨水.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode206_反转链表.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode206_反转链表.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -81,6 +81,7 @@
     <SUITE FILE_PATH="coverage/offer$10_03n.coverage" NAME="10_03青蛙跳台阶每次n种方法 Coverage Results" MODIFIED="1569241075456" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/offer$32_02.coverage" NAME="32_02分行从上到下打印二叉树 Coverage Results" MODIFIED="1570585028881" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/python_target_offer$Demo.coverage" NAME="Demo Coverage Results" MODIFIED="1572180023785" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="D:/我的文档/Documents/Tencent Files/762115542/FileRecv" />
+    <SUITE FILE_PATH="coverage/python_target_offer$leetcode42_.coverage" NAME="leetcode42_接雨水 Coverage Results" MODIFIED="1580482651293" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/offer$33_.coverage" NAME="33_二叉搜索树的后序遍历序列 Coverage Results" MODIFIED="1570601733061" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/python_target_offer$1004_1.coverage" NAME="1004_最大连续1的个数 Coverage Results" MODIFIED="1571475221593" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/python_target_offer$52_.coverage" NAME="52_两个链表的第一个公共节点 Coverage Results" MODIFIED="1571728487346" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -171,15 +172,6 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/leetcode001_两数之和.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="8" column="50" selection-start-line="8" selection-start-column="50" selection-end-line="8" selection-end-column="50" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/leetcode003_无重复字符的最长子串.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="152">
@@ -206,11 +198,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/leetcode206_反转链表.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="30">
               <caret line="10" column="8" lean-forward="true" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/leetcode42_接雨水.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="84">
+              <caret line="10" selection-start-line="10" selection-end-line="10" />
             </state>
           </provider>
         </entry>
@@ -271,7 +272,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/笔试真题_n个骰子的点数(骰子点数自定义).py" />
         <option value="$PROJECT_DIR$/笔试真题_求最大圆心角角度.py" />
         <option value="$PROJECT_DIR$/笔试真题_两个数组中所有数的上中位数.py" />
         <option value="$PROJECT_DIR$/面经真题_找出第一个缺失的正整数.py" />
@@ -322,13 +322,14 @@
         <option value="$PROJECT_DIR$/leetcode024_两两交换链表中的节点.py" />
         <option value="$PROJECT_DIR$/leetcode005_最长回文子串.py" />
         <option value="$PROJECT_DIR$/leetcode206_反转链表.py" />
+        <option value="$PROJECT_DIR$/leetcode42_接雨水.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="147" />
-    <option name="y" value="2" />
-    <option name="width" value="1151" />
+    <option name="x" value="230" />
+    <option name="y" value="34" />
+    <option name="width" value="954" />
     <option name="height" value="714" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -370,7 +371,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.leetcode005_最长回文子串">
+  <component name="RunManager" selected="Python.leetcode42_接雨水">
     <configuration name="16_数值的整数次方" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="剑指offer" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -459,7 +460,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="leetcode49_字母异位词分组" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="leetcode42_接雨水" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="剑指offer" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -472,7 +473,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="C:\Users\SUMSUNG\Desktop\python-target-offer\leetcode049_字母异位词分组.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/leetcode42_接雨水.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -482,19 +483,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.leetcode49_字母异位词分组" />
       <item itemvalue="Python.16_数值的整数次方" />
       <item itemvalue="Python.leetcode001_两数之和" />
       <item itemvalue="Python.leetcode003_无重复字符的最长子串" />
       <item itemvalue="Python.leetcode005_最长回文子串" />
+      <item itemvalue="Python.leetcode42_接雨水" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.leetcode42_接雨水" />
         <item itemvalue="Python.leetcode005_最长回文子串" />
         <item itemvalue="Python.leetcode003_无重复字符的最长子串" />
         <item itemvalue="Python.leetcode001_两数之和" />
         <item itemvalue="Python.16_数值的整数次方" />
-        <item itemvalue="Python.leetcode49_字母异位词分组" />
       </list>
     </recent_temporary>
   </component>
@@ -579,14 +580,7 @@
       <workItem from="1580045482749" duration="1416000" />
       <workItem from="1580276298419" duration="10338000" />
       <workItem from="1580367732325" duration="9371000" />
-      <workItem from="1580448356655" duration="6782000" />
-    </task>
-    <task id="LOCAL-00232" summary="添加新题解">
-      <created>1574059927381</created>
-      <option name="number" value="00232" />
-      <option name="presentableId" value="LOCAL-00232" />
-      <option name="project" value="LOCAL" />
-      <updated>1574059927381</updated>
+      <workItem from="1580448356655" duration="8318000" />
     </task>
     <task id="LOCAL-00233" summary="添加新题解">
       <created>1574062649991</created>
@@ -924,23 +918,29 @@
       <option name="project" value="LOCAL" />
       <updated>1580472981241</updated>
     </task>
-    <option name="localTasksCounter" value="281" />
+    <task id="LOCAL-00281" summary="添加新题解">
+      <created>1580477986012</created>
+      <option name="number" value="00281" />
+      <option name="presentableId" value="LOCAL-00281" />
+      <option name="project" value="LOCAL" />
+      <updated>1580477986018</updated>
+    </task>
+    <option name="localTasksCounter" value="282" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="840478000" />
+    <option name="totallyTimeSpent" value="842014000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="122" y="69" width="1151" height="714" extended-state="1" />
-    <editor active="true" />
+    <frame x="230" y="34" width="954" height="714" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24289642" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18344519" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49775112" weight="0.23240589" />
-      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.40447503" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49775112" weight="0.23235801" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.4767642" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -990,14 +990,33 @@
     <MESSAGE value="添加新题解" />
     <option name="LAST_COMMIT_MESSAGE" value="添加新题解" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/leetcode42_接雨水.py</url>
+          <line>13</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/leetcode42_接雨水.py</url>
+          <line>7</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/leetcode42_接雨水.py</url>
+          <line>12</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/leetcode42_接雨水.py</url>
+          <line>9</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/leetcode016_最接近的三数之和.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/10_02青蛙跳台阶问题.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -1295,6 +1314,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="10" column="8" lean-forward="true" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetcode42_接雨水.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
         </state>
       </provider>
     </entry>
