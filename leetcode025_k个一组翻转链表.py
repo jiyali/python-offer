@@ -35,3 +35,38 @@ class Solution:
             head = tmp
         return pre_head.next
 
+    def reverseKGroup1(self, head, k):
+        pre = pre_head = ListNode(0)
+        pre.next = head
+        tail = pre
+
+        while True:
+            count = k
+            while count and tail:
+                tail = tail.next
+                count -= 1
+            if not tail:
+                break
+            head = pre.next
+            while pre.next != tail:
+                cur = pre.next
+                pre.next = cur.next
+                cur.next = tail.next
+                tail.next = cur
+            pre = head
+            tail = head
+        return pre_head.next
+
+
+n = 5
+head = ListNode(1)
+p = head
+for i in range(2, n + 1):
+    p.next = ListNode(i)
+    p = p.next
+solution = Solution()
+new_head = solution.reverseKGroup1(head, 2)
+
+for i in range(n):
+    print(str(new_head.val) + ' ', end='')
+    new_head = new_head.next
