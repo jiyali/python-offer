@@ -1,8 +1,14 @@
 # 对链表进行插入排序。
 
 
+class ListNode:
+    def __init__(self, val):
+        self.next = None
+        self.val = val
+
+
 class Solution:
-    def insertionSortList(self, head: ListNode) -> ListNode:
+    def insertionSortList(self, head):
         pre = pre_head = ListNode(0)
         pre.next = head
         cur = head
