@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3a8d48e4-62b6-4d4b-aedb-51dd4e787cc5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/leetcode148_排序链表.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -173,15 +174,6 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/leetcode053_最大子序和.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="13" column="26" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/leetcode025_k个一组翻转链表.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1273">
@@ -199,11 +191,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/leetcode147_对链表进行插入排序.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="314">
-              <caret line="19" column="30" lean-forward="true" selection-start-line="19" selection-start-column="30" selection-end-line="19" selection-end-column="30" />
+            <state relative-caret-position="466">
+              <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/leetcode148_排序链表.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="38">
+              <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
             </state>
           </provider>
         </entry>
@@ -273,7 +274,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/leetcode002_两数相加.py" />
         <option value="$PROJECT_DIR$/真题_.py" />
         <option value="$PROJECT_DIR$/leetcode007_整数反转.py" />
         <option value="$PROJECT_DIR$/leetcode008_字符串转换整数.py" />
@@ -324,6 +324,7 @@
         <option value="$PROJECT_DIR$/leetcode025_k个一组翻转链表.py" />
         <option value="$PROJECT_DIR$/leetcode146_LRU缓存机制.py" />
         <option value="$PROJECT_DIR$/leetcode147_对链表进行插入排序.py" />
+        <option value="$PROJECT_DIR$/leetcode148_排序链表.py" />
       </list>
     </option>
   </component>
@@ -584,14 +585,7 @@
       <workItem from="1580448356655" duration="12198000" />
       <workItem from="1580527377034" duration="11353000" />
       <workItem from="1580629916954" duration="2688000" />
-      <workItem from="1580710164523" duration="2204000" />
-    </task>
-    <task id="LOCAL-00241" summary="添加新题解">
-      <created>1574128232879</created>
-      <option name="number" value="00241" />
-      <option name="presentableId" value="LOCAL-00241" />
-      <option name="project" value="LOCAL" />
-      <updated>1574128232879</updated>
+      <workItem from="1580710164523" duration="2864000" />
     </task>
     <task id="LOCAL-00242" summary="添加新题解">
       <created>1574250931189</created>
@@ -929,14 +923,21 @@
       <option name="project" value="LOCAL" />
       <updated>1580713491686</updated>
     </task>
-    <option name="localTasksCounter" value="290" />
+    <task id="LOCAL-00290" summary="添加新题解">
+      <created>1580739028761</created>
+      <option name="number" value="00290" />
+      <option name="presentableId" value="LOCAL-00290" />
+      <option name="project" value="LOCAL" />
+      <updated>1580739028761</updated>
+    </task>
+    <option name="localTasksCounter" value="291" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="862139000" />
+    <option name="totallyTimeSpent" value="862799000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="411" y="1" width="1205" height="728" extended-state="0" />
+    <frame x="186" y="32" width="1205" height="728" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20087336" />
@@ -996,9 +997,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="添加新题解" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/67_把字符串转换成整数.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/1111.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -1316,8 +1314,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/leetcode147_对链表进行插入排序.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="314">
-          <caret line="19" column="30" lean-forward="true" selection-start-line="19" selection-start-column="30" selection-end-line="19" selection-end-column="30" />
+        <state relative-caret-position="466">
+          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetcode148_排序链表.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
         </state>
       </provider>
     </entry>
