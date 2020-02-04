@@ -1,6 +1,6 @@
 class Solution:
     def bubbleSort(self, arr):
-        if arr is None or len(arr) <2:
+        if arr is None or len(arr) < 2:
             return arr
 
         for i in range(len(arr)):
