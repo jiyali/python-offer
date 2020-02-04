@@ -7,14 +7,10 @@ class Solution():
         if not arr or len(arr) < 2:
             return arr
 
-        n = len(arr)
-        for j in range(1, n):
-            # 控制将拿到的元素放到前面有序序列中正确位置的过程
-            for i in range(j, 0, -1):
-                # 如果比前面的元素小，则往前移动
-                if arr[i] < arr[i - 1]:
-                    arr[i], arr[i - 1] = arr[i - 1], arr[i]
-                # 否则代表比前面的所有元素都小，不需要再移动
+        for i in range(1, len(arr)):
+            for j in range(i, 0, -1):
+                if arr[j] < arr[j - 1]:
+                    arr[j], arr[j - 1] = arr[j - 1], arr[j]
                 else:
                     break
         return arr
