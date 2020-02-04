@@ -199,7 +199,11 @@
       </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/冒泡排序.py">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="38">
+              <caret line="2" column="39" lean-forward="true" selection-start-line="2" selection-start-column="39" selection-end-line="2" selection-end-column="39" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -579,21 +583,7 @@
       <workItem from="1580527377034" duration="11353000" />
       <workItem from="1580629916954" duration="2688000" />
       <workItem from="1580710164523" duration="4005000" />
-      <workItem from="1580784241723" duration="797000" />
-    </task>
-    <task id="LOCAL-00243" summary="添加新题解">
-      <created>1574409684139</created>
-      <option name="number" value="00243" />
-      <option name="presentableId" value="LOCAL-00243" />
-      <option name="project" value="LOCAL" />
-      <updated>1574409684139</updated>
-    </task>
-    <task id="LOCAL-00244" summary="添加新题解">
-      <created>1574430343676</created>
-      <option name="number" value="00244" />
-      <option name="presentableId" value="LOCAL-00244" />
-      <option name="project" value="LOCAL" />
-      <updated>1574430343676</updated>
+      <workItem from="1580784241723" duration="1034000" />
     </task>
     <task id="LOCAL-00245" summary="添加新题解">
       <created>1574858438971</created>
@@ -924,17 +914,31 @@
       <option name="project" value="LOCAL" />
       <updated>1580743865160</updated>
     </task>
-    <option name="localTasksCounter" value="292" />
+    <task id="LOCAL-00292" summary="添加新题解">
+      <created>1580790545399</created>
+      <option name="number" value="00292" />
+      <option name="presentableId" value="LOCAL-00292" />
+      <option name="project" value="LOCAL" />
+      <updated>1580790545400</updated>
+    </task>
+    <task id="LOCAL-00293" summary="添加新题解">
+      <created>1580790572023</created>
+      <option name="number" value="00293" />
+      <option name="presentableId" value="LOCAL-00293" />
+      <option name="project" value="LOCAL" />
+      <updated>1580790572023</updated>
+    </task>
+    <option name="localTasksCounter" value="294" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="864737000" />
+    <option name="totallyTimeSpent" value="864974000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="396" y="37" width="1205" height="728" extended-state="0" />
+    <frame x="137" y="36" width="1205" height="728" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20436682" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20436682" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -1320,7 +1324,11 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/冒泡排序.py">
-      <provider selected="true" editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="39" lean-forward="true" selection-start-line="2" selection-start-column="39" selection-end-line="2" selection-end-column="39" />
+        </state>
+      </provider>
     </entry>
   </component>
 </project>

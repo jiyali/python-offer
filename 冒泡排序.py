@@ -12,3 +12,5 @@ class Solution:
 
 s = Solution()
 print(s.bubbleSort([64, 34, 25, 12, 22, 11, 90]))
+
+# 算法复杂度O(N^2)
