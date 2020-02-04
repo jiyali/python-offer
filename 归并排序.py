@@ -13,10 +13,11 @@ class Solution:
 
         mid = len(arr) // 2
 
-        left = self.MergeSort(arr[:mid])
-        right = self.MergeSort(arr[mid:])
+        left = self.MergeSort(arr[:mid])  # T(n/2)
+        right = self.MergeSort(arr[mid:])  # T(n/2)
 
-        return self.merge(left, right)
+        return self.merge(left, right)  # O(n)
+    # T(N) = 2T(N/2) + O(N)
 
     def merge(self, left, right):
         i = j = 0
