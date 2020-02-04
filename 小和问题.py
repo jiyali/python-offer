@@ -11,6 +11,7 @@
 # 5左边比5小的数， 1、 3、 4、 2；
 # 所以小和为1+1+3+1+1+3+4+2=16
 
+
 class Solution:
     def small_sum(self, arr):
         if not arr or len(arr) < 1:
