@@ -2,7 +2,7 @@
 # 它的工作原理是通过构建有序序列，对于未排序数据，在已排序序列中从后向前扫描，找到相应位置并插入。
 
 
-class Solution():
+class Solution:
     def insertSort(self, arr):
         if not arr or len(arr) < 2:
             return arr
