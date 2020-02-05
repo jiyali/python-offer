@@ -21,5 +21,18 @@ class Solution(object):
             pre = cur
             cur = temp
         return pre
+
+    # 递归
+    def reverseList1(self, head):
+        if not head:
+            return None
+        if not head.next:
+            return head
+
+        cur = self.reverseList1(head.next)
+        head.next.next = head
+        head.next = None
+        return cur
+
         
 
