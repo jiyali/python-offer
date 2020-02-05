@@ -17,3 +17,12 @@
 分治法:
 * 分割：递归地把当前序列平均分割成两半。
 * 集成：在保持元素顺序的同时将上一步得到的子序列集成到一起（归并）。
+
+### 链表
+* [leetcode2 两数相加](https://github.com/jiyali/python-target-offer/blob/master/leetcode002_%E4%B8%A4%E6%95%B0%E7%9B%B8%E5%8A%A0.py)
+* [leetcode19 删除链表的倒数第N个节点](https://github.com/jiyali/python-target-offer/blob/master/leetcode019_%E5%88%A0%E9%99%A4%E9%93%BE%E8%A1%A8%E7%9A%84%E5%80%92%E6%95%B0%E7%AC%ACN%E4%B8%AA%E8%8A%82%E7%82%B9.py)
+* [leetcode21 合并两个有序链表](https://github.com/jiyali/python-target-offer/blob/master/leetcode021_%E5%90%88%E5%B9%B6%E4%B8%A4%E4%B8%AA%E6%9C%89%E5%BA%8F%E9%93%BE%E8%A1%A8.py)
+* [leetcode23 合并K个排序链表](https://github.com/jiyali/python-target-offer/blob/master/leetcode023_%E5%90%88%E5%B9%B6k%E4%B8%AA%E6%8E%92%E5%BA%8F%E9%93%BE%E8%A1%A8.py)
+* [leetcode24 两两交换链表中的节点](https://github.com/jiyali/python-target-offer/blob/master/leetcode024_%E4%B8%A4%E4%B8%A4%E4%BA%A4%E6%8D%A2%E9%93%BE%E8%A1%A8%E4%B8%AD%E7%9A%84%E8%8A%82%E7%82%B9.py)
+* [leetcode25 k个一组翻转链表](https://github.com/jiyali/python-target-offer/blob/master/leetcode025_k%E4%B8%AA%E4%B8%80%E7%BB%84%E7%BF%BB%E8%BD%AC%E9%93%BE%E8%A1%A8.py)
+* [leetcode61 旋转链表]()
