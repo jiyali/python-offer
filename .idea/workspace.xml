@@ -4,10 +4,7 @@
     <bookmark url="file://$PROJECT_DIR$/leetcode695_岛屿的最大面积.py" line="10" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3a8d48e4-62b6-4d4b-aedb-51dd4e787cc5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-    </list>
+    <list default="true" id="3a8d48e4-62b6-4d4b-aedb-51dd4e787cc5" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -177,8 +174,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="477">
-                <caret line="47" column="21" selection-start-line="47" selection-start-column="21" selection-end-line="47" selection-end-column="21" />
+              <first_editor relative-caret-position="413">
+                <caret line="47" column="22" lean-forward="true" selection-start-line="47" selection-start-column="22" selection-end-line="47" selection-end-column="22" />
               </first_editor>
               <second_editor />
             </state>
@@ -336,8 +333,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="464" />
-    <option name="y" value="1" />
+    <option name="x" value="66" />
+    <option name="y" value="35" />
     <option name="width" value="943" />
     <option name="height" value="713" />
   </component>
@@ -585,14 +582,7 @@
       <workItem from="1580784241723" duration="16689000" />
       <workItem from="1580872280550" duration="43000" />
       <workItem from="1580872694926" duration="14343000" />
-      <workItem from="1580961166719" duration="15395000" />
-    </task>
-    <task id="LOCAL-00280" summary="添加新题解">
-      <created>1580472981241</created>
-      <option name="number" value="00280" />
-      <option name="presentableId" value="LOCAL-00280" />
-      <option name="project" value="LOCAL" />
-      <updated>1580472981241</updated>
+      <workItem from="1580961166719" duration="16012000" />
     </task>
     <task id="LOCAL-00281" summary="添加新题解">
       <created>1580477986012</created>
@@ -930,17 +920,24 @@
       <option name="project" value="LOCAL" />
       <updated>1580996296083</updated>
     </task>
-    <option name="localTasksCounter" value="329" />
+    <task id="LOCAL-00329" summary="添加新题解">
+      <created>1580998490830</created>
+      <option name="number" value="00329" />
+      <option name="presentableId" value="LOCAL-00329" />
+      <option name="project" value="LOCAL" />
+      <updated>1580998490838</updated>
+    </task>
+    <option name="localTasksCounter" value="330" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="910410000" />
+    <option name="totallyTimeSpent" value="911027000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="464" y="1" width="943" height="713" extended-state="0" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27180067" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18154311" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -1349,8 +1346,8 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="477">
-            <caret line="47" column="21" selection-start-line="47" selection-start-column="21" selection-end-line="47" selection-end-column="21" />
+          <first_editor relative-caret-position="413">
+            <caret line="47" column="22" lean-forward="true" selection-start-line="47" selection-start-column="22" selection-end-line="47" selection-end-column="22" />
           </first_editor>
           <second_editor />
         </state>
