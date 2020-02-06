@@ -21,6 +21,7 @@ class Solution:
             pre_mid = pre_mid.next
             fast = fast.next.next
         # 翻转中点之后的链表,采用是pre, cur双指针方法
+
         pre = None
         cur = pre_mid.next
         # 1 2 5 4 3
@@ -31,14 +32,12 @@ class Solution:
             cur = tmp
         # 翻转链表和前面链表拼接
         pre_mid.next = pre
-        # 1 5 2 4 3
+
         # 链表头
         p1 = head
         # 翻转头
         p2 = pre_mid.next
-        # print(p1.val, p2.val)
         while p1 != pre_mid:
-            # 建议大家这部分画图, 很容易理解
             pre_mid.next = p2.next
             p2.next = p1.next
             p1.next = p2
