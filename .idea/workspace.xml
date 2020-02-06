@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3a8d48e4-62b6-4d4b-aedb-51dd4e787cc5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/leetcode160_相交链表.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode234_回文链表.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -177,8 +178,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="229">
-                <caret line="30" column="49" selection-start-line="30" selection-start-column="49" selection-end-line="30" selection-end-column="49" />
+              <first_editor relative-caret-position="476">
+                <caret line="43" column="21" selection-start-line="43" selection-start-column="21" selection-end-line="43" selection-end-column="21" />
               </first_editor>
               <second_editor />
             </state>
@@ -186,10 +187,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/leetcode234_回文链表.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="74">
+              <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="33" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/leetcode160_相交链表.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+            <state relative-caret-position="190">
+              <caret line="10" column="48" lean-forward="true" selection-start-line="10" selection-start-column="48" selection-end-line="10" selection-end-column="48" />
             </state>
           </provider>
         </entry>
@@ -226,15 +236,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="279">
               <caret line="35" column="8" lean-forward="true" selection-start-line="35" selection-start-column="8" selection-end-line="43" selection-end-column="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/leetcode023_合并k个排序链表.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="10" column="33" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -281,7 +282,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/leetcode26_删除排序数组中的重复项.py" />
         <option value="$PROJECT_DIR$/leetcode80_删除排序数组中的重复项II.py" />
         <option value="$PROJECT_DIR$/leetcode27_移除元素.py" />
         <option value="$PROJECT_DIR$/leetcode75_颜色分类.py" />
@@ -330,8 +330,9 @@
         <option value="$PROJECT_DIR$/leetcode138_复制带随机指针的链表.py" />
         <option value="$PROJECT_DIR$/leetcode142_环形链表II.py" />
         <option value="$PROJECT_DIR$/leetcode141_环形链表.py" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/leetcode160_相交链表.py" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/leetcode234_回文链表.py" />
       </list>
     </option>
   </component>
@@ -585,14 +586,7 @@
       <workItem from="1580784241723" duration="16689000" />
       <workItem from="1580872280550" duration="43000" />
       <workItem from="1580872694926" duration="14343000" />
-      <workItem from="1580961166719" duration="11018000" />
-    </task>
-    <task id="LOCAL-00277" summary="添加新题解">
-      <created>1580390581128</created>
-      <option name="number" value="00277" />
-      <option name="presentableId" value="LOCAL-00277" />
-      <option name="project" value="LOCAL" />
-      <updated>1580390581128</updated>
+      <workItem from="1580961166719" duration="13148000" />
     </task>
     <task id="LOCAL-00278" summary="添加新题解">
       <created>1580393106377</created>
@@ -930,11 +924,18 @@
       <option name="project" value="LOCAL" />
       <updated>1580984608235</updated>
     </task>
-    <option name="localTasksCounter" value="326" />
+    <task id="LOCAL-00326" summary="添加新题解">
+      <created>1580988828023</created>
+      <option name="number" value="00326" />
+      <option name="presentableId" value="LOCAL-00326" />
+      <option name="project" value="LOCAL" />
+      <updated>1580988828027</updated>
+    </task>
+    <option name="localTasksCounter" value="327" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="906033000" />
+    <option name="totallyTimeSpent" value="908163000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="464" y="1" width="943" height="713" extended-state="0" />
@@ -997,13 +998,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="添加新题解" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/手写堆排.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="836">
-          <caret line="44" column="39" selection-start-line="44" selection-start-column="39" selection-end-line="44" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/leetcode209_长度最小的子数组.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="380">
@@ -1339,20 +1333,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/leetcode160_相交链表.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="48" lean-forward="true" selection-start-line="10" selection-start-column="48" selection-end-line="10" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="229">
-            <caret line="30" column="49" selection-start-line="30" selection-start-column="49" selection-end-line="30" selection-end-column="49" />
+          <first_editor relative-caret-position="476">
+            <caret line="43" column="21" selection-start-line="43" selection-start-column="21" selection-end-line="43" selection-end-column="21" />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/leetcode160_相交链表.py">
+    <entry file="file://$PROJECT_DIR$/leetcode234_回文链表.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        <state relative-caret-position="74">
+          <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="33" selection-end-column="19" />
         </state>
       </provider>
     </entry>

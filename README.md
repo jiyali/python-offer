@@ -38,5 +38,7 @@
 * [leetcode143 重排链表](https://github.com/jiyali/python-target-offer/blob/master/leetcode143_%E9%87%8D%E6%8E%92%E9%93%BE%E8%A1%A8.py)
 * [leetcode147 对链表进行插入排序](https://github.com/jiyali/python-target-offer/blob/master/leetcode147_%E5%AF%B9%E9%93%BE%E8%A1%A8%E8%BF%9B%E8%A1%8C%E6%8F%92%E5%85%A5%E6%8E%92%E5%BA%8F.py)
 * [leetcode148 排序链表](https://github.com/jiyali/python-target-offer/blob/master/leetcode148_%E6%8E%92%E5%BA%8F%E9%93%BE%E8%A1%A8.py)
-* [leetcode160 相交链表]
-* [leetcode203 移除链表元素]
+* [leetcode160 相交链表](https://github.com/jiyali/python-target-offer/blob/master/leetcode160_%E7%9B%B8%E4%BA%A4%E9%93%BE%E8%A1%A8.py)
+* [leetcode203 移除链表元素](https://github.com/jiyali/python-target-offer/blob/master/leetcode203_%E7%A7%BB%E9%99%A4%E9%93%BE%E8%A1%A8%E5%85%83%E7%B4%A0.py)
+* [leetcode206 反转链表](https://github.com/jiyali/python-target-offer/blob/master/leetcode206_%E5%8F%8D%E8%BD%AC%E9%93%BE%E8%A1%A8.py)
+* [leetcode234 回文链表]()
