@@ -33,6 +33,10 @@
 * [leetcode92 反转链表II](https://github.com/jiyali/python-target-offer/blob/master/leetcode092_%E5%8F%8D%E8%BD%AC%E9%93%BE%E8%A1%A8II.py)
 * [leetcode109 有序链表转换二叉搜索树](https://github.com/jiyali/python-target-offer/blob/master/leetcode109_%E6%9C%89%E5%BA%8F%E9%93%BE%E8%A1%A8%E8%BD%AC%E6%8D%A2%E4%BA%8C%E5%8F%89%E6%90%9C%E7%B4%A2%E6%A0%91.py)
 * [leetcode138 复制带随机指针的链表]()
+* [leetcode141 环形链表]
+* [leetcode142 环形链表II]
+* [leetcode143 重排链表](https://github.com/jiyali/python-target-offer/blob/master/leetcode143_%E9%87%8D%E6%8E%92%E9%93%BE%E8%A1%A8.py)
 * [leetcode147 对链表进行插入排序](https://github.com/jiyali/python-target-offer/blob/master/leetcode147_%E5%AF%B9%E9%93%BE%E8%A1%A8%E8%BF%9B%E8%A1%8C%E6%8F%92%E5%85%A5%E6%8E%92%E5%BA%8F.py)
 * [leetcode148 排序链表](https://github.com/jiyali/python-target-offer/blob/master/leetcode148_%E6%8E%92%E5%BA%8F%E9%93%BE%E8%A1%A8.py)
-* [leetcode]
+* [leetcode160 相交链表]
+* [leetcode203 移除链表元素]
