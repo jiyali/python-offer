@@ -11,16 +11,15 @@ class ListNode:
 
 class Solution:
     def hasCycle(self, head):
-        if not head and not head.next:
+        if not head or not head.next:
             return None
-
-        p1 = head
-        p2 = head.next
-        while p1 != p2:
-            if p2 is None or p2.next is None:
+        slow = head
+        fast = head.next
+        while slow != fast:
+            if not fast or not fast.next:
                 return False
-            p1 = p1.next
-            p2 = p2.next.next
+            slow = slow.next
+            fast = fast.next.next
         return True
 
     def hasCycle1(self, head):
