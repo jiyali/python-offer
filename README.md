@@ -49,3 +49,5 @@
 * [leetcode725 分隔链表](https://github.com/jiyali/python-target-offer/blob/master/leetcode725_%E5%88%86%E9%9A%94%E9%93%BE%E8%A1%A8.py)
 * [leetcode876 链表的中间结点](https://github.com/jiyali/python-target-offer/blob/master/leetcode876_%E9%93%BE%E8%A1%A8%E7%9A%84%E4%B8%AD%E9%97%B4%E7%BB%93%E7%82%B9.py)
 * [leetcode 1290 二进制链表转整数](https://github.com/jiyali/python-target-offer/blob/master/leetcode1290_%E4%BA%8C%E8%BF%9B%E5%88%B6%E9%93%BE%E8%A1%A8%E8%BD%AC%E6%95%B4%E6%95%B0.py)
+* [剑指offer06_01 逆序打印链表](https://github.com/jiyali/python-target-offer/blob/master/06_01%E9%80%86%E5%BA%8F%E6%89%93%E5%8D%B0%E9%93%BE%E8%A1%A8.py)
+* [剑指offer06_02 逆序打印链表]()
