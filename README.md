@@ -45,6 +45,7 @@
 * [leetcode237 删除链表中的节点](https://github.com/jiyali/python-target-offer/blob/master/leetcode237_%E5%88%A0%E9%99%A4%E9%93%BE%E8%A1%A8%E4%B8%AD%E7%9A%84%E8%8A%82%E7%82%B9.py)
 * [leetcode318 奇偶链表](https://github.com/jiyali/python-target-offer/blob/master/leetcode328_%E5%A5%87%E5%81%B6%E9%93%BE%E8%A1%A8.py)
 * [leetcode445 两数相加II](https://github.com/jiyali/python-target-offer/blob/master/leetcode445_%E4%B8%A4%E6%95%B0%E7%9B%B8%E5%8A%A0II.py)
+* [leetcode430 扁平化多级双向链表](https://github.com/jiyali/python-target-offer/blob/master/leetcode430_%E6%89%81%E5%B9%B3%E5%8C%96%E5%A4%9A%E7%BA%A7%E5%8F%8C%E5%90%91%E9%93%BE%E8%A1%A8.py)
 * [leetcode725 分隔链表](https://github.com/jiyali/python-target-offer/blob/master/leetcode725_%E5%88%86%E9%9A%94%E9%93%BE%E8%A1%A8.py)
 * [leetcode876 链表的中间结点](https://github.com/jiyali/python-target-offer/blob/master/leetcode876_%E9%93%BE%E8%A1%A8%E7%9A%84%E4%B8%AD%E9%97%B4%E7%BB%93%E7%82%B9.py)
-* []
+* [leetcode 1290 二进制链表转整数](https://github.com/jiyali/python-target-offer/blob/master/leetcode1290_%E4%BA%8C%E8%BF%9B%E5%88%B6%E9%93%BE%E8%A1%A8%E8%BD%AC%E6%95%B4%E6%95%B0.py)
