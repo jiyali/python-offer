@@ -51,3 +51,4 @@
 * [leetcode 1290 二进制链表转整数](https://github.com/jiyali/python-target-offer/blob/master/leetcode1290_%E4%BA%8C%E8%BF%9B%E5%88%B6%E9%93%BE%E8%A1%A8%E8%BD%AC%E6%95%B4%E6%95%B0.py)
 * [剑指offer06_01 逆序打印链表](https://github.com/jiyali/python-target-offer/blob/master/06_01%E9%80%86%E5%BA%8F%E6%89%93%E5%8D%B0%E9%93%BE%E8%A1%A8.py)
 * [剑指offer06_02 逆序打印链表]()
+* [真题 找出单向链表中的一个节点，该节点到尾指针的距离为K]()
