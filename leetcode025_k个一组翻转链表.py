@@ -56,17 +56,3 @@ class Solution:
             pre = head
             tail = head
         return pre_head.next
-
-
-n = 5
-head = ListNode(1)
-p = head
-for i in range(2, n + 1):
-    p.next = ListNode(i)
-    p = p.next
-solution = Solution()
-new_head = solution.reverseKGroup1(head, 2)
-
-for i in range(n):
-    print(str(new_head.val) + ' ', end='')
-    new_head = new_head.next
