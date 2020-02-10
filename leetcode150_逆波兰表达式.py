@@ -4,7 +4,7 @@
 # 使用栈来存储，遍历整个list，遇到运算符，出栈两个元素并进行计算，计算结果继续入栈
 # 时间复杂度O(N)，空间复杂度O(N)
 class Solution:
-    def evalRPN(self, tokens: List[str]) -> int:
+    def evalRPN(self, tokens):
         stack = []
         for i in tokens:
             if i not in '+-*/':
@@ -21,3 +21,7 @@ class Solution:
                 elif i == '/':
                     stack.append(int(left / right))
         return stack[0]
+
+
+s = Solution()
+print(s.evalRPN(["2", "1", "+", "3", "*"]))
