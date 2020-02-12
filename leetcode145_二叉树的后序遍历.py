@@ -13,7 +13,7 @@ class Solution:
             if node.right:
                 stack.append(node.right)
             res.append(node.val)
-        return res
+        return res[::-1]
 
 # 递归
 
