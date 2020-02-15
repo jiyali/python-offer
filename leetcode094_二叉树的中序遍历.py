@@ -1,26 +1,33 @@
-#
+class TreeNode:
+    def __init__(self, x):
+        self.val = x
+        self.left = None
+        self.right = None
 
-# 迭代
+
 class Solution:
-    def inorderTraversal(self, root):
+    # 迭代
+    def inorderTraversal(self, root: TreeNode) -> List[int]:
+        stack = [(root, False)]
         res = []
-        if not root:
-            return None
-        stack = []
-        cur = root
-        while cur or stack:
-            while cur:
-                stack.append(cur)
-                cur = cur.left
-            cur = stack.pop()
-            res.append(cur.val)
-            cur = cur.right
+
+        while stack:
+            node, flag = stack.pop()
+            if node:
+                if flag:
+                    res.append(node.val)
+                else:
+                    stack.append((node.right, False))
+                    stack.append((node, True))
+                    stack.append((node.left, False))
         return res
 
 
-class Solution:
+class Solution1:
+    # 递归
     def inorderTraversal(self, root):
         res = []
+
         def helper(root):
             if not root:
                 return None

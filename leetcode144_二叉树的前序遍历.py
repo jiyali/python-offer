@@ -1,24 +1,29 @@
 # 给定一个二叉树，返回它的 前序 遍历。
 
-# 迭代
+
+class TreeNode:
+    def __init__(self, x):
+        self.val = x
+        self.left = None
+        self.right = None
 
 
 class Solution:
+    # 迭代
     def preorderTraversal(self, root):
+        stack = [root]
         res = []
-        stack = []
-        p = root
-        while p or stack:
-            while p:
-                res.append(p.val)
-                stack.append(p)
-                p= p.left
-            p = stack.pop().right
+        while stack:
+            node = stack.pop()
+            if node:
+                res.append(node.val)
+                stack.append(node.right)
+                stack.append(node.left)
         return res
 
-# 递归
 
-class Solution:
+class Solution1:
+    # 递归
     def preorderTraversal(self, root):
         res = []
 

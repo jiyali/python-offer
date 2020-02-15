@@ -1,6 +1,7 @@
 import torch
 from torch import nn
-import numspy as np
+import numpy as np
+
 torch.manual_seed(1)
 
 print(torch.__version__)
@@ -28,10 +29,10 @@ dataset = Data.TensorDataset(features, labels)
 
 # put dataset into DataLoader
 data_iter = Data.DataLoader(
-    dataset=dataset,            # torch TensorDataset format
-    batch_size=batch_size,      # mini batch size
-    shuffle=True,               # whether shuffle the data or not
-    num_workers=2,              # read data in multithreading
+    dataset=dataset,  # torch TensorDataset format
+    batch_size=batch_size,  # mini batch size
+    shuffle=True,  # whether shuffle the data or not
+    num_workers=2,  # read data in multithreading
 )
 for X, y in data_iter:
     print(X, '\n', y)
@@ -47,6 +48,8 @@ class LinearNet(nn.Module):
     def forward(self, x):
         y = self.linear(x)
         return y
+
+
 net = LinearNet(num_inputs)
 print(net)
 
@@ -55,7 +58,7 @@ print(net)
 net = nn.Sequential(
     nn.Linear(num_inputs, 1)
     # other layers can be added here
-    )
+)
 
 # method two
 net = nn.Sequential()
@@ -64,14 +67,14 @@ net.add_module('linear', nn.Linear(num_inputs, 1))
 
 # method three
 from collections import OrderedDict
+
 net = nn.Sequential(OrderedDict([
-          ('linear', nn.Linear(num_inputs, 1))
-          # ......
-        ]))
+    ('linear', nn.Linear(num_inputs, 1))
+    # ......
+]))
 
 print(net)
 print(net[0])
-
 
 # 初始化模型参数
 from torch.nn import init
@@ -87,7 +90,8 @@ loss = nn.MSEloss()
 
 # 定义优化函数
 import torch.optim as optim
-optimizer = optim.SGD(net.parameters(), lr=0.03)   # built-in random gradient descent function
+
+optimizer = optim.SGD(net.parameters(), lr=0.03)  # built-in random gradient descent function
 print(optimizer)
 
 # 训练
@@ -96,7 +100,7 @@ for epoch in range(1, num_epochs + 1):
     for X, y in data_iter:
         output = net(X)
         l = loss(output, y.view(-1, 1))
-        optimizer.zero_grad() # reset gradient, equal to net.zero_grad()
+        optimizer.zero_grad()  # reset gradient, equal to net.zero_grad()
         l.backward()
         optimizer.step()
     print('epoch %d, loss: %f' % (epoch, l.item()))
@@ -105,5 +109,3 @@ for epoch in range(1, num_epochs + 1):
 dense = net[0]
 print(true_w, dense.weight.data)
 print(true_b, dense.bias.data)
-
-

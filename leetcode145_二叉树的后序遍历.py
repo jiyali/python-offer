@@ -1,25 +1,32 @@
-# 迭代
+class TreeNode:
+    def __init__(self, x):
+        self.val = x
+        self.left = None
+        self.right = None
+
 
 class Solution:
-    def postorderTraversal(self,root):
+    # 迭代
+    def postorderTraversal(self, root):
+        stack = [(root, False)]
         res = []
-        if not root:
-            return res
-        stack = [root]
         while stack:
-            node = stack.pop()
-            if node.left:
-                stack.append(node.left)
-            if node.right:
-                stack.append(node.right)
-            res.append(node.val)
-        return res[::-1]
+            node, flag = stack.pop()
+            if node:
+                if flag:
+                    res.append(node.val)
+                else:
+                    stack.append((node,True))
+                    stack.append((node.right,False))
+                    stack.append((node.left,False))
+        return res
 
-# 递归
 
-class Solution:
+class Solution1:
+    # 递归
     def postorderTraversal(self, root):
         res = []
+
         def helper(root):
             if not root:
                 return None
