@@ -20,19 +20,23 @@ class Solution(object):
 
     def longestPalindrome1(self, s):
         # 动态规划
-        if len(s) <= 1 or s == s[::-1]:
+        if not s or s == s[::-1]:
             return s
-        res = ""
-        n = len(s)
-        dp = [[0] * n for _ in range(n)]
+
+        res = ''
         max_len = 0
-        for i in range(n):
+        dp = [[0] * len(s) for _ in range(len(s))]
+
+        for i in range(len(s)):
             for j in range(i + 1):
-                if s[i] == s[j] and (i - j < 2 or dp[j + 1][i - 1]):
-                    dp[j][i] = 1
-                if dp[j][i] and max_len < i + 1 - j:
-                    res = s[j: i + 1]
-                    max_len = i + 1 - j
+                if s[i] == s[j]:
+                    if i - j < 2 or dp[j + 1][i - 1]:
+                        dp[j][i] = 1
+
+                if dp[j][i] == 1:
+                    if max_len < i - j + 1:
+                        res = s[j: i + 1]
+                        max_len = i - j + 1
         return res
 
 
