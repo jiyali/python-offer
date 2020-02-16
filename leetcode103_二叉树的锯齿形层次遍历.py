@@ -36,7 +36,7 @@ class Solution:
             if depth % 2 == 0:
                 res[depth].append(root.val)
             else:
-                res[depth].insert(root.val)
+                res[depth].insert(0, root.val)
             helper(root.left, depth + 1)
             helper(root.right, depth + 1)
         helper(root, 0)
