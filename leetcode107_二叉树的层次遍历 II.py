@@ -17,3 +17,25 @@
 # ]
 
 
+class TreeNode:
+    def __init__(self, val):
+        self.left = None
+        self.right = None
+        self.val = val
+
+
+class Solution:
+    def levelOrderBottom(self, root):
+        res = []
+        queue = [(root, 1)]
+
+        while queue:
+            node, depth = queue.pop(0)
+            if node:
+                if len(res) < depth :
+                    res = [[]] + res
+                res[-depth].append(node.val)
+                queue.append((node.left, depth + 1))
+                queue.append((node.right, depth + 1))
+        return res
+
