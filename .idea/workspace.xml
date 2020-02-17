@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3a8d48e4-62b6-4d4b-aedb-51dd4e787cc5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/leetcode103_二叉树的锯齿形层次遍历.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode62_不同路径.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -192,34 +193,12 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ImageCaptionApp-master" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RunManager" selected="Python.灯哥动归_02">
-    <configuration name="对数器" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="剑指offer" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/对数器.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.leetcode62_不同路径">
     <configuration name="灯哥动归01" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="剑指offer" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -308,7 +287,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="leetcode080_删除排序数组中的重复项II" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="leetcode62_不同路径" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="剑指offer" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -321,7 +300,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/leetcode080_删除排序数组中的重复项II.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/leetcode62_不同路径.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -354,11 +333,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.leetcode62_不同路径" />
         <item itemvalue="Python.灯哥动归_02" />
         <item itemvalue="Python.灯哥动规_01" />
         <item itemvalue="Python.灯哥动归01" />
         <item itemvalue="Python.test" />
-        <item itemvalue="Python.leetcode080_删除排序数组中的重复项II" />
       </list>
     </recent_temporary>
   </component>
@@ -478,21 +457,9 @@
       <workItem from="1581736514254" duration="104000" />
       <workItem from="1581736638522" duration="7412000" />
       <workItem from="1581760511364" duration="10417000" />
-      <workItem from="1581867937864" duration="437000" />
-    </task>
-    <task id="LOCAL-00301" summary="添加新题解">
-      <created>1580797574090</created>
-      <option name="number" value="00301" />
-      <option name="presentableId" value="LOCAL-00301" />
-      <option name="project" value="LOCAL" />
-      <updated>1580797574090</updated>
-    </task>
-    <task id="LOCAL-00302" summary="添加新题解">
-      <created>1580797625238</created>
-      <option name="number" value="00302" />
-      <option name="presentableId" value="LOCAL-00302" />
-      <option name="project" value="LOCAL" />
-      <updated>1580797625238</updated>
+      <workItem from="1581867937864" duration="753000" />
+      <workItem from="1581899566498" duration="18000" />
+      <workItem from="1581918893391" duration="3010000" />
     </task>
     <task id="LOCAL-00303" summary="添加新题解">
       <created>1580800435029</created>
@@ -823,7 +790,21 @@
       <option name="project" value="LOCAL" />
       <updated>1581868296094</updated>
     </task>
-    <option name="localTasksCounter" value="350" />
+    <task id="LOCAL-00350" summary="添加新题解">
+      <created>1581868586428</created>
+      <option name="number" value="00350" />
+      <option name="presentableId" value="LOCAL-00350" />
+      <option name="project" value="LOCAL" />
+      <updated>1581868586428</updated>
+    </task>
+    <task id="LOCAL-00351" summary="添加新题解">
+      <created>1581868639126</created>
+      <option name="number" value="00351" />
+      <option name="presentableId" value="LOCAL-00351" />
+      <option name="project" value="LOCAL" />
+      <updated>1581868639126</updated>
+    </task>
+    <option name="localTasksCounter" value="352" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -835,30 +816,30 @@
     <option name="LAST_COMMIT_MESSAGE" value="添加新题解" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="459" y="0" key="CommitChangelistDialog2" timestamp="1581868584845">
+    <state x="459" y="0" key="CommitChangelistDialog2" timestamp="1581868637710">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="459" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1581868584845" />
-    <state x="455" y="118" key="FileChooserDialogImpl" timestamp="1581696081554">
+    <state x="459" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1581868637710" />
+    <state x="455" y="118" key="FileChooserDialogImpl" timestamp="1581899593759">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="455" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1581696081554" />
-    <state width="816" height="181" key="GridCell.Tab.0.bottom" timestamp="1581778978142">
+    <state x="455" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1581899593759" />
+    <state width="1148" height="212" key="GridCell.Tab.0.bottom" timestamp="1581924333236">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="816" height="181" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1581778978142" />
-    <state width="816" height="181" key="GridCell.Tab.0.center" timestamp="1581778978141">
+    <state width="1148" height="212" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1581924333236" />
+    <state width="1148" height="212" key="GridCell.Tab.0.center" timestamp="1581924333235">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="816" height="181" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1581778978141" />
-    <state width="816" height="181" key="GridCell.Tab.0.left" timestamp="1581778978141">
+    <state width="1148" height="212" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1581924333235" />
+    <state width="1148" height="212" key="GridCell.Tab.0.left" timestamp="1581924333235">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="816" height="181" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1581778978141" />
-    <state width="816" height="181" key="GridCell.Tab.0.right" timestamp="1581778978141">
+    <state width="1148" height="212" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1581924333235" />
+    <state width="1148" height="212" key="GridCell.Tab.0.right" timestamp="1581924333236">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="816" height="181" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1581778978141" />
+    <state width="1148" height="212" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1581924333236" />
     <state x="176" y="0" key="SettingsEditor" timestamp="1581696127106">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -904,6 +885,7 @@
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/python_target_offer$leetcode62_.coverage" NAME="leetcode62_不同路径 Coverage Results" MODIFIED="1581924333222" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/python_target_offer$01.coverage" NAME="灯哥动归01 Coverage Results" MODIFIED="1581763055203" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/python_target_offer$.coverage" NAME="灯哥动规 Coverage Results" MODIFIED="1581769104472" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/python_target_offer$_02.coverage" NAME="灯哥动归_02 Coverage Results" MODIFIED="1581777362157" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
