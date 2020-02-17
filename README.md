@@ -50,20 +50,19 @@
 * [leetcode876 链表的中间结点](https://github.com/jiyali/python-target-offer/blob/master/leetcode876_%E9%93%BE%E8%A1%A8%E7%9A%84%E4%B8%AD%E9%97%B4%E7%BB%93%E7%82%B9.py)
 * [leetcode 1290 二进制链表转整数](https://github.com/jiyali/python-target-offer/blob/master/leetcode1290_%E4%BA%8C%E8%BF%9B%E5%88%B6%E9%93%BE%E8%A1%A8%E8%BD%AC%E6%95%B4%E6%95%B0.py)
 * [剑指offer06_01 逆序打印链表](https://github.com/jiyali/python-target-offer/blob/master/06_01%E9%80%86%E5%BA%8F%E6%89%93%E5%8D%B0%E9%93%BE%E8%A1%A8.py)
-* [剑指offer06_02 逆序打印链表]()
-* [剑指offer18_01 删除链表中的节点]()
-* [剑指offer18_02 删除链表中的重复节点]()
-* [剑指offer22_01 链表中倒数第k个节点]()
-* [剑指offer22_02 求链表中的中间节点]()
+* [剑指offer06_02 逆序打印链表](https://github.com/jiyali/python-target-offer/blob/master/06_02%E9%80%86%E5%BA%8F%E6%89%93%E5%8D%B0%E9%93%BE%E8%A1%A8.py)
+* [剑指offer18_01 删除链表中的节点](https://github.com/jiyali/python-target-offer/blob/master/18_01%E5%88%A0%E9%99%A4%E9%93%BE%E8%A1%A8%E7%9A%84%E8%8A%82%E7%82%B9.py)
+* [剑指offer18_02 删除链表中的重复节点](https://github.com/jiyali/python-target-offer/blob/master/18_02%E5%88%A0%E9%99%A4%E9%93%BE%E8%A1%A8%E4%B8%AD%E9%87%8D%E5%A4%8D%E7%9A%84%E8%8A%82%E7%82%B9.py)
+* [剑指offer22_01 链表中倒数第k个节点](https://github.com/jiyali/python-target-offer/blob/master/22_01%E9%93%BE%E8%A1%A8%E4%B8%AD%E5%80%92%E6%95%B0%E7%AC%ACk%E4%B8%AA%E8%8A%82%E7%82%B9.py)
+* [剑指offer22_02 求链表中的中间节点](https://github.com/jiyali/python-target-offer/blob/master/22_02%E6%B1%82%E9%93%BE%E8%A1%A8%E7%9A%84%E4%B8%AD%E9%97%B4%E8%8A%82%E7%82%B9.py)
 * [剑指offer23 链表中环的入口节点](https://github.com/jiyali/python-target-offer/blob/master/23_%E9%93%BE%E8%A1%A8%E4%B8%AD%E7%8E%AF%E7%9A%84%E5%85%A5%E5%8F%A3%E8%8A%82%E7%82%B9.py)
-* [剑指offer24 反转链表]()
-* [剑指offer25 合并两个排序的链表]()
-* [剑指offer35_01 复杂链表的复制]()
-* 
+* [剑指offer24 反转链表](https://github.com/jiyali/python-target-offer/blob/master/24_%E5%8F%8D%E8%BD%AC%E9%93%BE%E8%A1%A8.py)
+* [剑指offer25 合并两个排序的链表](https://github.com/jiyali/python-target-offer/blob/master/25_%E5%90%88%E5%B9%B6%E4%B8%A4%E4%B8%AA%E6%8E%92%E5%BA%8F%E7%9A%84%E9%93%BE%E8%A1%A8.py)
+* [剑指offer35_01 复杂链表的复制](https://github.com/jiyali/python-target-offer/blob/master/35_01%E5%A4%8D%E6%9D%82%E9%93%BE%E8%A1%A8%E7%9A%84%E5%A4%8D%E5%88%B6.py) 
 * [真题 找出单向链表中的一个节点，该节点到尾指针的距离为K](https://github.com/jiyali/python-target-offer/blob/master/%E7%9C%9F%E9%A2%98_%E6%89%BE%E5%87%BA%E5%8D%95%E5%90%91%E9%93%BE%E8%A1%A8%E4%B8%AD%E7%9A%84%E4%B8%80%E4%B8%AA%E8%8A%82%E7%82%B9%EF%BC%8C%E8%AF%A5%E8%8A%82%E7%82%B9%E5%88%B0%E5%B0%BE%E6%8C%87%E9%92%88%E7%9A%84%E8%B7%9D%E7%A6%BB%E4%B8%BAk.py)
 
 ### 数组
-* [leetcode1 两数之和]()
+* [leetcode1 两数之和](https://github.com/jiyali/python-target-offer/blob/master/leetcode001_%E4%B8%A4%E6%95%B0%E4%B9%8B%E5%92%8C.py)
 
 ### 动态规划
 * [leetcode5 最长回文子串](https://github.com/jiyali/python-target-offer/blob/master/leetcode005_%E6%9C%80%E9%95%BF%E5%9B%9E%E6%96%87%E5%AD%90%E4%B8%B2.py)
