@@ -1,0 +1,40 @@
+# 给定一棵二叉树，想象自己站在它的右侧，按照从顶部到底部的顺序，返回从右侧所能看到的节点值。
+#
+# 示例:
+#
+# 输入: [1,2,3,null,5,null,4]
+# 输出: [1, 3, 4]
+# 解释:
+#
+#    1            <---
+#  /   \
+# 2     3         <---
+#  \     \
+#   5     4       <---
+
+
+class TreeNode:
+    def __init__(self, val):
+        self.left = None
+        self.right = None
+        self.val = val
+
+
+class Solution:
+    def rightSideView(self, root):
+        if not root:
+            return None
+        res = []
+        queue = [root]
+
+        while queue:
+            res.append(queue[-1].val)
+            tmp = []
+            for node in queue:
+                if node.left:
+                    tmp.append(node.left)
+                if node.right:
+                    tmp.append(node.right)
+            queue = tmp
+        return res
+

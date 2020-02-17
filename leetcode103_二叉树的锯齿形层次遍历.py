@@ -27,17 +27,17 @@ class TreeNode:
 class Solution:
     def zigzagLevelOrder(self, root):
         res = []
+        queue = [(root, 1)]
 
-        def helper(root, depth):
-            if not root:
-                return None
-            if len(res) == depth:
-                res.append([])
-            if depth % 2 == 0:
-                res[depth].append(root.val)
-            else:
-                res[depth].insert(0, root.val)
-            helper(root.left, depth + 1)
-            helper(root.right, depth + 1)
-        helper(root, 0)
+        while queue:
+            node, depth = queue.pop(0)
+            if node:
+                if depth > len(res):
+                    res.append([])
+                if depth & 1:
+                    res[depth - 1].append(node.val)
+                else:
+                    res[depth - 1] = [node.val] + res[depth - 1]
+                queue.append((node.left, depth + 1))
+                queue.append((node.right, depth + 1))
         return res
