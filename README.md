@@ -69,4 +69,5 @@
 * [leetcode53 最大子序和](https://github.com/jiyali/python-target-offer/blob/master/leetcode053_%E6%9C%80%E5%A4%A7%E5%AD%90%E5%BA%8F%E5%92%8C.py)
 * [leetcode62 不同路径](https://github.com/jiyali/python-target-offer/blob/master/leetcode062_%E4%B8%8D%E5%90%8C%E8%B7%AF%E5%BE%84.py)
 * [leetcode63 不同路径II](https://github.com/jiyali/python-target-offer/blob/master/leetcode063_%E4%B8%8D%E5%90%8C%E8%B7%AF%E5%BE%84II.py)
+* [leetcode64 最小路径和](https://github.com/jiyali/python-target-offer/blob/master/leetcode064_%E6%9C%80%E5%B0%8F%E8%B7%AF%E5%BE%84%E5%92%8C.py)
 * [leetcode70 爬楼梯](https://github.com/jiyali/python-target-offer/blob/master/leetcode070_%E7%88%AC%E6%A5%BC%E6%A2%AF.py)
