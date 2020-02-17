@@ -86,4 +86,5 @@
 * [leetcode63 不同路径II](https://github.com/jiyali/python-target-offer/blob/master/leetcode063_%E4%B8%8D%E5%90%8C%E8%B7%AF%E5%BE%84II.py)
 * [leetcode64 最小路径和](https://github.com/jiyali/python-target-offer/blob/master/leetcode064_%E6%9C%80%E5%B0%8F%E8%B7%AF%E5%BE%84%E5%92%8C.py)
 * [leetcode70 爬楼梯](https://github.com/jiyali/python-target-offer/blob/master/leetcode070_%E7%88%AC%E6%A5%BC%E6%A2%AF.py)
-* [leetcode91 解码方式]()
+* [leetcode91 解码方式](https://github.com/jiyali/python-target-offer/blob/master/leetcode091_%E8%A7%A3%E7%A0%81%E6%96%B9%E5%BC%8F.py)
+* [leetcode264 丑数II](https://github.com/jiyali/python-target-offer/blob/master/leetcode264_%E4%B8%91%E6%95%B0II.py)

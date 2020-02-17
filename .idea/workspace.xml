@@ -437,14 +437,7 @@
       <workItem from="1581867937864" duration="753000" />
       <workItem from="1581899566498" duration="18000" />
       <workItem from="1581918893391" duration="12265000" />
-      <workItem from="1581938232954" duration="6049000" />
-    </task>
-    <task id="LOCAL-00313" summary="添加新题解">
-      <created>1580893609732</created>
-      <option name="number" value="00313" />
-      <option name="presentableId" value="LOCAL-00313" />
-      <option name="project" value="LOCAL" />
-      <updated>1580893609732</updated>
+      <workItem from="1581938232954" duration="6309000" />
     </task>
     <task id="LOCAL-00314" summary="添加新题解">
       <created>1580893702308</created>
@@ -782,7 +775,14 @@
       <option name="project" value="LOCAL" />
       <updated>1581947588874</updated>
     </task>
-    <option name="localTasksCounter" value="362" />
+    <task id="LOCAL-00362" summary="添加新题解">
+      <created>1581950011043</created>
+      <option name="number" value="00362" />
+      <option name="presentableId" value="LOCAL-00362" />
+      <option name="project" value="LOCAL" />
+      <updated>1581950011044</updated>
+    </task>
+    <option name="localTasksCounter" value="363" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -794,10 +794,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="添加新题解" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="459" y="0" key="CommitChangelistDialog2" timestamp="1581947587418">
+    <state x="459" y="0" key="CommitChangelistDialog2" timestamp="1581950009485">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="459" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1581947587418" />
+    <state x="459" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1581950009485" />
     <state x="455" y="118" key="FileChooserDialogImpl" timestamp="1581899593759">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
