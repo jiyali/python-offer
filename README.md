@@ -64,6 +64,21 @@
 ### 数组
 * [leetcode1 两数之和](https://github.com/jiyali/python-target-offer/blob/master/leetcode001_%E4%B8%A4%E6%95%B0%E4%B9%8B%E5%92%8C.py)
 
+### 树
+* [leetcode94 二叉树的中序遍历](https://github.com/jiyali/python-target-offer/blob/master/leetcode094_%E4%BA%8C%E5%8F%89%E6%A0%91%E7%9A%84%E4%B8%AD%E5%BA%8F%E9%81%8D%E5%8E%86.py)
+* [leetcode98 验证二叉搜索树](https://github.com/jiyali/python-target-offer/blob/master/leetcode095_%E9%AA%8C%E8%AF%81%E4%BA%8C%E5%8F%89%E6%90%9C%E7%B4%A2%E6%A0%91.py)
+* [leetcode102 二叉树的层次遍历](https://github.com/jiyali/python-target-offer/blob/master/leetcode102_%E4%BA%8C%E5%8F%89%E6%A0%91%E7%9A%84%E5%B1%82%E6%AC%A1%E9%81%8D%E5%8E%86.py)
+* [leetcode103 二叉树的锯齿形遍历](https://github.com/jiyali/python-target-offer/blob/master/leetcode103_%E4%BA%8C%E5%8F%89%E6%A0%91%E7%9A%84%E9%94%AF%E9%BD%BF%E5%BD%A2%E5%B1%82%E6%AC%A1%E9%81%8D%E5%8E%86.py)
+* [leetcode104 二叉树的最大深度](https://github.com/jiyali/python-target-offer/blob/master/leetcode104_%E4%BA%8C%E5%8F%89%E6%A0%91%E7%9A%84%E6%9C%80%E5%A4%A7%E6%B7%B1%E5%BA%A6.py)
+* [leetcode105 从前序与中序遍历序列构造二叉树]
+* [leetcode107 二叉树的层次遍历II](https://github.com/jiyali/python-target-offer/blob/master/leetcode107_%E4%BA%8C%E5%8F%89%E6%A0%91%E7%9A%84%E5%B1%82%E6%AC%A1%E9%81%8D%E5%8E%86%20II.py)
+* [leetcode144 二叉树的前序遍历](https://github.com/jiyali/python-target-offer/blob/master/leetcode144_%E4%BA%8C%E5%8F%89%E6%A0%91%E7%9A%84%E5%89%8D%E5%BA%8F%E9%81%8D%E5%8E%86.py)
+* [leetcode145 二叉树的后序遍历](https://github.com/jiyali/python-target-offer/blob/master/leetcode145_%E4%BA%8C%E5%8F%89%E6%A0%91%E7%9A%84%E5%90%8E%E5%BA%8F%E9%81%8D%E5%8E%86.py)
+* [leetcode199 二叉树的右视图]()
+* [leetcode235 二叉搜索树的最近公共祖先]
+* [leetcode236 二叉树的最近公共祖先]
+
+
 ### 动态规划
 * [leetcode5 最长回文子串](https://github.com/jiyali/python-target-offer/blob/master/leetcode005_%E6%9C%80%E9%95%BF%E5%9B%9E%E6%96%87%E5%AD%90%E4%B8%B2.py)
 * [leetcode53 最大子序和](https://github.com/jiyali/python-target-offer/blob/master/leetcode053_%E6%9C%80%E5%A4%A7%E5%AD%90%E5%BA%8F%E5%92%8C.py)
