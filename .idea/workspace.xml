@@ -437,14 +437,7 @@
       <workItem from="1581899566498" duration="18000" />
       <workItem from="1581918893391" duration="12265000" />
       <workItem from="1581938232954" duration="6502000" />
-      <workItem from="1582009299283" duration="1866000" />
-    </task>
-    <task id="LOCAL-00316" summary="添加新题解">
-      <created>1580898687374</created>
-      <option name="number" value="00316" />
-      <option name="presentableId" value="LOCAL-00316" />
-      <option name="project" value="LOCAL" />
-      <updated>1580898687374</updated>
+      <workItem from="1582009299283" duration="2354000" />
     </task>
     <task id="LOCAL-00317" summary="添加新题解">
       <created>1580898760359</created>
@@ -782,7 +775,14 @@
       <option name="project" value="LOCAL" />
       <updated>1582011109027</updated>
     </task>
-    <option name="localTasksCounter" value="365" />
+    <task id="LOCAL-00365" summary="添加新题解">
+      <created>1582011240854</created>
+      <option name="number" value="00365" />
+      <option name="presentableId" value="LOCAL-00365" />
+      <option name="project" value="LOCAL" />
+      <updated>1582011240855</updated>
+    </task>
+    <option name="localTasksCounter" value="366" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -794,30 +794,30 @@
     <option name="LAST_COMMIT_MESSAGE" value="添加新题解" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="459" y="0" key="CommitChangelistDialog2" timestamp="1582011106953">
+    <state x="459" y="0" key="CommitChangelistDialog2" timestamp="1582011892053">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="459" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1582011106953" />
+    <state x="459" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1582011892053" />
     <state x="455" y="118" key="FileChooserDialogImpl" timestamp="1581899593759">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="455" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1581899593759" />
-    <state width="1253" height="198" key="GridCell.Tab.0.bottom" timestamp="1582009899634">
+    <state width="1253" height="198" key="GridCell.Tab.0.bottom" timestamp="1582011885194">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1253" height="198" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1582009899634" />
-    <state width="1253" height="198" key="GridCell.Tab.0.center" timestamp="1582009899633">
+    <state width="1253" height="198" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1582011885194" />
+    <state width="1253" height="198" key="GridCell.Tab.0.center" timestamp="1582011885193">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1253" height="198" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1582009899633" />
-    <state width="1253" height="198" key="GridCell.Tab.0.left" timestamp="1582009899632">
+    <state width="1253" height="198" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1582011885193" />
+    <state width="1253" height="198" key="GridCell.Tab.0.left" timestamp="1582011885193">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1253" height="198" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1582009899632" />
-    <state width="1253" height="198" key="GridCell.Tab.0.right" timestamp="1582009899633">
+    <state width="1253" height="198" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1582011885193" />
+    <state width="1253" height="198" key="GridCell.Tab.0.right" timestamp="1582011885193">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1253" height="198" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1582009899633" />
+    <state width="1253" height="198" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1582011885193" />
     <state x="176" y="0" key="SettingsEditor" timestamp="1581696127106">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
