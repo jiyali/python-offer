@@ -88,3 +88,4 @@
 * [leetcode70 爬楼梯](https://github.com/jiyali/python-target-offer/blob/master/leetcode070_%E7%88%AC%E6%A5%BC%E6%A2%AF.py)
 * [leetcode91 解码方式](https://github.com/jiyali/python-target-offer/blob/master/leetcode091_%E8%A7%A3%E7%A0%81%E6%96%B9%E5%BC%8F.py)
 * [leetcode264 丑数II](https://github.com/jiyali/python-target-offer/blob/master/leetcode264_%E4%B8%91%E6%95%B0II.py)
+* [leetcode279 完全平方数]()
