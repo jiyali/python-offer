@@ -15,8 +15,14 @@ class Solution(object):
     def maxDepth(self, root):
         if not root:
             return 0
+        return 1 + max(self.maxDepth(root.left), self.maxDepth(root.right))
 
-        else:
-            left_deep = self.maxDepth(root.left)
-            right_deep = self.maxDepth(root.right)
-        return max(left_deep, right_deep) + 1
+    def maxDepth1(self, root: TreeNode) -> int:
+        queue = [[root, 0]]
+
+        while queue:
+            node, depth = queue.pop(0)
+            if node:
+                queue.append([node.left, depth + 1])
+                queue.append([node.right, depth + 1])
+        return depth
