@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3a8d48e4-62b6-4d4b-aedb-51dd4e787cc5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/leetcode111_二叉树的最小深度.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -468,13 +467,9 @@
       <workItem from="1582286655573" duration="6485000" />
       <workItem from="1582427439709" duration="160000" />
       <workItem from="1582552890960" duration="8328000" />
-    </task>
-    <task id="LOCAL-00324" summary="添加新题解">
-      <created>1580984554212</created>
-      <option name="number" value="00324" />
-      <option name="presentableId" value="LOCAL-00324" />
-      <option name="project" value="LOCAL" />
-      <updated>1580984554213</updated>
+      <workItem from="1582598747563" duration="106000" />
+      <workItem from="1582647451346" duration="518000" />
+      <workItem from="1582704743723" duration="210000" />
     </task>
     <task id="LOCAL-00325" summary="添加新题解">
       <created>1580984608235</created>
@@ -812,7 +807,14 @@
       <option name="project" value="LOCAL" />
       <updated>1582427615839</updated>
     </task>
-    <option name="localTasksCounter" value="373" />
+    <task id="LOCAL-00373" summary="添加新题解">
+      <created>1582598866909</created>
+      <option name="number" value="00373" />
+      <option name="presentableId" value="LOCAL-00373" />
+      <option name="project" value="LOCAL" />
+      <updated>1582598866910</updated>
+    </task>
+    <option name="localTasksCounter" value="374" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -824,10 +826,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="添加新题解" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="459" y="0" key="CommitChangelistDialog2" timestamp="1582427610180">
+    <state x="459" y="0" key="CommitChangelistDialog2" timestamp="1582598864365">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="459" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1582427610180" />
+    <state x="459" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1582598864365" />
     <state x="455" y="118" key="FileChooserDialogImpl" timestamp="1581899593759">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
