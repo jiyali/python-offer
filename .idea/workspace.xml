@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3a8d48e4-62b6-4d4b-aedb-51dd4e787cc5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/leetcode101_对称二叉树.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode110_平衡二叉树.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode112_路径总和.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode222_完全二叉树.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -472,6 +474,7 @@
       <workItem from="1582647451346" duration="518000" />
       <workItem from="1582704743723" duration="297000" />
       <workItem from="1582784708957" duration="1115000" />
+      <workItem from="1583134456742" duration="5429000" />
     </task>
     <task id="LOCAL-00326" summary="添加新题解">
       <created>1580988828023</created>
