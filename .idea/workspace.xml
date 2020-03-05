@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3a8d48e4-62b6-4d4b-aedb-51dd4e787cc5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/跟谁学0305笔试.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/跟谁学0305笔试.py" beforeDir="false" afterPath="$PROJECT_DIR$/跟谁学0305笔试.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -475,14 +475,7 @@
       <workItem from="1583134456742" duration="6746000" />
       <workItem from="1583213495356" duration="136000" />
       <workItem from="1583294270142" duration="2026000" />
-      <workItem from="1583411929026" duration="8642000" />
-    </task>
-    <task id="LOCAL-00331" summary="添加新题解">
-      <created>1580999982407</created>
-      <option name="number" value="00331" />
-      <option name="presentableId" value="LOCAL-00331" />
-      <option name="project" value="LOCAL" />
-      <updated>1580999982407</updated>
+      <workItem from="1583411929026" duration="11004000" />
     </task>
     <task id="LOCAL-00332" summary="添加新题解">
       <created>1581000139220</created>
@@ -820,7 +813,14 @@
       <option name="project" value="LOCAL" />
       <updated>1583412500094</updated>
     </task>
-    <option name="localTasksCounter" value="380" />
+    <task id="LOCAL-00380" summary="添加新题解">
+      <created>1583422515507</created>
+      <option name="number" value="00380" />
+      <option name="presentableId" value="LOCAL-00380" />
+      <option name="project" value="LOCAL" />
+      <updated>1583422515507</updated>
+    </task>
+    <option name="localTasksCounter" value="381" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -832,30 +832,30 @@
     <option name="LAST_COMMIT_MESSAGE" value="添加新题解" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="459" y="0" key="CommitChangelistDialog2" timestamp="1583412498132">
+    <state x="459" y="0" key="CommitChangelistDialog2" timestamp="1583422508272">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="459" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1583412498132" />
+    <state x="459" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1583422508272" />
     <state x="455" y="118" key="FileChooserDialogImpl" timestamp="1581899593759">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="455" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1581899593759" />
-    <state width="1052" height="159" key="GridCell.Tab.0.bottom" timestamp="1583422344845">
+    <state width="1052" height="213" key="GridCell.Tab.0.bottom" timestamp="1583424869342">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1052" height="159" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1583422344845" />
-    <state width="1052" height="159" key="GridCell.Tab.0.center" timestamp="1583422344844">
+    <state width="1052" height="213" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1583424869342" />
+    <state width="1052" height="213" key="GridCell.Tab.0.center" timestamp="1583424869342">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1052" height="159" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1583422344844" />
-    <state width="1052" height="159" key="GridCell.Tab.0.left" timestamp="1583422344844">
+    <state width="1052" height="213" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1583424869342" />
+    <state width="1052" height="213" key="GridCell.Tab.0.left" timestamp="1583424869342">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1052" height="159" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1583422344844" />
-    <state width="1052" height="159" key="GridCell.Tab.0.right" timestamp="1583422344844">
+    <state width="1052" height="213" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1583424869342" />
+    <state width="1052" height="213" key="GridCell.Tab.0.right" timestamp="1583424869342">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1052" height="159" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1583422344844" />
+    <state width="1052" height="213" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1583424869342" />
     <state width="1322" height="109" key="GridCell.Tab.1.bottom" timestamp="1582563520970">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -902,7 +902,7 @@
     <SUITE FILE_PATH="coverage/python_target_offer$test1.coverage" NAME="test1 Coverage Results" MODIFIED="1582562446230" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/python_target_offer$leetcode091_.coverage" NAME="leetcode091_解码方式 Coverage Results" MODIFIED="1581947579784" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/python_target_offer$01.coverage" NAME="灯哥动归01 Coverage Results" MODIFIED="1581763055203" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/python_target_offer$0305.coverage" NAME="跟谁学0305笔试 Coverage Results" MODIFIED="1583422344817" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/python_target_offer$0305.coverage" NAME="跟谁学0305笔试 Coverage Results" MODIFIED="1583424869327" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/python_target_offer$leetcode063_II.coverage" NAME="leetcode063_不同路径II Coverage Results" MODIFIED="1581927976084" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/python_target_offer$.coverage" NAME="分糖果 Coverage Results" MODIFIED="1582295364851" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>

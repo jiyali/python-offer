@@ -81,3 +81,43 @@ class Solution6:
 
 s = Solution6()
 print(s.theKthMax([1, 8, 6, 4, 9]))
+
+
+# 7.假设一个像素由RGB三种颜色构成，各色度值均为一个字节，通过RGB值也可以求出该像素的亮度，计算公式为：
+# Y = 0.299 * r + 0.587 * g + 0.114 * b，仅当两个像素点的亮度差大于128时，这两个像素点才能被肉眼
+# 分辨和识别（相容），判断输入的一组像素是否都相容
+class Solution7:
+    def isTolerate(self, nums):
+        values = []
+        for i in nums:
+            values.append(0.299 * i[0] + 0.587 * i[1] + 0.114 * i[2])
+        for i in range(len(values)):
+            for j in range(i + 1, len(values)):
+                if abs(values[i] - values[j]) > 128:
+                    return True
+                else:
+                    return False
+
+
+s = Solution7()
+print(s.isTolerate([[12, 18, 16], [1, 5, 19]]))
+
+
+# 8.一段DNA碱基序列由A,T,G,C四种碱基构成，根据中心法则和碱基互补原则，DNA被转录为mRNA上的U,A,G,C
+# 四种互补碱基。现给定一段mRNA，判定它是否从指定的DNA模板链或其子链转录所得。
+class Solution8:
+    def isTransfer(self, DNA, mRNA):
+        dic = {'A': 'T', 'T': 'A', 'G': 'C', 'C': 'G'}
+
+        DNA_list = list(DNA)
+        DNA_tranflate = [dic[i] for i in DNA_list]
+        DNA_tranflate = ''.join(DNA_tranflate)
+
+        if mRNA in DNA_tranflate:
+            return True
+        else:
+            return False
+
+
+s = Solution8()
+print(s.isTransfer('ATCATGCCTAG', 'TAGTACGGATC'))
