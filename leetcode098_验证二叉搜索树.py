@@ -28,6 +28,19 @@ class Solution(object):
         helper(root)
         return res == sorted(res) and len(set(res)) == len(res)
 
+    def isValidBST1(self, root: TreeNode) -> bool:
+        if not root:
+            return True
+
+        def helper(root, Min=float('-inf'), Max=float('inf')):
+            if not root:
+                return True
+            if root.val <= Min or root.val >= Max:
+                return False
+            return helper(root.left, Min, root.val) and helper(root.right, root.val, Max)
+
+        return helper(root)
+
 
 pNode1 = TreeNode(2)
 pNode2 = TreeNode(1)

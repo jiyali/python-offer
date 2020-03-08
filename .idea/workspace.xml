@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3a8d48e4-62b6-4d4b-aedb-51dd4e787cc5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/leetcode235_二叉搜索树的最近公共祖先.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode437_路径总和III.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode098_验证二叉搜索树.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode098_验证二叉搜索树.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -477,14 +476,8 @@
       <workItem from="1583213495356" duration="136000" />
       <workItem from="1583294270142" duration="2026000" />
       <workItem from="1583411929026" duration="11054000" />
-      <workItem from="1583594978064" duration="191000" />
-    </task>
-    <task id="LOCAL-00333" summary="添加新题解">
-      <created>1581001016166</created>
-      <option name="number" value="00333" />
-      <option name="presentableId" value="LOCAL-00333" />
-      <option name="project" value="LOCAL" />
-      <updated>1581001016166</updated>
+      <workItem from="1583594978064" duration="221000" />
+      <workItem from="1583652067554" duration="190000" />
     </task>
     <task id="LOCAL-00334" summary="添加新题解">
       <created>1581046624700</created>
@@ -822,7 +815,14 @@
       <option name="project" value="LOCAL" />
       <updated>1583424887345</updated>
     </task>
-    <option name="localTasksCounter" value="382" />
+    <task id="LOCAL-00382" summary="添加新题解">
+      <created>1583595219636</created>
+      <option name="number" value="00382" />
+      <option name="presentableId" value="LOCAL-00382" />
+      <option name="project" value="LOCAL" />
+      <updated>1583595219636</updated>
+    </task>
+    <option name="localTasksCounter" value="383" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -834,10 +834,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="添加新题解" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="459" y="0" key="CommitChangelistDialog2" timestamp="1583424885936">
+    <state x="459" y="0" key="CommitChangelistDialog2" timestamp="1583595217388">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="459" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1583424885936" />
+    <state x="459" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1583595217388" />
     <state x="455" y="118" key="FileChooserDialogImpl" timestamp="1581899593759">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
