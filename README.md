@@ -63,6 +63,28 @@
 
 ### 数组
 * [leetcode1 两数之和](https://github.com/jiyali/python-target-offer/blob/master/leetcode001_%E4%B8%A4%E6%95%B0%E4%B9%8B%E5%92%8C.py)
+* [leetcode4 寻找两个有序数组的中位数](https://github.com/jiyali/python-target-offer/blob/master/leetcode004_%E5%AF%BB%E6%89%BE%E4%B8%A4%E4%B8%AA%E6%9C%89%E5%BA%8F%E6%95%B0%E7%BB%84%E7%9A%84%E4%B8%AD%E4%BD%8D%E6%95%B0.py)
+* [leetcode11 盛最多水的容器](https://github.com/jiyali/python-target-offer/blob/master/leetcode011_%E7%9B%9B%E6%9C%80%E5%A4%9A%E6%B0%B4%E7%9A%84%E5%AE%B9%E5%99%A8.py)
+* [leetcode15 三数之和](https://github.com/jiyali/python-target-offer/blob/master/leetcode015_%E4%B8%89%E6%95%B0%E4%B9%8B%E5%92%8C.py)
+* [leetcode16 最接近的三数之和](https://github.com/jiyali/python-target-offer/blob/master/leetcode016_%E6%9C%80%E6%8E%A5%E8%BF%91%E7%9A%84%E4%B8%89%E6%95%B0%E4%B9%8B%E5%92%8C.py)
+* [leetcode26 删除排序数组中的重复项](https://github.com/jiyali/python-target-offer/blob/master/leetcode026_%E5%88%A0%E9%99%A4%E6%8E%92%E5%BA%8F%E6%95%B0%E7%BB%84%E4%B8%AD%E7%9A%84%E9%87%8D%E5%A4%8D%E9%A1%B9.py)
+* [leetcode27 移除元素](https://github.com/jiyali/python-target-offer/blob/master/leetcode027_%E7%A7%BB%E9%99%A4%E5%85%83%E7%B4%A0.py)
+* [leetcode42 接雨水](https://github.com/jiyali/python-target-offer/blob/master/leetcode042_%E6%8E%A5%E9%9B%A8%E6%B0%B4.py)
+* [leetcode53 最大子序和](https://github.com/jiyali/python-target-offer/blob/master/leetcode053_%E6%9C%80%E5%A4%A7%E5%AD%90%E5%BA%8F%E5%92%8C.py)
+* [leetcode62 不同路径](https://github.com/jiyali/python-target-offer/blob/master/leetcode062_%E4%B8%8D%E5%90%8C%E8%B7%AF%E5%BE%84.py)
+* [leetcode63 不同路径II](https://github.com/jiyali/python-target-offer/blob/master/leetcode063_%E4%B8%8D%E5%90%8C%E8%B7%AF%E5%BE%84II.py)
+* [leetcode64 最小路径和](https://github.com/jiyali/python-target-offer/blob/master/leetcode064_%E6%9C%80%E5%B0%8F%E8%B7%AF%E5%BE%84%E5%92%8C.py)
+* [leetcode75 颜色分类](https://github.com/jiyali/python-target-offer/blob/master/leetcode075_%E9%A2%9C%E8%89%B2%E5%88%86%E7%B1%BB.py)
+* [leetcode80 删除排序数组中的重复项II](https://github.com/jiyali/python-target-offer/blob/master/leetcode080_%E5%88%A0%E9%99%A4%E6%8E%92%E5%BA%8F%E6%95%B0%E7%BB%84%E4%B8%AD%E7%9A%84%E9%87%8D%E5%A4%8D%E9%A1%B9II.py)
+* [leetcode88 合并两个有序数组](https://github.com/jiyali/python-target-offer/blob/master/leetcode088_%E5%90%88%E5%B9%B6%E4%B8%A4%E4%B8%AA%E6%9C%89%E5%BA%8F%E6%95%B0%E7%BB%84.py)
+* [leetcode105 从前序与中序遍历序列构造二叉树](https://github.com/jiyali/python-target-offer/blob/master/leetcode105_%E4%BB%8E%E5%89%8D%E5%BA%8F%E4%B8%8E%E4%B8%AD%E5%BA%8F%E9%81%8D%E5%8E%86%E5%BA%8F%E5%88%97%E6%9E%84%E9%80%A0%E4%BA%8C%E5%8F%89%E6%A0%91.py)
+* [leetcode126 单词接龙II](https://github.com/jiyali/python-target-offer/blob/master/leetcode126_%E5%8D%95%E8%AF%8D%E6%8E%A5%E9%BE%99II.py)
+* [leetcode209 长度最小的子数组](https://github.com/jiyali/python-target-offer/blob/master/leetcode209_%E9%95%BF%E5%BA%A6%E6%9C%80%E5%B0%8F%E7%9A%84%E5%AD%90%E6%95%B0%E7%BB%84.py)
+* [leetcode219 存在重复元素II](https://github.com/jiyali/python-target-offer/blob/master/leetcode219_%E5%AD%98%E5%9C%A8%E9%87%8D%E5%A4%8D%E5%85%83%E7%B4%A0II.py)
+* [leetcode283 移动零](https://github.com/jiyali/python-target-offer/blob/master/leetcode283_%E7%A7%BB%E5%8A%A8%E9%9B%B6.py)
+* [leetcode695 岛屿的最大面积](https://github.com/jiyali/python-target-offer/blob/master/leetcode695_%E5%B2%9B%E5%B1%BF%E7%9A%84%E6%9C%80%E5%A4%A7%E9%9D%A2%E7%A7%AF.py)
+* [leetcode1013 将数组分成和相等的三个部分](https://github.com/jiyali/python-target-offer/blob/master/leetcode1013_%E5%B0%86%E6%95%B0%E7%BB%84%E5%88%86%E4%B8%BA%E5%92%8C%E7%9B%B8%E7%AD%89%E7%9A%84%E4%B8%89%E4%B8%AA%E9%83%A8%E5%88%86.py)
+
 
 ### 树
 * [leetcode94 二叉树的中序遍历](https://github.com/jiyali/python-target-offer/blob/master/leetcode094_%E4%BA%8C%E5%8F%89%E6%A0%91%E7%9A%84%E4%B8%AD%E5%BA%8F%E9%81%8D%E5%8E%86.py)
