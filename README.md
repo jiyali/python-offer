@@ -108,3 +108,16 @@
 * [leetcode257 二叉树的所有路径](https://github.com/jiyali/python-target-offer/blob/master/leetcode257%E4%BA%8C%E5%8F%89%E6%A0%91%E7%9A%84%E6%89%80%E6%9C%89%E8%B7%AF%E5%BE%84.py)
 * [leetcode695 岛屿的最大面积](https://github.com/jiyali/python-target-offer/blob/master/leetcode695_%E5%B2%9B%E5%B1%BF%E7%9A%84%E6%9C%80%E5%A4%A7%E9%9D%A2%E7%A7%AF.py)
 * [leetcode430 扁平化多级双向链表](https://github.com/jiyali/python-target-offer/blob/master/leetcode430_%E6%89%81%E5%B9%B3%E5%8C%96%E5%A4%9A%E7%BA%A7%E5%8F%8C%E5%90%91%E9%93%BE%E8%A1%A8.py)
+
+### 动态规划
+* [leetcode5 最长回文子串](https://github.com/jiyali/python-target-offer/blob/master/leetcode005_%E6%9C%80%E9%95%BF%E5%9B%9E%E6%96%87%E5%AD%90%E4%B8%B2.py)
+* [leetcode53 最大子序和](https://github.com/jiyali/python-target-offer/blob/master/leetcode053_%E6%9C%80%E5%A4%A7%E5%AD%90%E5%BA%8F%E5%92%8C.py)
+* [leetcode62 不同路径](https://github.com/jiyali/python-target-offer/blob/master/leetcode062_%E4%B8%8D%E5%90%8C%E8%B7%AF%E5%BE%84.py)
+* [leetcode63 不同路径II](https://github.com/jiyali/python-target-offer/blob/master/leetcode063_%E4%B8%8D%E5%90%8C%E8%B7%AF%E5%BE%84II.py)
+* [leetcode64 最小路径和](https://github.com/jiyali/python-target-offer/blob/master/leetcode064_%E6%9C%80%E5%B0%8F%E8%B7%AF%E5%BE%84%E5%92%8C.py)
+* [leetcode70 爬楼梯](https://github.com/jiyali/python-target-offer/blob/master/leetcode070_%E7%88%AC%E6%A5%BC%E6%A2%AF.py)
+* [leetcode91 解码方法](https://github.com/jiyali/python-target-offer/blob/master/leetcode091_%E8%A7%A3%E7%A0%81%E6%96%B9%E5%BC%8F.py)
+* [leetcode264 丑数II](https://github.com/jiyali/python-target-offer/blob/master/leetcode264_%E4%B8%91%E6%95%B0II.py)
+* [leetcode279 完全平方数](https://github.com/jiyali/python-target-offer/blob/master/leetcode279_%E5%AE%8C%E5%85%A8%E5%B9%B3%E6%96%B9%E6%95%B0.py)
+* [leetcode322 零钱兑换](https://github.com/jiyali/python-target-offer/blob/master/leetcode322_%E9%9B%B6%E9%92%B1%E5%85%91%E6%8D%A2.py)
+* [leetcode1143 最长公共子序列](https://github.com/jiyali/python-target-offer/blob/master/leetcode1143_%E6%9C%80%E9%95%BF%E5%85%AC%E5%85%B1%E5%AD%90%E5%BA%8F%E5%88%97.py)
