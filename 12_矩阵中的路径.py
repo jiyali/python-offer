@@ -9,8 +9,8 @@
 #       如果路径上的第i个字符正好是ch，那么往相邻的格子寻找路径上的第i+1个字符。
 #       除在矩阵边界上的格子外，其他各自都有4个相邻的格子。重复这个过程直到路径上的所有字符都在矩阵中找到相应的位置。
 
-class Solution:
 
+class Solution:
     """
       输入矩阵：matrix
       矩阵行数：rows
@@ -39,7 +39,8 @@ class Solution:
             return True
 
         hasPath = False
-        if 0 <= row < rows and 0 <= col < cols and matrix[row * cols + col] == path[pathLength] and not visited[row * cols + col]:
+        if 0 <= row < rows and 0 <= col < cols and matrix[row * cols + col] == path[pathLength] and not visited[
+            row * cols + col]:
 
             pathLength += 1
             visited[row * cols + col] = True
