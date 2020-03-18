@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3a8d48e4-62b6-4d4b-aedb-51dd4e787cc5" name="Default Changelist" comment="" />
+    <list default="true" id="3a8d48e4-62b6-4d4b-aedb-51dd4e787cc5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/leetcode039_组合总和.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode77_组合.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode77_组合.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -194,7 +198,7 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RunManager" selected="Python.leetcode047_全排列II">
+  <component name="RunManager" selected="Python.leetcode039_组合总和">
     <configuration name="leetcode013_罗马数字转整数" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="剑指offer" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -261,6 +265,28 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="leetcode039_组合总和" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="剑指offer" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/leetcode039_组合总和.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="leetcode047_全排列II" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="剑指offer" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -283,35 +309,13 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="leetcode1013_将数组分为和相等的三个部分" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="剑指offer" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/leetcode1013_将数组分为和相等的三个部分.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.leetcode039_组合总和" />
         <item itemvalue="Python.leetcode047_全排列II" />
         <item itemvalue="Python.leetcode017_电话号码的字母组合" />
         <item itemvalue="Python.leetcode022_括号生成" />
         <item itemvalue="Python.leetcode013_罗马数字转整数" />
-        <item itemvalue="Python.leetcode1013_将数组分为和相等的三个部分" />
       </list>
     </recent_temporary>
   </component>
@@ -459,13 +463,8 @@
       <workItem from="1583911143652" duration="10965000" />
       <workItem from="1584192120588" duration="677000" />
       <workItem from="1584340713941" duration="1078000" />
-    </task>
-    <task id="LOCAL-00351" summary="添加新题解">
-      <created>1581868639126</created>
-      <option name="number" value="00351" />
-      <option name="presentableId" value="LOCAL-00351" />
-      <option name="project" value="LOCAL" />
-      <updated>1581868639126</updated>
+      <workItem from="1584455280479" duration="100000" />
+      <workItem from="1584517554304" duration="2428000" />
     </task>
     <task id="LOCAL-00352" summary="添加新题解">
       <created>1581924489198</created>
@@ -803,7 +802,14 @@
       <option name="project" value="LOCAL" />
       <updated>1584341825781</updated>
     </task>
-    <option name="localTasksCounter" value="400" />
+    <task id="LOCAL-00400" summary="添加新题解">
+      <created>1584455412220</created>
+      <option name="number" value="00400" />
+      <option name="presentableId" value="LOCAL-00400" />
+      <option name="project" value="LOCAL" />
+      <updated>1584455412220</updated>
+    </task>
+    <option name="localTasksCounter" value="401" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -815,10 +821,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="添加新题解" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="459" y="0" key="CommitChangelistDialog2" timestamp="1584341823438">
+    <state x="459" y="0" key="CommitChangelistDialog2" timestamp="1584455407337">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="459" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1584341823438" />
+    <state x="459" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1584455407337" />
     <state x="455" y="118" key="FileChooserDialogImpl" timestamp="1581899593759">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -867,10 +873,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="465" y="280" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1581736702475" />
-    <state x="487" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1583926981646">
+    <state x="487" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1584520321543">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="487" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1583926981646" />
+    <state x="487" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1584520321543" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/python_target_offer$leetcode264_II.coverage" NAME="leetcode264_丑数II Coverage Results" MODIFIED="1581950002676" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -892,6 +898,7 @@
     <SUITE FILE_PATH="coverage/python_target_offer$leetcode13_.coverage" NAME="leetcode13_罗马数字转整数 Coverage Results" MODIFIED="1583917652856" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/python_target_offer$01.coverage" NAME="灯哥动归01 Coverage Results" MODIFIED="1581763055203" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/python_target_offer$0305.coverage" NAME="跟谁学0305笔试 Coverage Results" MODIFIED="1583424869327" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/python_target_offer$leetcode039_.coverage" NAME="leetcode039_组合总和 Coverage Results" MODIFIED="1584520463478" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/python_target_offer$leetcode063_II.coverage" NAME="leetcode063_不同路径II Coverage Results" MODIFIED="1581927976084" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/python_target_offer$.coverage" NAME="分糖果 Coverage Results" MODIFIED="1582295364851" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>

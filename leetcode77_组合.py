@@ -1,5 +1,5 @@
 class Solution:
-    def combine(self, n: int, k: int) -> List[List[int]]:
+    def combine(self, n: int, k: int):
         if k > n or k == 0:
             return []
 
