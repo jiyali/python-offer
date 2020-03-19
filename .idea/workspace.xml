@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3a8d48e4-62b6-4d4b-aedb-51dd4e787cc5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/百度笔试_交换前缀.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/06_01逆序打印链表.py" beforeDir="false" afterPath="$PROJECT_DIR$/06_01逆序打印链表.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/10_02青蛙跳台阶问题.py" beforeDir="false" afterPath="$PROJECT_DIR$/10_02青蛙跳台阶问题.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode022_括号生成.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode022_括号生成.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -465,14 +464,8 @@
       <workItem from="1584192120588" duration="677000" />
       <workItem from="1584340713941" duration="1078000" />
       <workItem from="1584455280479" duration="100000" />
-      <workItem from="1584517554304" duration="12665000" />
-    </task>
-    <task id="LOCAL-00353" summary="添加新题解">
-      <created>1581928282240</created>
-      <option name="number" value="00353" />
-      <option name="presentableId" value="LOCAL-00353" />
-      <option name="project" value="LOCAL" />
-      <updated>1581928282240</updated>
+      <workItem from="1584517554304" duration="13999000" />
+      <workItem from="1584571486075" duration="2238000" />
     </task>
     <task id="LOCAL-00354" summary="添加新题解">
       <created>1581930765717</created>
@@ -810,7 +803,14 @@
       <option name="project" value="LOCAL" />
       <updated>1584520569515</updated>
     </task>
-    <option name="localTasksCounter" value="402" />
+    <task id="LOCAL-00402" summary="添加新题解">
+      <created>1584544221913</created>
+      <option name="number" value="00402" />
+      <option name="presentableId" value="LOCAL-00402" />
+      <option name="project" value="LOCAL" />
+      <updated>1584544221913</updated>
+    </task>
+    <option name="localTasksCounter" value="403" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -822,30 +822,30 @@
     <option name="LAST_COMMIT_MESSAGE" value="添加新题解" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="459" y="0" key="CommitChangelistDialog2" timestamp="1584520567035">
+    <state x="459" y="0" key="CommitChangelistDialog2" timestamp="1584544218649">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="459" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1584520567035" />
+    <state x="459" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1584544218649" />
     <state x="455" y="118" key="FileChooserDialogImpl" timestamp="1581899593759">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="455" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1581899593759" />
-    <state width="1322" height="233" key="GridCell.Tab.0.bottom" timestamp="1584541085224">
+    <state width="1322" height="122" key="GridCell.Tab.0.bottom" timestamp="1584545469228">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="233" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1584541085224" />
-    <state width="1322" height="233" key="GridCell.Tab.0.center" timestamp="1584541085224">
+    <state width="1322" height="122" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1584545469228" />
+    <state width="1322" height="122" key="GridCell.Tab.0.center" timestamp="1584545469227">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="233" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1584541085224" />
-    <state width="1322" height="233" key="GridCell.Tab.0.left" timestamp="1584541085224">
+    <state width="1322" height="122" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1584545469227" />
+    <state width="1322" height="122" key="GridCell.Tab.0.left" timestamp="1584545469227">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="233" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1584541085224" />
-    <state width="1322" height="233" key="GridCell.Tab.0.right" timestamp="1584541085224">
+    <state width="1322" height="122" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1584545469227" />
+    <state width="1322" height="122" key="GridCell.Tab.0.right" timestamp="1584545469228">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="233" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1584541085224" />
+    <state width="1322" height="122" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1584545469228" />
     <state width="1322" height="109" key="GridCell.Tab.1.bottom" timestamp="1582563520970">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

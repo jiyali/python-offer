@@ -142,3 +142,13 @@
 * [leetcode279 完全平方数](https://github.com/jiyali/python-target-offer/blob/master/leetcode279_%E5%AE%8C%E5%85%A8%E5%B9%B3%E6%96%B9%E6%95%B0.py)
 * [leetcode322 零钱兑换](https://github.com/jiyali/python-target-offer/blob/master/leetcode322_%E9%9B%B6%E9%92%B1%E5%85%91%E6%8D%A2.py)
 * [leetcode1143 最长公共子序列](https://github.com/jiyali/python-target-offer/blob/master/leetcode1143_%E6%9C%80%E9%95%BF%E5%85%AC%E5%85%B1%E5%AD%90%E5%BA%8F%E5%88%97.py)
+
+# 回溯
+* [leetcode17 电话号码的字母组合]
+* [leetcode39 组合总和]
+* [leetcode40 组合总和II]
+* [leetcode46 全排列]
+* [leetcode47 全排列II]
+* [leetcode76 子集]
+* [leetcode90 子集II]
+* [leetcode]

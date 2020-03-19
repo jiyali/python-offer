@@ -9,24 +9,26 @@
 #   "()(())",
 #   "()()()"
 # ]
-# extend() 函数用于在列表末尾一次性追加另一个序列中的多个值（用新列表扩展原来的列表）。
 
 
 class Solution:
     def generateParenthesis(self, n):
         if n == 0:
-            return [""]
-        elif n == 1:
-            return ["()"]
-        elif n == 2:
-            return ["()()", "(())"]
-        result = []
-        for i in range(n):
-            j = n - 1 - i
-            temp1 = self.generateParenthesis(i)
-            temp2 = self.generateParenthesis(j)
-            result.extend(["(%s)%s" % (p, q) for p in temp1 for q in temp2])
-        return result
+            return []
+
+        res = []
+
+        def backtrack(string, left, right):
+            if len(string) == 2 * n:
+                res.append(string)
+                return
+            if left < n:
+                backtrack(string + '(', left + 1, right)
+            if right < left:
+                backtrack(string + ')', left, right + 1)
+
+        backtrack('', 0, 0)
+        return res
 
 
 s = Solution()
