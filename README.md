@@ -145,10 +145,13 @@
 
 # 回溯
 * [leetcode17 电话号码的字母组合]
+* [leetcode22 括号生成]
 * [leetcode39 组合总和]
 * [leetcode40 组合总和II]
 * [leetcode46 全排列]
 * [leetcode47 全排列II]
-* [leetcode76 子集]
+* [leetcode60 第k个排列]
+* [leetcode77 组合]
+* [leetcode78 子集]
 * [leetcode90 子集II]
-* [leetcode]
+* [leetcode784 字母大小写全排列]
