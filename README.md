@@ -144,14 +144,14 @@
 * [leetcode1143 最长公共子序列](https://github.com/jiyali/python-target-offer/blob/master/leetcode1143_%E6%9C%80%E9%95%BF%E5%85%AC%E5%85%B1%E5%AD%90%E5%BA%8F%E5%88%97.py)
 
 # 回溯
-* [leetcode17 电话号码的字母组合]
-* [leetcode22 括号生成]
-* [leetcode39 组合总和]
-* [leetcode40 组合总和II]
-* [leetcode46 全排列]
-* [leetcode47 全排列II]
-* [leetcode60 第k个排列]
-* [leetcode77 组合]
-* [leetcode78 子集]
-* [leetcode90 子集II]
-* [leetcode784 字母大小写全排列]
+* [leetcode17 电话号码的字母组合](https://github.com/jiyali/python-target-offer/blob/master/leetcode017_%E7%94%B5%E8%AF%9D%E5%8F%B7%E7%A0%81%E7%9A%84%E5%AD%97%E6%AF%8D%E7%BB%84%E5%90%88.py)
+* [leetcode22 括号生成](https://github.com/jiyali/python-target-offer/blob/master/leetcode022_%E6%8B%AC%E5%8F%B7%E7%94%9F%E6%88%90.py)
+* [leetcode39 组合总和](https://github.com/jiyali/python-target-offer/blob/master/leetcode039_%E7%BB%84%E5%90%88%E6%80%BB%E5%92%8C.py)
+* [leetcode46 全排列](https://github.com/jiyali/python-target-offer/blob/master/leetcode046_%E5%85%A8%E6%8E%92%E5%88%97.py)
+* [leetcode47 全排列II](https://github.com/jiyali/python-target-offer/blob/master/leetcode047_%E5%85%A8%E6%8E%92%E5%88%97II.py)
+* [leetcode49 组合总和II](https://github.com/jiyali/python-target-offer/blob/master/leetcode049_%E7%BB%84%E5%90%88%E6%80%BB%E5%92%8CII.py)
+* [leetcode60 第k个排列](https://github.com/jiyali/python-target-offer/blob/master/leetcode060_%E7%AC%ACk%E4%B8%AA%E6%8E%92%E5%88%97.py)
+* [leetcode77 组合](https://github.com/jiyali/python-target-offer/blob/master/leetcode077_%E7%BB%84%E5%90%88.py)
+* [leetcode78 子集](https://github.com/jiyali/python-target-offer/blob/master/leetcode078_%E5%AD%90%E9%9B%86.py)
+* [leetcode90 子集II](https://github.com/jiyali/python-target-offer/blob/master/leetcode090_%E5%AD%90%E9%9B%86II.py)
+* [leetcode784 字母大小写全排列](https://github.com/jiyali/python-target-offer/blob/master/leetcode784_%E5%AD%97%E6%AF%8D%E5%A4%A7%E5%B0%8F%E5%85%A8%E6%8E%92%E5%88%97.py)
