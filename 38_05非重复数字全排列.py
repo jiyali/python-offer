@@ -1,4 +1,5 @@
 class Solution:
+
     def Permutation(self, nums):
         if len(nums) == 0:
             return []
