@@ -19,11 +19,18 @@ class Solution:
         res = []
 
         def backtrack(nums, tmp):
+            print('nums:', nums)
+            print('tmp:', tmp)
             if not nums:
                 res.append(tmp)
                 return
             for i in range(len(nums)):
                 backtrack(nums[: i] + nums[i + 1:], tmp + [nums[i]])
+                # print(nums)
 
         backtrack(nums, [])
         return res
+
+
+s = Solution()
+print(s.permute([1, 2, 3]))
