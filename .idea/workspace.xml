@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3a8d48e4-62b6-4d4b-aedb-51dd4e787cc5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/leetcode216_组合总和III.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/181周赛_01按既定顺序创建目标数组】.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/181周赛_02四因数.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/11_01快速排序.py" beforeDir="false" afterPath="$PROJECT_DIR$/11_01快速排序.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -197,8 +199,8 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RunManager" selected="Python.leetcode216_组合总和III">
-    <configuration name="leetcode060_第k个排列" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.181周赛_02四因数 (1)">
+    <configuration name="181周赛_02四因数 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="剑指offer" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -211,7 +213,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/leetcode060_第k个排列.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/181周赛_02四因数.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -220,7 +222,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="leetcode078_子集" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="181周赛_02四因数" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="剑指offer" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -233,7 +235,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/leetcode078_子集.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\SUMSUNG\Desktop\python-target-offer\181周赛_02四因数.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -310,11 +312,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.181周赛_02四因数 (1)" />
+        <item itemvalue="Python.181周赛_02四因数" />
         <item itemvalue="Python.leetcode216_组合总和III" />
         <item itemvalue="Python.leetcode784_字母大小全排列" />
         <item itemvalue="Python.leetcode090_子集II" />
-        <item itemvalue="Python.leetcode078_子集" />
-        <item itemvalue="Python.leetcode060_第k个排列" />
       </list>
     </recent_temporary>
   </component>
@@ -466,14 +468,9 @@
       <workItem from="1584517554304" duration="13999000" />
       <workItem from="1584571486075" duration="17868000" />
       <workItem from="1584619535801" duration="2129000" />
-      <workItem from="1584673380046" duration="283000" />
-    </task>
-    <task id="LOCAL-00362" summary="添加新题解">
-      <created>1581950011043</created>
-      <option name="number" value="00362" />
-      <option name="presentableId" value="LOCAL-00362" />
-      <option name="project" value="LOCAL" />
-      <updated>1581950011044</updated>
+      <workItem from="1584673380046" duration="803000" />
+      <workItem from="1584687095224" duration="841000" />
+      <workItem from="1584845609040" duration="3892000" />
     </task>
     <task id="LOCAL-00363" summary="添加新题解">
       <created>1581950119874</created>
@@ -811,7 +808,14 @@
       <option name="project" value="LOCAL" />
       <updated>1584621938570</updated>
     </task>
-    <option name="localTasksCounter" value="411" />
+    <task id="LOCAL-00411" summary="添加新题解">
+      <created>1584673756627</created>
+      <option name="number" value="00411" />
+      <option name="presentableId" value="LOCAL-00411" />
+      <option name="project" value="LOCAL" />
+      <updated>1584673756627</updated>
+    </task>
+    <option name="localTasksCounter" value="412" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -823,30 +827,30 @@
     <option name="LAST_COMMIT_MESSAGE" value="添加新题解" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="459" y="0" key="CommitChangelistDialog2" timestamp="1584621937576">
+    <state x="459" y="0" key="CommitChangelistDialog2" timestamp="1584852447769">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="459" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1584621937576" />
+    <state x="459" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1584852447769" />
     <state x="455" y="118" key="FileChooserDialogImpl" timestamp="1581899593759">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="455" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1581899593759" />
-    <state width="919" height="112" key="GridCell.Tab.0.bottom" timestamp="1584621946125">
+    <state width="1322" height="159" key="GridCell.Tab.0.bottom" timestamp="1584852449206">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="919" height="112" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1584621946125" />
-    <state width="919" height="112" key="GridCell.Tab.0.center" timestamp="1584621946125">
+    <state width="1322" height="159" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1584852449206" />
+    <state width="1322" height="159" key="GridCell.Tab.0.center" timestamp="1584852449205">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="919" height="112" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1584621946125" />
-    <state width="919" height="112" key="GridCell.Tab.0.left" timestamp="1584621946124">
+    <state width="1322" height="159" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1584852449205" />
+    <state width="1322" height="159" key="GridCell.Tab.0.left" timestamp="1584852449205">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="919" height="112" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1584621946124" />
-    <state width="919" height="112" key="GridCell.Tab.0.right" timestamp="1584621946125">
+    <state width="1322" height="159" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1584852449205" />
+    <state width="1322" height="159" key="GridCell.Tab.0.right" timestamp="1584852449205">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="919" height="112" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1584621946125" />
+    <state width="1322" height="159" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1584852449205" />
     <state width="1322" height="109" key="GridCell.Tab.1.bottom" timestamp="1582563520970">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -884,6 +888,7 @@
     <SUITE FILE_PATH="coverage/python_target_offer$leetcode070_.coverage" NAME="leetcode070_爬楼梯 Coverage Results" MODIFIED="1581934346098" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/python_target_offer$leetcode1143_.coverage" NAME="leetcode1143_最长公共子序列 Coverage Results" MODIFIED="1582290093823" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/python_target_offer$leetcode1013_.coverage" NAME="leetcode1013_将数组分为和相等的三个部分 Coverage Results" MODIFIED="1583916879825" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/python_target_offer$2.coverage" NAME="181周赛_02四因数 Coverage Results" MODIFIED="1584852152221" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/python_target_offer$leetcode064_.coverage" NAME="leetcode064_最小路径和 Coverage Results" MODIFIED="1581930712666" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/python_target_offer$leetcode279_.coverage" NAME="leetcode279_完全平方数 Coverage Results" MODIFIED="1582075195908" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/python_target_offer$_.coverage" NAME="百度笔试_交换前缀 Coverage Results" MODIFIED="1584541085210" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -893,6 +898,7 @@
     <SUITE FILE_PATH="coverage/python_target_offer$leetcode13_.coverage" NAME="leetcode13_罗马数字转整数 Coverage Results" MODIFIED="1583917652856" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/python_target_offer$leetcode039_.coverage" NAME="leetcode039_组合总和 Coverage Results" MODIFIED="1584520463478" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/python_target_offer$.coverage" NAME="分糖果 Coverage Results" MODIFIED="1582295364851" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/python_target_offer$181_02__1_.coverage" NAME="181周赛_02四因数 (1) Coverage Results" MODIFIED="1584852350620" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/python_target_offer$leetcode049_II.coverage" NAME="leetcode049_组合总和II Coverage Results" MODIFIED="1584589171495" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/python_target_offer$leetcode264_II.coverage" NAME="leetcode264_丑数II Coverage Results" MODIFIED="1581950002676" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/python_target_offer$leetcode127_.coverage" NAME="leetcode127_单词接龙 Coverage Results" MODIFIED="1582096948762" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
