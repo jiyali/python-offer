@@ -17,29 +17,30 @@ class Solution:
     def hasValidPath(self, grid):
         row = len(grid)
         col = len(grid[0])
-        visit = [[0]*col for _ in range(row)]
+        visit = [[0] * col for _ in range(row)]
 
         stack = []
         stack.append((0, 0))
+        visit[0][0] = 1
         while stack:
             x, y = stack.pop()
-            if x == row - 1 and y == col -1:
+            if x == row - 1 and y == col - 1:
                 return True
 
             # 向左
-            if grid[x][y] in [1,3,5] and grid[x][y-1] in [1, 4, 6] and y-1 >=0 and visit[x][y-1] == 0:
-                visit[x][y-1] = 1
-                stack.append((x, y-1))
+            if grid[x][y] in [1, 3, 5] and grid[x][y - 1] in [1, 4, 6] and y - 1 >= 0 and visit[x][y - 1] == 0:
+                visit[x][y - 1] = 1
+                stack.append((x, y - 1))
 
             # 向右
-            if grid[x][y] in [1, 4, 6]and grid[x][y+1] in [1, 3, 5] and y+1<col and visit[x][y+1] == 0:
-                visit[x][y+1] = 1
-                stack.append((x, y+1))
+            if grid[x][y] in [1, 4, 6] and grid[x][y + 1] in [1, 3, 5] and y + 1 < col and visit[x][y + 1] == 0:
+                visit[x][y + 1] = 1
+                stack.append((x, y + 1))
 
             # 向上
-            if grid[x][y] in [2,5, 6] and grid[x-1][y] in [2, 3, 4] and x-1>0 and visit[x-1][y]== 0:
-                visit[x-1][y] = 1
-                stack.append((x-1, y))
+            if grid[x][y] in [2, 5, 6] and grid[x - 1][y] in [2, 3, 4] and x - 1 >= 0 and visit[x - 1][y] == 0:
+                visit[x - 1][y] = 1
+                stack.append((x - 1, y))
 
             # 向右
             if grid[x][y] in [2, 3, 4] and x + 1 < row and visit[x + 1][y] == 0 and grid[x + 1][y] in [2, 5, 6]:
@@ -49,4 +50,4 @@ class Solution:
 
 
 s = Solution()
-print(s.hasValidPath([[2],[2],[2],[2],[2],[2],[6]]))
+print(s.hasValidPath([[2], [2], [2], [2], [2], [2], [6]]))

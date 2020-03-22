@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3a8d48e4-62b6-4d4b-aedb-51dd4e787cc5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/leetcode5366_检查网格中是否存在有效路径.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/181周赛_01按既定顺序创建目标数组】.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode5364_按既定顺序创建目标数组.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/181周赛_02四因数.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode5178_四因数.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode5366_检查网格中是否存在有效路径.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode5366_检查网格中是否存在有效路径.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -492,14 +490,7 @@
       <workItem from="1584619535801" duration="2129000" />
       <workItem from="1584673380046" duration="803000" />
       <workItem from="1584687095224" duration="841000" />
-      <workItem from="1584845609040" duration="7823000" />
-    </task>
-    <task id="LOCAL-00364" summary="添加新题解">
-      <created>1582011109026</created>
-      <option name="number" value="00364" />
-      <option name="presentableId" value="LOCAL-00364" />
-      <option name="project" value="LOCAL" />
-      <updated>1582011109027</updated>
+      <workItem from="1584845609040" duration="8241000" />
     </task>
     <task id="LOCAL-00365" summary="添加新题解">
       <created>1582011240854</created>
@@ -837,7 +828,14 @@
       <option name="project" value="LOCAL" />
       <updated>1584852463196</updated>
     </task>
-    <option name="localTasksCounter" value="413" />
+    <task id="LOCAL-00413" summary="添加新题解">
+      <created>1584861903403</created>
+      <option name="number" value="00413" />
+      <option name="presentableId" value="LOCAL-00413" />
+      <option name="project" value="LOCAL" />
+      <updated>1584861903403</updated>
+    </task>
+    <option name="localTasksCounter" value="414" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -849,10 +847,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="添加新题解" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="459" y="0" key="CommitChangelistDialog2" timestamp="1584852458497">
+    <state x="359" y="0" key="CommitChangelistDialog2" timestamp="1584861902306">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="459" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1584852458497" />
+    <state x="359" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1584861902306" />
     <state x="455" y="118" key="FileChooserDialogImpl" timestamp="1581899593759">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
