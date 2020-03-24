@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3a8d48e4-62b6-4d4b-aedb-51dd4e787cc5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/leetcode5367_最长快乐前缀.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode079_单词搜索.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode079_单词搜索.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -492,14 +491,7 @@
       <workItem from="1584687095224" duration="841000" />
       <workItem from="1584845609040" duration="9012000" />
       <workItem from="1584952450494" duration="57000" />
-      <workItem from="1585050964906" duration="899000" />
-    </task>
-    <task id="LOCAL-00366" summary="添加新题解">
-      <created>1582011898718</created>
-      <option name="number" value="00366" />
-      <option name="presentableId" value="LOCAL-00366" />
-      <option name="project" value="LOCAL" />
-      <updated>1582011898718</updated>
+      <workItem from="1585050964906" duration="1076000" />
     </task>
     <task id="LOCAL-00367" summary="添加新题解">
       <created>1582075266675</created>
@@ -837,7 +829,14 @@
       <option name="project" value="LOCAL" />
       <updated>1584862491380</updated>
     </task>
-    <option name="localTasksCounter" value="415" />
+    <task id="LOCAL-00415" summary="添加新题解">
+      <created>1585064542246</created>
+      <option name="number" value="00415" />
+      <option name="presentableId" value="LOCAL-00415" />
+      <option name="project" value="LOCAL" />
+      <updated>1585064542262</updated>
+    </task>
+    <option name="localTasksCounter" value="416" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
