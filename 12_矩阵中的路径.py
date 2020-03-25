@@ -11,54 +11,39 @@
 
 
 class Solution:
-    """
-      输入矩阵：matrix
-      矩阵行数：rows
-      矩阵列数：cols
-      要搜索的字符串：path
-      当前行号：row
-      当前列号：col
-      已经处理的path中的字符个数：pathLength
-    """
+    directions = [(0, 1), (0, -1), (-1, 0), (1, 0)]
 
-    def hasPath(self, matrix, rows, cols, path):
-        if not matrix or rows < 1 or cols < 1 or not path:
-            return False
+    def exist(self, board, word):
+        row = len(board)
+        col = len(board[0])
+        visited = [[0] * col for _ in range(row)]
 
-        visited = [0] * (rows * cols)
-        pathLength = 0
-
-        for row in range(rows):
-            for col in range(cols):
-                if self.hasPathCore(matrix, rows, cols, row, col, path, pathLength, visited):
-                    return True
+        for i in range(row):
+            for j in range(col):
+                if board[i][j] == word[0]:
+                    visited[i][j] = 1
+                    if self.backtrack(i, j, visited, board, word[1:]):
+                        return True
+                    else:
+                        visited[i][j] = 0
         return False
 
-    def hasPathCore(self, matrix, rows, cols, row, col, path, pathLength, visited):
-        if len(path) == pathLength:
+    def backtrack(self, i, j, visited, board, word):
+        if len(word) == 0:
             return True
-
-        hasPath = False
-        if 0 <= row < rows and 0 <= col < cols and matrix[row * cols + col] == path[pathLength] and not visited[
-            row * cols + col]:
-
-            pathLength += 1
-            visited[row * cols + col] = True
-
-            hasPath = self.hasPathCore(matrix, rows, cols, row, col - 1, path, pathLength, visited) or \
-                      self.hasPathCore(matrix, rows, cols, row - 1, col, path, pathLength, visited) or \
-                      self.hasPathCore(matrix, rows, cols, row, col + 1, path, pathLength, visited) or \
-                      self.hasPathCore(matrix, rows, cols, row + 1, col, path, pathLength, visited)
-
-            if not hasPath:
-                pathLength -= 1
-                visited[row * cols + col] = False
-
-        return hasPath
+        for direc in self.directions:
+            cur_i = i + direc[0]
+            cur_j = j + direc[1]
+            if 0 <= cur_i < len(board) and 0 <= cur_j < len(board[0]) and board[cur_i][cur_j] == word[0]:
+                if visited[cur_i][cur_j] == 1:
+                    continue
+                visited[cur_i][cur_j] = 1
+                if self.backtrack(cur_i, cur_j, visited, board, word[1:]) == True:
+                    return True
+                else:
+                    visited[cur_i][cur_j] = 0
+        return False
 
 
 s = Solution()
-ifTrue = s.hasPath("ABCESFCSADEE", 3, 4, "ABCCED")
-ifTrue2 = s.hasPath("ABCEHJIGSFCSLOPQADEEMNOEADIDEJFMVCEIFGGS", 5, 8, "SGGFIECVAASABCEHJIGQEM")
-print(ifTrue)
-print(ifTrue2)
+print(s.exist(board=[["A", "B", "C", "E"], ["S", "F", "C", "S"], ["A", "D", "E", "E"]], word="ABCCED"))
