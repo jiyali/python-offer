@@ -16,13 +16,13 @@ class Solution:
         if not grid:
             return 0
         count = 0
-        directins = [(0, 1), (0, -1), (1, 0), (-1, 0)]
+        directions = [(0, 1), (0, -1), (1, 0), (-1, 0)]
         row = len(grid)
         col = len(grid[0])
 
         def dfs(grid, i, j):
             grid[i][j] = '0'
-            for dx, dy in directins:
+            for dx, dy in directions:
                 cur_i = i + dx
                 cur_j = j + dy
                 if 0 <= cur_i < row and 0 <= cur_j < col and grid[cur_i][cur_j] == '1':

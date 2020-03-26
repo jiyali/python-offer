@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3a8d48e4-62b6-4d4b-aedb-51dd4e787cc5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/leetcode200_岛屿的数量.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode130_被围绕的区域.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode200_岛屿的数量.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode200_岛屿的数量.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -495,14 +496,7 @@
       <workItem from="1585050964906" duration="1083000" />
       <workItem from="1585105953720" duration="2158000" />
       <workItem from="1585203264206" duration="446000" />
-      <workItem from="1585204418069" duration="5918000" />
-    </task>
-    <task id="LOCAL-00369" summary="添加新题解">
-      <created>1582097042129</created>
-      <option name="number" value="00369" />
-      <option name="presentableId" value="LOCAL-00369" />
-      <option name="project" value="LOCAL" />
-      <updated>1582097042129</updated>
+      <workItem from="1585204418069" duration="7468000" />
     </task>
     <task id="LOCAL-00370" summary="添加新题解">
       <created>1582257810690</created>
@@ -840,7 +834,14 @@
       <option name="project" value="LOCAL" />
       <updated>1585107514058</updated>
     </task>
-    <option name="localTasksCounter" value="418" />
+    <task id="LOCAL-00418" summary="添加新题解">
+      <created>1585220560004</created>
+      <option name="number" value="00418" />
+      <option name="presentableId" value="LOCAL-00418" />
+      <option name="project" value="LOCAL" />
+      <updated>1585220560078</updated>
+    </task>
+    <option name="localTasksCounter" value="419" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -852,30 +853,30 @@
     <option name="LAST_COMMIT_MESSAGE" value="添加新题解" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="359" y="0" key="CommitChangelistDialog2" timestamp="1585107503206">
+    <state x="359" y="0" key="CommitChangelistDialog2" timestamp="1585220550702">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="359" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1585107503206" />
+    <state x="359" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1585220550702" />
     <state x="455" y="118" key="FileChooserDialogImpl" timestamp="1581899593759">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="455" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1581899593759" />
-    <state width="1322" height="158" key="GridCell.Tab.0.bottom" timestamp="1585115335536">
+    <state width="1079" height="153" key="GridCell.Tab.0.bottom" timestamp="1585227486507">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="158" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1585115335536" />
-    <state width="1322" height="158" key="GridCell.Tab.0.center" timestamp="1585115335536">
+    <state width="1079" height="153" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1585227486507" />
+    <state width="1079" height="153" key="GridCell.Tab.0.center" timestamp="1585227486507">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="158" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1585115335536" />
-    <state width="1322" height="158" key="GridCell.Tab.0.left" timestamp="1585115335536">
+    <state width="1079" height="153" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1585227486507" />
+    <state width="1079" height="153" key="GridCell.Tab.0.left" timestamp="1585227486507">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="158" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1585115335536" />
-    <state width="1322" height="158" key="GridCell.Tab.0.right" timestamp="1585115335536">
+    <state width="1079" height="153" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1585227486507" />
+    <state width="1079" height="153" key="GridCell.Tab.0.right" timestamp="1585227486507">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="158" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1585115335536" />
+    <state width="1079" height="153" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1585227486507" />
     <state width="1322" height="109" key="GridCell.Tab.1.bottom" timestamp="1582563520970">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -914,7 +915,7 @@
     <SUITE FILE_PATH="coverage/python_target_offer$12_.coverage" NAME="12_矩阵中的路径 Coverage Results" MODIFIED="1585107492714" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/python_target_offer$leetcode1143_.coverage" NAME="leetcode1143_最长公共子序列 Coverage Results" MODIFIED="1582290093823" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/python_target_offer$leetcode1013_.coverage" NAME="leetcode1013_将数组分为和相等的三个部分 Coverage Results" MODIFIED="1583916879825" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/python_target_offer$leetcode200_.coverage" NAME="leetcode200_岛屿的数量 Coverage Results" MODIFIED="1585208685267" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/python_target_offer$leetcode200_.coverage" NAME="leetcode200_岛屿的数量 Coverage Results" MODIFIED="1585227486494" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/python_target_offer$2.coverage" NAME="181周赛_02四因数 Coverage Results" MODIFIED="1584852152221" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/python_target_offer$leetcode064_.coverage" NAME="leetcode064_最小路径和 Coverage Results" MODIFIED="1581930712666" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/python_target_offer$leetcode279_.coverage" NAME="leetcode279_完全平方数 Coverage Results" MODIFIED="1582075195908" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
