@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="3a8d48e4-62b6-4d4b-aedb-51dd4e787cc5" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -485,14 +484,7 @@
       <workItem from="1585324547718" duration="1727000" />
       <workItem from="1585366182641" duration="20904000" />
       <workItem from="1585709919327" duration="1323000" />
-      <workItem from="1585729772409" duration="10838000" />
-    </task>
-    <task id="LOCAL-00379" summary="添加新题解">
-      <created>1583412500093</created>
-      <option name="number" value="00379" />
-      <option name="presentableId" value="LOCAL-00379" />
-      <option name="project" value="LOCAL" />
-      <updated>1583412500094</updated>
+      <workItem from="1585729772409" duration="11108000" />
     </task>
     <task id="LOCAL-00380" summary="添加新题解">
       <created>1583422515507</created>
@@ -830,7 +822,14 @@
       <option name="project" value="LOCAL" />
       <updated>1585753765344</updated>
     </task>
-    <option name="localTasksCounter" value="428" />
+    <task id="LOCAL-00428" summary="添加新题解">
+      <created>1585756247920</created>
+      <option name="number" value="00428" />
+      <option name="presentableId" value="LOCAL-00428" />
+      <option name="project" value="LOCAL" />
+      <updated>1585756247920</updated>
+    </task>
+    <option name="localTasksCounter" value="429" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -846,10 +845,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="69" y="18" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1585367155679" />
-    <state x="359" y="0" key="CommitChangelistDialog2" timestamp="1585753752752">
+    <state x="359" y="0" key="CommitChangelistDialog2" timestamp="1585756246539">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="359" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1585753752752" />
+    <state x="359" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1585756246539" />
     <state x="455" y="118" key="FileChooserDialogImpl" timestamp="1585367151752">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
