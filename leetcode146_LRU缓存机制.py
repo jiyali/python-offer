@@ -6,71 +6,74 @@
 
 class ListNode:
     def __init__(self, key=None, value=None):
-        self.key = key
         self.value = value
-        self.prev = None
+        self.key = key
         self.next = None
+        self.pre = None
 
 
 class LRUCache:
-    def __init__(self, capacity: int):
+    def __init__(self, capacity):
         self.capacity = capacity
         self.hashmap = {}
-        # 新建两个节点 head 和 tail
+        self.pre = None
+        self.next = None
+
+        # 建立双向链表
         self.head = ListNode()
         self.tail = ListNode()
-        # 初始化链表为 head <-> tail
         self.head.next = self.tail
-        self.tail.prev = self.head
+        self.tail.pre = self.head
 
-    # 因为get与put操作都可能需要将双向链表中的某个节点移到末尾，所以定义一个方法
-    def move_node_to_tail(self, key):
-            # 先将哈希表key指向的节点拎出来，为了简洁起名node
-            #      hashmap[key]                               hashmap[key]
-            #           |                                          |
-            #           V              -->                         V
-            # prev <-> node <-> next         pre <-> next   ...   node
-            node = self.hashmap[key]
-            node.prev.next = node.next
-            node.next.prev = node.prev
-            # 之后将node插入到尾节点前
-            #                 hashmap[key]                 hashmap[key]
-            #                      |                            |
-            #                      V        -->                 V
-            # prev <-> tail  ...  node                prev <-> node <-> tail
-            node.prev = self.tail.prev
-            node.next = self.tail
-            self.tail.prev.next = node
-            self.tail.prev = node
+    def add_node_to_head(self, key, value):
+        new = ListNode(key, value)
+        self.hashmap[key] = new
+        new.pre = self.head
+        new.next = self.head.next
 
-    def get(self, key: int) -> int:
+        self.head.next.pre = new
+        self.head.next = new
+
+    def move_node_to_head(self, key):
+        node = self.hashmap[key]
+        # 先把node拿出来
+        node.pre.next = node.next
+        node.next.pre = node.pre
+        # 再把node放到开头
+        node.pre = self.head
+        node.next = self.head.next
+
+        self.head.next.pre = node
+        self.head.next = node
+
+    def pop_tail(self):
+        last_node = self.tail.pre
+        self.hashmap.pop(last_node.key)
+        last_node.pre.next = self.tail
+        self.tail.pre = last_node.pre
+        return last_node
+
+    def get(self, key):
         if key in self.hashmap:
-            # 如果已经在链表中了久把它移到末尾（变成最新访问的）
-            self.move_node_to_tail(key)
+            self.move_node_to_head(key)
         res = self.hashmap.get(key, -1)
         if res == -1:
             return res
         else:
             return res.value
 
-    def put(self, key: int, value: int) -> None:
+    def put(self, key, value):
         if key in self.hashmap:
-            # 如果key本身已经在哈希表中了就不需要在链表中加入新的节点
-            # 但是需要更新字典该值对应节点的value
             self.hashmap[key].value = value
-            # 之后将该节点移到末尾
-            self.move_node_to_tail(key)
+            self.move_node_to_head(key)
         else:
-            if len(self.hashmap) == self.capacity:
-                # 去掉哈希表对应项
-                self.hashmap.pop(self.head.next.key)
-                # 去掉最久没有被访问过的节点，即头节点之后的节点
-                self.head.next = self.head.next.next
-                self.head.next.prev = self.head
-            # 如果不在的话就插入到尾节点前
-            new = ListNode(key, value)
-            self.hashmap[key] = new
-            new.prev = self.tail.prev
-            new.next = self.tail
-            self.tail.prev.next = new
-            self.tail.prev = new
+            if len(self.hashmap) >= self.capacity:
+                self.pop_tail()
+            self.add_node_to_head(key, value)
+
+
+
+
+
+
+
