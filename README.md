@@ -132,7 +132,7 @@
 * [leetcode199 二叉树的右视图](https://github.com/jiyali/python-target-offer/blob/master/leetcode199_%E4%BA%8C%E5%8F%89%E6%A0%91%E7%9A%84%E5%8F%B3%E8%A7%86%E5%9B%BE.py)
 * [leetcode235 二叉搜索树的最近公共祖先](https://github.com/jiyali/python-target-offer/blob/master/leetcode235_%E4%BA%8C%E5%8F%89%E6%90%9C%E7%B4%A2%E6%A0%91%E7%9A%84%E6%9C%80%E8%BF%91%E5%85%AC%E5%85%B1%E7%A5%96%E5%85%88.py)
 * [leetcode236 二叉树的最近公共祖先](https://github.com/jiyali/python-target-offer/blob/master/leetcode236_%E4%BA%8C%E5%8F%89%E6%A0%91%E7%9A%84%E6%9C%80%E8%BF%91%E5%85%AC%E5%85%B1%E7%A5%96%E5%85%88.py)
-
+* [leetcode701 二叉搜索树中的插入操作](https://github.com/jiyali/python-target-offer/blob/master/leetcode701_%E4%BA%8C%E5%8F%89%E6%90%9C%E7%B4%A2%E6%A0%91%E4%B8%AD%E7%9A%84%E6%8F%92%E5%85%A5%E6%93%8D%E4%BD%9C.py)
 
 ### 动态规划
 * [leetcode5 最长回文子串](https://github.com/jiyali/python-target-offer/blob/master/leetcode005_%E6%9C%80%E9%95%BF%E5%9B%9E%E6%96%87%E5%AD%90%E4%B8%B2.py)
