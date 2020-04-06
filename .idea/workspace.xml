@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3a8d48e4-62b6-4d4b-aedb-51dd4e787cc5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/字典按值排序.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="3a8d48e4-62b6-4d4b-aedb-51dd4e787cc5" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -506,28 +503,7 @@
       <workItem from="1585729772409" duration="11919000" />
       <workItem from="1585835075491" duration="6321000" />
       <workItem from="1585923158505" duration="604000" />
-      <workItem from="1586134702470" duration="586000" />
-    </task>
-    <task id="LOCAL-00383" summary="添加新题解">
-      <created>1583652377344</created>
-      <option name="number" value="00383" />
-      <option name="presentableId" value="LOCAL-00383" />
-      <option name="project" value="LOCAL" />
-      <updated>1583652377345</updated>
-    </task>
-    <task id="LOCAL-00384" summary="添加新题解">
-      <created>1583674193416</created>
-      <option name="number" value="00384" />
-      <option name="presentableId" value="LOCAL-00384" />
-      <option name="project" value="LOCAL" />
-      <updated>1583674193416</updated>
-    </task>
-    <task id="LOCAL-00385" summary="添加新题解">
-      <created>1583736325157</created>
-      <option name="number" value="00385" />
-      <option name="presentableId" value="LOCAL-00385" />
-      <option name="project" value="LOCAL" />
-      <updated>1583736325158</updated>
+      <workItem from="1586134702470" duration="832000" />
     </task>
     <task id="LOCAL-00386" summary="添加新题解">
       <created>1583807111024</created>
@@ -851,7 +827,28 @@
       <option name="project" value="LOCAL" />
       <updated>1585841640432</updated>
     </task>
-    <option name="localTasksCounter" value="432" />
+    <task id="LOCAL-00432" summary="添加新题解">
+      <created>1586135337977</created>
+      <option name="number" value="00432" />
+      <option name="presentableId" value="LOCAL-00432" />
+      <option name="project" value="LOCAL" />
+      <updated>1586135337978</updated>
+    </task>
+    <task id="LOCAL-00433" summary="添加新题解">
+      <created>1586135423402</created>
+      <option name="number" value="00433" />
+      <option name="presentableId" value="LOCAL-00433" />
+      <option name="project" value="LOCAL" />
+      <updated>1586135423402</updated>
+    </task>
+    <task id="LOCAL-00434" summary="添加新题解">
+      <created>1586135573627</created>
+      <option name="number" value="00434" />
+      <option name="presentableId" value="LOCAL-00434" />
+      <option name="project" value="LOCAL" />
+      <updated>1586135573627</updated>
+    </task>
+    <option name="localTasksCounter" value="435" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -867,10 +864,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="69" y="18" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1586135310426" />
-    <state x="359" y="0" key="CommitChangelistDialog2" timestamp="1586135421995">
+    <state x="359" y="0" key="CommitChangelistDialog2" timestamp="1586135572565">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="359" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1586135421995" />
+    <state x="359" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1586135572565" />
     <state x="455" y="118" key="FileChooserDialogImpl" timestamp="1585367151752">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

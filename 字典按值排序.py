@@ -2,6 +2,7 @@ class Solution:
     def dicSort(self, dic):
         dic1 = sorted(dic.items(), key=lambda x: x[1], reverse=True)  # 从大到小
         dic2 = sorted(dic.items(), key=lambda x: x[1], reverse=False)  # 从小到大
+
         return dic1, dic2
 
 # 第一个参数是需要排序的列表，第二个参数是指定key（列表中每一项的第几个元素）来进行排序。
