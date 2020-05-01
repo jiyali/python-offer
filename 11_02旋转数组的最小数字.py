@@ -10,30 +10,22 @@
 
 
 class Solution:
-    def minNumberInRotateArray(self, rotateArray):
-        # write code here
-        if not rotateArray:
-            return 0
-        left, right = 0, len(rotateArray) - 1
-        while rotateArray[left] >= rotateArray[right]:
-            if right - left == 1:
-                return rotateArray[right]
+    def minNumberInRotateArray(self, numbers) :
+        if not numbers:
+            return None
 
-            mid = left + (right + 1 - left) // 2
-            if rotateArray[left] == rotateArray[mid] == rotateArray[right]:
-                return self.Min(rotateArray, left, right)
+        left = 0
+        right = len(numbers) - 1
 
-            if rotateArray[left] <= rotateArray[mid]:
-                left = mid
-            else:
+        while left < right:
+            mid = left + (right - left) // 2
+            if numbers[right] > numbers[mid]:
                 right = mid
-        return rotateArray[0]
-
-    def Min(self, array, left, right):
-        for i in array[left:right + 1]:
-            if i < array[0]:
-                array[0] = i
-        return array[0]
+            elif numbers[right] < numbers[mid]:
+                left = mid + 1
+            else:
+                right -= 1
+        return numbers[left]
 
 
 Test = Solution()

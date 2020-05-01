@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3a8d48e4-62b6-4d4b-aedb-51dd4e787cc5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/text1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/text2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/text3.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/11_02旋转数组的最小数字.py" beforeDir="false" afterPath="$PROJECT_DIR$/11_02旋转数组的最小数字.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -191,12 +195,12 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/面试题_大数组查找重复元素.py" />
+    <property name="last_opened_file_path" value="$USER_HOME$/PycharmProjects/untitled1" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RunManager" selected="Python.删除子串">
+  <component name="RunManager" selected="Python.11_02旋转数组的最小数字">
     <configuration name="希尔排序" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="剑指offer" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -211,6 +215,28 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/希尔排序.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="11_02旋转数组的最小数字" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="剑指offer" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/11_02旋转数组的最小数字.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -373,19 +399,78 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <list>
-      <item itemvalue="Python.希尔排序" />
-      <item itemvalue="Python.字典按值排序" />
-      <item itemvalue="Python.列表去重问题" />
-      <item itemvalue="Python.字符串去空格" />
-      <item itemvalue="Python.删除子串" />
-    </list>
+    <configuration name="text1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="剑指offer" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/text1.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="text2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="剑指offer" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/text2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="text3" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="剑指offer" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/text3.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.删除子串" />
-        <item itemvalue="Python.字符串去空格" />
-        <item itemvalue="Python.列表去重问题" />
-        <item itemvalue="Python.字典按值排序" />
+        <item itemvalue="Python.11_02旋转数组的最小数字" />
+        <item itemvalue="Python.text2" />
+        <item itemvalue="Python.text3" />
+        <item itemvalue="Python.text1" />
         <item itemvalue="Python.希尔排序" />
       </list>
     </recent_temporary>
@@ -553,21 +638,14 @@
       <workItem from="1585729772409" duration="11919000" />
       <workItem from="1585835075491" duration="6321000" />
       <workItem from="1585923158505" duration="604000" />
-      <workItem from="1586134702470" duration="5191000" />
-    </task>
-    <task id="LOCAL-00390" summary="添加新题解">
-      <created>1583919815789</created>
-      <option name="number" value="00390" />
-      <option name="presentableId" value="LOCAL-00390" />
-      <option name="project" value="LOCAL" />
-      <updated>1583919815789</updated>
-    </task>
-    <task id="LOCAL-00391" summary="添加新题解">
-      <created>1583922999058</created>
-      <option name="number" value="00391" />
-      <option name="presentableId" value="LOCAL-00391" />
-      <option name="project" value="LOCAL" />
-      <updated>1583922999059</updated>
+      <workItem from="1586134702470" duration="6234000" />
+      <workItem from="1586150018597" duration="32000" />
+      <workItem from="1586150137271" duration="26000" />
+      <workItem from="1586234306453" duration="1888000" />
+      <workItem from="1586304371727" duration="90000" />
+      <workItem from="1587556970954" duration="905000" />
+      <workItem from="1587888795980" duration="6835000" />
+      <workItem from="1588305766970" duration="10965000" />
     </task>
     <task id="LOCAL-00392" summary="添加新题解">
       <created>1583925164691</created>
@@ -898,7 +976,21 @@
       <option name="project" value="LOCAL" />
       <updated>1586141406394</updated>
     </task>
-    <option name="localTasksCounter" value="439" />
+    <task id="LOCAL-00439" summary="添加新题解">
+      <created>1586143356050</created>
+      <option name="number" value="00439" />
+      <option name="presentableId" value="LOCAL-00439" />
+      <option name="project" value="LOCAL" />
+      <updated>1586143356050</updated>
+    </task>
+    <task id="LOCAL-00440" summary="添加新题解">
+      <created>1586143507704</created>
+      <option name="number" value="00440" />
+      <option name="presentableId" value="LOCAL-00440" />
+      <option name="project" value="LOCAL" />
+      <updated>1586143507704</updated>
+    </task>
+    <option name="localTasksCounter" value="441" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -914,30 +1006,30 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="69" y="18" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1586135310426" />
-    <state x="359" y="0" key="CommitChangelistDialog2" timestamp="1586143353988">
+    <state x="359" y="0" key="CommitChangelistDialog2" timestamp="1586143505384">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="359" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1586143353988" />
-    <state x="455" y="118" key="FileChooserDialogImpl" timestamp="1585367151752">
+    <state x="359" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1586143505384" />
+    <state x="455" y="144" width="440" height="494" key="FileChooserDialogImpl" timestamp="1586304463930">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="455" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1585367151752" />
-    <state width="1140" height="153" key="GridCell.Tab.0.bottom" timestamp="1586143495674">
+    <state x="455" y="144" width="440" height="494" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1586304463930" />
+    <state width="1140" height="144" key="GridCell.Tab.0.bottom" timestamp="1588339774471">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1140" height="153" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1586143495674" />
-    <state width="1140" height="153" key="GridCell.Tab.0.center" timestamp="1586143495673">
+    <state width="1140" height="144" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1588339774471" />
+    <state width="1140" height="144" key="GridCell.Tab.0.center" timestamp="1588339774471">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1140" height="153" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1586143495673" />
-    <state width="1140" height="153" key="GridCell.Tab.0.left" timestamp="1586143495673">
+    <state width="1140" height="144" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1588339774471" />
+    <state width="1140" height="144" key="GridCell.Tab.0.left" timestamp="1588339774471">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1140" height="153" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1586143495673" />
-    <state width="1140" height="153" key="GridCell.Tab.0.right" timestamp="1586143495673">
+    <state width="1140" height="144" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1588339774471" />
+    <state width="1140" height="144" key="GridCell.Tab.0.right" timestamp="1588339774471">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1140" height="153" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1586143495673" />
+    <state width="1140" height="144" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1588339774471" />
     <state width="1322" height="205" key="GridCell.Tab.1.bottom" timestamp="1585413434335">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -978,15 +1070,18 @@
     <SUITE FILE_PATH="coverage/python_target_offer$leetcode1013_.coverage" NAME="leetcode1013_将数组分为和相等的三个部分 Coverage Results" MODIFIED="1583916879825" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/python_target_offer$leetcode200_.coverage" NAME="leetcode200_岛屿的数量 Coverage Results" MODIFIED="1585382204287" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/python_target_offer$leetcode300_.coverage" NAME="leetcode300_最长上升子序列 Coverage Results" MODIFIED="1585410656917" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/python_target_offer$text3.coverage" NAME="text3 Coverage Results" MODIFIED="1587893985015" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/python_target_offer$2.coverage" NAME="181周赛_02四因数 Coverage Results" MODIFIED="1584852152221" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/python_target_offer$leetcode064_.coverage" NAME="leetcode064_最小路径和 Coverage Results" MODIFIED="1581930712666" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/python_target_offer$leetcode279_.coverage" NAME="leetcode279_完全平方数 Coverage Results" MODIFIED="1582075195908" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/python_target_offer$_.coverage" NAME="百度笔试_交换前缀 Coverage Results" MODIFIED="1584541085210" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/python_target_offer$leetcode322_.coverage" NAME="leetcode322_零钱兑换 Coverage Results" MODIFIED="1583674178020" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/python_target_offer$leetcode784_.coverage" NAME="leetcode784_字母大小全排列 Coverage Results" MODIFIED="1584621564215" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/python_target_offer$11_02.coverage" NAME="11_02旋转数组的最小数字 Coverage Results" MODIFIED="1588339774455" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/python_target_offer$leetcode091_.coverage" NAME="leetcode091_解码方式 Coverage Results" MODIFIED="1581947579784" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/python_target_offer$leetcode13_.coverage" NAME="leetcode13_罗马数字转整数 Coverage Results" MODIFIED="1583917652856" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/python_target_offer$leetcode5366_.coverage" NAME="leetcode5366_检查网格中是否存在有效路径 Coverage Results" MODIFIED="1584861880677" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/python_target_offer$text1.coverage" NAME="text1 Coverage Results" MODIFIED="1587890607976" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/python_target_offer$leetcode039_.coverage" NAME="leetcode039_组合总和 Coverage Results" MODIFIED="1584520463478" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/python_target_offer$.coverage" NAME="删除子串 Coverage Results" MODIFIED="1586141391774" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/python_target_offer$181_02__1_.coverage" NAME="181周赛_02四因数 (1) Coverage Results" MODIFIED="1584852350620" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -1005,6 +1100,7 @@
     <SUITE FILE_PATH="coverage/python_target_offer$leetcode017_.coverage" NAME="leetcode017_电话号码的字母组合 Coverage Results" MODIFIED="1583925127873" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/python_target_offer$01.coverage" NAME="灯哥动归01 Coverage Results" MODIFIED="1581763055203" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/python_target_offer$0305.coverage" NAME="跟谁学0305笔试 Coverage Results" MODIFIED="1583424869327" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/python_target_offer$text2.coverage" NAME="text2 Coverage Results" MODIFIED="1587894973779" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/python_target_offer$leetcode063_II.coverage" NAME="leetcode063_不同路径II Coverage Results" MODIFIED="1581927976084" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/python_target_offer$leetcode120_.coverage" NAME="leetcode120_三角形最小路径和 Coverage Results" MODIFIED="1585711216775" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/python_target_offer$leetcode216_III.coverage" NAME="leetcode216_组合总和III Coverage Results" MODIFIED="1584673742582" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
