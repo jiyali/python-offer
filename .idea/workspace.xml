@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3a8d48e4-62b6-4d4b-aedb-51dd4e787cc5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/text1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/text2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/text3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode069_平方差.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/11_02旋转数组的最小数字.py" beforeDir="false" afterPath="$PROJECT_DIR$/11_02旋转数组的最小数字.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -200,29 +197,7 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RunManager" selected="Python.11_02旋转数组的最小数字">
-    <configuration name="希尔排序" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="剑指offer" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/希尔排序.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.leetcode069_平方差">
     <configuration name="11_02旋转数组的最小数字" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="剑指offer" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -399,6 +374,28 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="leetcode069_平方差" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="剑指offer" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/leetcode069_平方差.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="text1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="剑指offer" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -467,11 +464,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.leetcode069_平方差" />
         <item itemvalue="Python.11_02旋转数组的最小数字" />
         <item itemvalue="Python.text2" />
         <item itemvalue="Python.text3" />
         <item itemvalue="Python.text1" />
-        <item itemvalue="Python.希尔排序" />
       </list>
     </recent_temporary>
   </component>
@@ -645,14 +642,9 @@
       <workItem from="1586304371727" duration="90000" />
       <workItem from="1587556970954" duration="905000" />
       <workItem from="1587888795980" duration="6835000" />
-      <workItem from="1588305766970" duration="10965000" />
-    </task>
-    <task id="LOCAL-00392" summary="添加新题解">
-      <created>1583925164691</created>
-      <option name="number" value="00392" />
-      <option name="presentableId" value="LOCAL-00392" />
-      <option name="project" value="LOCAL" />
-      <updated>1583925164691</updated>
+      <workItem from="1588305766970" duration="16006000" />
+      <workItem from="1588750663052" duration="663000" />
+      <workItem from="1589036895520" duration="1009000" />
     </task>
     <task id="LOCAL-00393" summary="添加新题解">
       <created>1583926822092</created>
@@ -990,7 +982,14 @@
       <option name="project" value="LOCAL" />
       <updated>1586143507704</updated>
     </task>
-    <option name="localTasksCounter" value="441" />
+    <task id="LOCAL-00441" summary="添加新题解">
+      <created>1588340097397</created>
+      <option name="number" value="00441" />
+      <option name="presentableId" value="LOCAL-00441" />
+      <option name="project" value="LOCAL" />
+      <updated>1588340097413</updated>
+    </task>
+    <option name="localTasksCounter" value="442" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1006,30 +1005,30 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="69" y="18" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1586135310426" />
-    <state x="359" y="0" key="CommitChangelistDialog2" timestamp="1586143505384">
+    <state x="359" y="0" key="CommitChangelistDialog2" timestamp="1588340072424">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="359" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1586143505384" />
-    <state x="455" y="144" width="440" height="494" key="FileChooserDialogImpl" timestamp="1586304463930">
+    <state x="359" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1588340072424" />
+    <state x="455" y="144" width="440" height="494" key="FileChooserDialogImpl" timestamp="1588750727731">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="455" y="144" width="440" height="494" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1586304463930" />
-    <state width="1140" height="144" key="GridCell.Tab.0.bottom" timestamp="1588339774471">
+    <state x="455" y="144" width="440" height="494" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1588750727731" />
+    <state width="1140" height="80" key="GridCell.Tab.0.bottom" timestamp="1588351152412">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1140" height="144" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1588339774471" />
-    <state width="1140" height="144" key="GridCell.Tab.0.center" timestamp="1588339774471">
+    <state width="1140" height="80" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1588351152412" />
+    <state width="1140" height="80" key="GridCell.Tab.0.center" timestamp="1588351152412">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1140" height="144" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1588339774471" />
-    <state width="1140" height="144" key="GridCell.Tab.0.left" timestamp="1588339774471">
+    <state width="1140" height="80" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1588351152412" />
+    <state width="1140" height="80" key="GridCell.Tab.0.left" timestamp="1588351152412">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1140" height="144" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1588339774471" />
-    <state width="1140" height="144" key="GridCell.Tab.0.right" timestamp="1588339774471">
+    <state width="1140" height="80" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1588351152412" />
+    <state width="1140" height="80" key="GridCell.Tab.0.right" timestamp="1588351152412">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1140" height="144" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1588339774471" />
+    <state width="1140" height="80" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1588351152412" />
     <state width="1322" height="205" key="GridCell.Tab.1.bottom" timestamp="1585413434335">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -1075,6 +1074,7 @@
     <SUITE FILE_PATH="coverage/python_target_offer$leetcode064_.coverage" NAME="leetcode064_最小路径和 Coverage Results" MODIFIED="1581930712666" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/python_target_offer$leetcode279_.coverage" NAME="leetcode279_完全平方数 Coverage Results" MODIFIED="1582075195908" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/python_target_offer$_.coverage" NAME="百度笔试_交换前缀 Coverage Results" MODIFIED="1584541085210" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/python_target_offer$leetcode069_.coverage" NAME="leetcode069_平方差 Coverage Results" MODIFIED="1589038104703" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/python_target_offer$leetcode322_.coverage" NAME="leetcode322_零钱兑换 Coverage Results" MODIFIED="1583674178020" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/python_target_offer$leetcode784_.coverage" NAME="leetcode784_字母大小全排列 Coverage Results" MODIFIED="1584621564215" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/python_target_offer$11_02.coverage" NAME="11_02旋转数组的最小数字 Coverage Results" MODIFIED="1588339774455" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
