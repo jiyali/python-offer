@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3a8d48e4-62b6-4d4b-aedb-51dd4e787cc5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/leetcode069_平方差.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -192,34 +191,12 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/PycharmProjects/untitled1" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunManager" selected="Python.leetcode069_平方差">
-    <configuration name="11_02旋转数组的最小数字" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="剑指offer" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/11_02旋转数组的最小数字.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="字典按值排序" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="剑指offer" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -234,6 +211,28 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/字典按值排序.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="11_02旋转数组的最小数字" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="剑指offer" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/11_02旋转数组的最小数字.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -644,14 +643,7 @@
       <workItem from="1587888795980" duration="6835000" />
       <workItem from="1588305766970" duration="16006000" />
       <workItem from="1588750663052" duration="663000" />
-      <workItem from="1589036895520" duration="1009000" />
-    </task>
-    <task id="LOCAL-00393" summary="添加新题解">
-      <created>1583926822092</created>
-      <option name="number" value="00393" />
-      <option name="presentableId" value="LOCAL-00393" />
-      <option name="project" value="LOCAL" />
-      <updated>1583926822092</updated>
+      <workItem from="1589036895520" duration="1776000" />
     </task>
     <task id="LOCAL-00394" summary="添加新题解">
       <created>1583927399733</created>
@@ -989,7 +981,14 @@
       <option name="project" value="LOCAL" />
       <updated>1588340097413</updated>
     </task>
-    <option name="localTasksCounter" value="442" />
+    <task id="LOCAL-00442" summary="添加新题解">
+      <created>1589038127720</created>
+      <option name="number" value="00442" />
+      <option name="presentableId" value="LOCAL-00442" />
+      <option name="project" value="LOCAL" />
+      <updated>1589038127720</updated>
+    </task>
+    <option name="localTasksCounter" value="443" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1005,30 +1004,30 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="69" y="18" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1586135310426" />
-    <state x="359" y="0" key="CommitChangelistDialog2" timestamp="1588340072424">
+    <state x="359" y="0" key="CommitChangelistDialog2" timestamp="1589038124445">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="359" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1588340072424" />
+    <state x="359" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1589038124445" />
     <state x="455" y="144" width="440" height="494" key="FileChooserDialogImpl" timestamp="1588750727731">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="455" y="144" width="440" height="494" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1588750727731" />
-    <state width="1140" height="80" key="GridCell.Tab.0.bottom" timestamp="1588351152412">
+    <state width="1322" height="82" key="GridCell.Tab.0.bottom" timestamp="1589039906486">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1140" height="80" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1588351152412" />
-    <state width="1140" height="80" key="GridCell.Tab.0.center" timestamp="1588351152412">
+    <state width="1322" height="82" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1589039906486" />
+    <state width="1322" height="82" key="GridCell.Tab.0.center" timestamp="1589039906485">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1140" height="80" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1588351152412" />
-    <state width="1140" height="80" key="GridCell.Tab.0.left" timestamp="1588351152412">
+    <state width="1322" height="82" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1589039906485" />
+    <state width="1322" height="82" key="GridCell.Tab.0.left" timestamp="1589039906485">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1140" height="80" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1588351152412" />
-    <state width="1140" height="80" key="GridCell.Tab.0.right" timestamp="1588351152412">
+    <state width="1322" height="82" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1589039906485" />
+    <state width="1322" height="82" key="GridCell.Tab.0.right" timestamp="1589039906486">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1140" height="80" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1588351152412" />
+    <state width="1322" height="82" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1589039906486" />
     <state width="1322" height="205" key="GridCell.Tab.1.bottom" timestamp="1585413434335">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
