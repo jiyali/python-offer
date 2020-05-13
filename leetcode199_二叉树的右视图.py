@@ -22,20 +22,16 @@ class TreeNode:
 
 class Solution:
     def rightSideView(self, root):
-        if not root:
-            return None
+        queue = [(root, 0)]
         res = []
-        queue = [root]
 
         while queue:
-            res.append(queue[-1].val)
-            tmp = []
-            for node in queue:
-                if node.left:
-                    tmp.append(node.left)
-                if node.right:
-                    tmp.append(node.right)
-            queue = tmp
+            node, depth = queue.pop(0)
+            if node:
+                if depth == len(res):
+                    res.append(node.val)
+                queue.append((node.right, depth + 1))
+                queue.append((node.left, depth + 1))
         return res
 
 
