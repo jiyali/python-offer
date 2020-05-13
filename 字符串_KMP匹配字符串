@@ -1,0 +1,36 @@
+class Solution:
+    # 获取next数组
+    def get_next(self, s2):
+        i = 0  # 指向主串的指针
+        j = -1  # 指向模式串的指针，一开始
+        next_val = [-1] * len(s2)  # 要返回的next数组
+        while i < len(s2) - 1:
+            if j == -1 or s2[i] == s2[j]:  # 匹配成功，相同前缀长度增加1；找不到时直接开始下一位
+                i += 1
+                j += 1
+                if i < len(s2) and s2[i] != s2[j]:
+                    next_val[i] = j
+                else:  # 如果字符重复则跳过
+                    next_val[i] = next_val[j]
+            else:  # 匹配不成功则在前面的子串中继续搜索，直至找不到
+                j = next_val[j]
+        return next_val
+
+    def KMPSearch(self, s1, s2):
+        i = 0
+        j = 0
+        next = self.get_next(s2)
+        while i < len(s1) and j < len(s2):
+            if j == -1 or s1[i] == s2[j]:
+                i += 1
+                j += 1
+            else:
+                j = next[j]
+        if j == len(s2):
+            return i - j
+        else:
+            return -1
+
+
+s = Solution()
+print(s.KMPSearch('abcabdabceabd', 'abce'))
