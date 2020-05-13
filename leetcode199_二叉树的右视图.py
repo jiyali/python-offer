@@ -36,17 +36,18 @@ class Solution:
 
 
 class Solution1:
-    def rightSideView(self, root: TreeNode) -> List[int]:
+    def rightSideView(self, root):
         if not root:
             return None
         res = []
 
-        def helper(root,depth=1):
+        def helper(root, depth=1):
             if not root:
                 return None
             if depth > len(res):
                 res.append(root.val)
             helper(root.right, depth + 1)
             helper(root.left, depth + 1)
+
         helper(root)
         return res

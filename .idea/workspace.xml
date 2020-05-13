@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3a8d48e4-62b6-4d4b-aedb-51dd4e787cc5" name="Default Changelist" comment="添加新题解">
-      <change afterPath="$PROJECT_DIR$/字符串_KMP匹配字符串" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/字符串_暴力匹配字符串.py" afterDir="false" />
+    <list default="true" id="3a8d48e4-62b6-4d4b-aedb-51dd4e787cc5" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode199_二叉树的右视图.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode199_二叉树的右视图.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -604,21 +603,7 @@
       <workItem from="1589036895520" duration="1776000" />
       <workItem from="1589212237729" duration="123000" />
       <workItem from="1589248450964" duration="11818000" />
-      <workItem from="1589354376909" duration="9034000" />
-    </task>
-    <task id="LOCAL-00396" summary="添加新题解">
-      <created>1583934934398</created>
-      <option name="number" value="00396" />
-      <option name="presentableId" value="LOCAL-00396" />
-      <option name="project" value="LOCAL" />
-      <updated>1583934934398</updated>
-    </task>
-    <task id="LOCAL-00397" summary="添加新题解">
-      <created>1584341173482</created>
-      <option name="number" value="00397" />
-      <option name="presentableId" value="LOCAL-00397" />
-      <option name="project" value="LOCAL" />
-      <updated>1584341173484</updated>
+      <workItem from="1589354376909" duration="9279000" />
     </task>
     <task id="LOCAL-00398" summary="添加新题解">
       <created>1584341798344</created>
@@ -949,7 +934,21 @@
       <option name="project" value="LOCAL" />
       <updated>1589296896251</updated>
     </task>
-    <option name="localTasksCounter" value="445" />
+    <task id="LOCAL-00445" summary="添加新题解">
+      <created>1589382090080</created>
+      <option name="number" value="00445" />
+      <option name="presentableId" value="LOCAL-00445" />
+      <option name="project" value="LOCAL" />
+      <updated>1589382090081</updated>
+    </task>
+    <task id="LOCAL-00446" summary="添加新题解">
+      <created>1589382195140</created>
+      <option name="number" value="00446" />
+      <option name="presentableId" value="LOCAL-00446" />
+      <option name="project" value="LOCAL" />
+      <updated>1589382195140</updated>
+    </task>
+    <option name="localTasksCounter" value="447" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -969,10 +968,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="600" y="165" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1589359977788" />
-    <state x="359" y="0" key="CommitChangelistDialog2" timestamp="1589382080877">
+    <state x="359" y="0" key="CommitChangelistDialog2" timestamp="1589382194491">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="359" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1589382080877" />
+    <state x="359" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1589382194491" />
     <state x="455" y="144" width="440" height="494" key="FileChooserDialogImpl" timestamp="1588750727731">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
